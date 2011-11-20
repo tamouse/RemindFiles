@@ -7,3 +7,7 @@
 *.tgz
 *.bz2
 *.bzip2
+
+# personal files
+02-mystuff.rem
+mydays.rem
