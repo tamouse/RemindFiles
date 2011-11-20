@@ -1,16 +1,58 @@
-INCLUDE Defs.rem
-INCLUDE Earth_Seasons.rem
-INCLUDE AU_Holidays.rem
-INCLUDE mydays.rem
-INCLUDE UK_Holidays.rem
-INCLUDE au.rem
-INCLUDE birthday.rem
-INCLUDE ca.rem
-INCLUDE christian.rem
-INCLUDE computer.rem
-INCLUDE history.rem
-INCLUDE holiday.rem
-INCLUDE lotr.rem
-INCLUDE music.rem
-INCLUDE newzealand.rem
-INCLUDE ushol.rem
+MSG [hebday(today())] [hebmon(today())] [hebyear(today())] of the Jewish Calendar
+SET $SubsIndent = 5
+;RUN OFF
+INCLUDE /home/tamara/.remind/Defs.rem
+INCLUDE /home/tamara/.remind/Earth_Seasons.rem
+INCLUDE /home/tamara/.remind/AU_Holidays.rem
+INCLUDE /home/tamara/.remind/mydays.rem
+INCLUDE /home/tamara/.remind/UK_Holidays.rem
+INCLUDE /home/tamara/.remind/au.rem
+INCLUDE /home/tamara/.remind/birthday.rem
+INCLUDE /home/tamara/.remind/ca.rem
+INCLUDE /home/tamara/.remind/christian.rem
+INCLUDE /home/tamara/.remind/computer.rem
+INCLUDE /home/tamara/.remind/history.rem
+INCLUDE /home/tamara/.remind/holiday.rem
+INCLUDE /home/tamara/.remind/lotr.rem
+INCLUDE /home/tamara/.remind/music.rem
+INCLUDE /home/tamara/.remind/newzealand.rem
+INCLUDE /home/tamara/.remind/ushol.rem
+
+; Watercolour class
+REM Tue +1 AT 13:00 +1 MSG gxmessage Watercolour class %1 %
+
+; testing reminders
+RUN ON
+REM Nov 12 AT 01:00 +1 *15 RUN gxmessage testing %1 & %
+RUN OFF
+
+RUN ON
+REM Nov 12 RUN gxmessage testing 2 %1 & %
+RUN OFF
+
+
+MSG
+
+; prettify the sunrise/sunset/moon data
+SET $LongDeg = -93
+SET $LatDeg = 45
+fset _srtd() coerce("STRING", _no_lz(_am_pm(sunrise(today()))))
+fset _sstd() coerce("STRING", _no_lz(_am_pm(sunset(today()))))
+fset _srtm() coerce("STRING", _no_lz(_am_pm(sunrise(today()+1))))
+fset _sstm() coerce("STRING", _no_lz(_am_pm(sunset(today()+1))))
+MSG Sun is up today from [_srtd()] to [_sstd()].%"%"%
+FSET _mnph() iif(moonphase() < 2,"New",\
+     moonphase() < 89,"Waxing Crescent",\
+     moonphase() < 91,"First Quarter",\
+     moonphase() < 179,"Waxing Gibbous",\
+     moonphase() < 181,"Full",\
+     moonphase() < 269,"Waxing Gibbous",\
+     moonphase() < 271,"Third Quarter",\
+     moonphase() < 358, "Waxing Crescent",\
+     "New")
+MSG The moon is [_mnph()] %
+MSG Next full moon: [mon(moondate(2))] [day(moondate(2))], [year(moondate(2))].%"%"%
+
+
+
+

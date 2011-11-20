@@ -1,0 +1,26 @@
+
+MSG
+
+; prettify the sunrise/sunset/moon data
+SET $LongDeg = -93
+SET $LatDeg = 45
+fset _srtd() coerce("STRING", _no_lz(_am_pm(sunrise(today()))))
+fset _sstd() coerce("STRING", _no_lz(_am_pm(sunset(today()))))
+fset _srtm() coerce("STRING", _no_lz(_am_pm(sunrise(today()+1))))
+fset _sstm() coerce("STRING", _no_lz(_am_pm(sunset(today()+1))))
+MSG Sun is up today from [_srtd()] to [_sstd()].%"%"%
+FSET _mnph() iif(moonphase() < 2,"New",\
+     moonphase() < 89,"Waxing Crescent",\
+     moonphase() < 91,"First Quarter",\
+     moonphase() < 179,"Waxing Gibbous",\
+     moonphase() < 181,"Full",\
+     moonphase() < 269,"Waxing Gibbous",\
+     moonphase() < 271,"Third Quarter",\
+     moonphase() < 358, "Waxing Crescent",\
+     "New")
+MSG The moon is [_mnph()] %
+MSG Next full moon: [mon(moondate(2))] [day(moondate(2))], [year(moondate(2))].%"%"%
+
+
+
+

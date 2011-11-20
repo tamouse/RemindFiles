@@ -1,17 +1,17 @@
 # Canadian Holidays (gleened from WP)
 
 
-REM Jan 1 MSG New Year's Day
-REM Mon Feb [Week_3] MSG Family Day
-REM [TRIGGER(easter-2)] MSG Good Friday
-REM [TRIGGER(easter+1)] MSG Easter Monday
-#REM Mon May (Last Monday on or before 24 May) MSG – Victoria Day. Also known as "Journée nationale des Patriotes" in Quebec.
-REM June 24 MSG Fête nationale du Québec also known as St. John the Baptist Day – public holiday in Quebec
-REM July 1 MSG Canada Day
-REM Mon Aug [Week_1] MSG name varies by province, not a holiday in Quebec
-REM Mon Sep [Week_1] MSG Labour Day
-REM Monday October [Week_2] MSG Thanksgiving Day
-REM November 11 MSG Remembrance Day – limited to government agencies and banks in some provinces; public holiday in British Columbia, public holiday in Atlantic provinces if it falls on a week day.
-REM December 24 MSG Christmas Eve (in some provinces)
-REM December 25 MSG Christmas Day
-REM December 26 MSG Boxing Day
+REM Jan 1 MSG New Year's Day %
+REM Mon Feb [Week_3] MSG Family Day %
+REM [TRIGGER(easter-2)] MSG Good Friday %
+REM [TRIGGER(easter+1)] MSG Easter Monday %
+#REM Mon May (Last Monday on or before 24 May) MSG – Victoria Day. Also known as "Journée nationale des Patriotes" in Quebec. %
+REM June 24 MSG Fête nationale du Québec also known as St. John the Baptist Day – public holiday in Quebec %
+REM July 1 MSG Canada Day %
+REM Mon Aug [Week_1] MSG name varies by province, not a holiday in Quebec %
+REM Mon Sep [Week_1] MSG Labour Day %
+REM Monday October [Week_2] MSG Thanksgiving Day %
+REM November 11 MSG Remembrance Day – limited to government agencies and banks in some provinces; public holiday in British Columbia, public holiday in Atlantic provinces if it falls on a week day. %
+REM December 24 MSG Christmas Eve (in some provinces) %
+REM December 25 MSG Christmas Day %
+REM December 26 MSG Boxing Day %

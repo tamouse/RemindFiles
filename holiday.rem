@@ -1,551 +1,551 @@
-REM Jan 01 MSG Beginning of the Year in Japan
-REM Jan 01 MSG Independence Day in Haiti and Sudan
-REM Jan 01 MSG Universal Fraternity Day in Mozambique
-REM Jan 02 MSG Ancestry Day in Haiti
-REM Jan 02 MSG St. Berchtold's Day in Switzerland
-REM Jan 03 MSG New Year's Holiday in Scotland
-REM Jan 03 MSG Revolution Day in Upper Volta
-REM Jan 04 MSG Independence Day in Burma
-REM Jan 04 MSG Martyrs Day in Zaire
-REM Jan 06 MSG Children's Day in Uruguay
-REM Jan 06 MSG Three Kings' Day in Puerto Rico
-REM Jan 07 MSG Christmas in Ethiopia
-REM Jan 07 MSG Pioneer's Day in Liberia
-REM Jan 09 MSG Day of the Martyrs in Panama
-REM Jan 11 MSG Armed Forces Day in Liberia
-REM Jan 12 MSG Zanzibar Revolution Day in Tanzania
-REM Jan 13 MSG National Liberation Day in Togo
-REM Jan 15 MSG Arbor Day in Jordan
-REM Jan 16 MSG Martyrs Day in Benin
-REM Jan 18 MSG Revolution Day in Tunisia
-REM Jan 19 MSG Confederate Heroes Day in Texas
-REM Jan 19 MSG Ethiopian Epiphany in Ethiopia
-REM Jan 19 MSG Nameday of Archbishop Makarios in Cyprus
-REM Jan 20 MSG Army Day in Mali
-REM Jan 20 MSG National Heroes Day in Guinea-Bissau
-REM Jan 21 MSG Our Lady of Altagracia in Dominican Republic
-REM Jan 23 MSG Feast of St. Ildefonsus
-REM Jan 23 MSG US National Handwriting Day
-REM Jan 24 MSG Economic Liberation Day in Togo
-REM Jan 26 MSG Republic Day in India
-REM Mon Jan [Week_2] MSG Adults Day in Japan
-REM Mon Jan [Week_3] MSG Lee-Jackson Day in Virginia (3rd Monday)
-REM Mon Jan [Week_3] MSG Robert E. Lee's Birthday in Alabama & Mississippi (3rd Monday)
-REM Sun Jan [Week_3] MSG Martin Luther King Day in New York (3rd Sunday)
-REM Feb 01 MSG Chinese New Year Holiday (3 days) in Taiwan
-REM Feb 02 MSG Candlemas
-REM Feb 04 MSG Independence Commemoration Day in Sri Lanka
-REM Feb 05 MSG Constitution Day in Mexico
-REM Feb 06 MSG New Zealand Day
-REM Feb 07 MSG Independence Day in Grenada
-REM Feb 09 MSG St. Maron's Day in Lebanon
-REM Feb 10 MSG Feast of St. Paul's Shipwreck, AD 60
-REM Feb 11 MSG National Foundation Day in Japan
-REM Feb 12 MSG Pyidaungsa Day in Burma
-REM Feb 16 MSG Makha Bucha Day in Thailand
-REM Feb 18 MSG Democracy Day in Nepal
-REM Feb 18 MSG Independence Day in The Gambia
-REM Feb 23 MSG Republic Day in Guyana
-REM Feb 24 MSG Gregorian Calendar Day
-REM Feb 25 MSG National Day in Kuwait
-REM Feb 27 MSG Independence Day in Dominican Republic
-REM Mar 01 MSG Samil Independence Movement Day in South Korea
-REM Mar 01 MSG St. David's Day
-REM Mar 02 MSG Peasants Day in Burma
-REM Mar 02 MSG Texas Independence day
-REM Mar 02 MSG Victory of Adowa in Ethiopia
-REM Mar 03 MSG Throne Day in Morocco
-REM Mar 04 MSG Vermont Admission Day (admitted as 14th US state in 1791)
-REM Mar 05 MSG Independence Day in Equatorial Guinea
-REM Mar 06 MSG Lantern Day, Bejing
-REM Mar 08 MSG [Week_1] Annual International Women's Day, 1909
-REM Mar 08 MSG International Women's Day in former USSR
-REM Mar 08 MSG Syrian National Day in Libyan Arab Republic
-REM Mar 08 MSG Women's Day in Guinea-Bissau, Taiwan and Yemen Democratic Republic
-REM Mar 08 MSG Youth Day in Zambia
-REM Mar 09 MSG Decoration Day in Liberia
-REM Mar 09 MSG Falgun Purnima Day in Nepal
-REM Mar 10 MSG Labor Day in South Korea
-REM Mar 11 MSG Johnny Appleseed Day; anniversary of the death of John Chapman
-REM Mar 12 MSG Commonwealth Day in Swaziland
-REM Mar 12 MSG Independence Day in Mauritius
-REM Mar 12 MSG Moshoeshoe's Birthday in Lesotho
-REM Mar 12 MSG Renovation Day in Gabon
-REM Mar 13 MSG National Day in Grenada
-REM Mar 16 MSG Black Press Day; first US Black newspaper founded in 1827
-REM Mar 17 MSG Evacuation Day in Suffolk County, Massachusetts
-REM Mar 17 MSG St. Patrick's Day
-REM Mar 19 MSG St. Joseph's Day, observed in Colombia, Costa Rica, Holy See, Liechtenstein, San Marino, Spain, Venezuela
-REM Mar 19 MSG Tree Planting Day in Lestho
-REM Mar 20 MSG Independence Day in Tunisia
-REM Mar 20 MSG Youth Day in Oklahoma
-REM Mar 20* MSG Vernal Equinox in Japan
-REM Mar 21 MSG Afghan New Year in Afghanistan
-REM Mar 21 MSG Juarez' Birthday in Mexico
-REM Mar 21* MSG Vernal Equinox in Japan
-REM Mar 22 MSG Abolition Day in Puerto Rico
-REM Mar 23 MSG Pakistan Day in Pakistan
-REM Mar 25 MSG Greek Independence Day in Cyprus
-REM Mar 25 MSG Lady Day (a.k.a. the Feast of the Annunciation)
-REM Mar 25 MSG Maryland Day in Maryland
-REM Mar 25 MSG National Holiday in Greece
-REM Mar 26 MSG Independence Day in Bangladesh
-REM Mar 26 MSG Prince Jonah Kuhio Kalanianaole Day in Hawaii
-REM Mar 27 MSG Armed Forces Day in Burma
-REM Mar 29 MSG Death of President Barthelemy Boganda in Central African Republic
-REM Mar 29 MSG Memorial Day in Madagascar
-REM Mar 31 MSG National Day in Malta
-REM Mon [_last(Mar)] MSG Seward's Day in Alaska (last Monday)
-REM Apr 01 MSG Youth Day in Benin
-REM Apr 02 MSG Malvinas Day in Argentina
-REM Apr 02 MSG Pascua Florida Day in Florida
-REM Apr 04 MSG Ching Ming Festival in Hong Kong
-REM Apr 04 MSG Liberation Day in Hungary
-REM Apr 04 MSG National Day in Senegal
-REM Apr 05 MSG Arbor Day in South Korea
-REM Apr 05 MSG Tomb Sweeping Day in Taiwan
-REM Apr 06 MSG Chakri Memorial Day in Thailand
-REM Apr 06 MSG Victory Day in Ethiopia
-REM Apr 08 MSG Fast and Prayer Day in Liberia
-REM Apr 09 MSG Martyrs Day in Tunisia
-REM Apr 11 MSG National Heroes Day in Costa Rica
-REM Apr 13 MSG National Day in Chad
-REM Apr 13 MSG Songkron Day in Thailand
-REM Apr 14 MSG Day of the Americas in Honduras
-REM Apr 15 MSG Bengali New Year in Bangladesh
-REM Apr 16 MSG De Diego's Birthday celebrated in Puerto Rico
-REM Apr 16 MSG Holy Week (5 days) in Venezuela
-REM Apr 16 MSG Tourist Week (5 days) in Uruguay
-REM Apr 17 MSG Burmese New Year in Burma
-REM Apr 18 MSG Independence Day in Chile and Zimbabwe
-REM Apr 19 MSG Declaration of Independence in Venezuela
-REM Apr 19 MSG Republic Day in Sierra Leone
-REM Apr 21 MSG San Jacinto Day in Texas
-REM Apr 21 MSG Tiradentes in Brazil
-REM Apr 22 MSG Arbor Day in Nebraska & Delaware
-REM Apr 22 MSG Oklahoma Day in Oklahoma
-REM Apr 24 MSG Victory Day in Togo
-REM Apr 25 MSG Anniversary of the Revolution in Portugal
-REM Apr 25 MSG Anzac Day, observed in Australia, New Zealand, Tonga and Western Samoa
-REM Apr 25 MSG Liberation Day in Italy
-REM Apr 25 MSG National Flag Day in Swaziland
-REM Apr 26 MSG Confederate Memorial Day in Florida & Georgia
-REM Apr 26 MSG Union Day in Tanzania
-REM Apr 27 MSG Independence Day in Togo
-REM Apr 29 MSG Day of Green in Japan
-REM Apr 30 MSG Queen's Birthday in the Netherlands, the Netherlands Antilles
-REM Apr 30 MSG The Workers Day in Uruguay
-REM Mon [_last(Apr)] MSG Arbor Day in Wyoming (last Monday)
-REM Mon [_last(Apr)] MSG Confederate Memorial Day in Alabama & Mississippi (last Monday)
-REM Mon Apr [Week_3] MSG Patriot's Day in Maine & Massachusetts (3rd Monday)
-REM May 01 MSG Labor Day in many places in the USA
-REM May 01 MSG May Day in many places
-REM May 01 MSG US Law Day (decl. by Eisenhower)
-REM May 02 MSG King's Birthday in Lesotho
-REM May 03 MSG Constitution Memorial Day in Japan
-REM May 04 MSG National Holiday in Japan
-REM May 04 MSG Rhode Island Independence Day
-REM May 05 MSG Battle of Puebla in Mexico
-REM May 05 MSG Children's Day in Japan and South Korea
-REM May 05 MSG Coronation Day in Thailand
-REM May 05 MSG Liberation Day in the Netherlands
-REM May 06 MSG Bataan Day in Philippines
-REM May 06 MSG Bank Holiday in UK
-REM May 07 MSG May Day in United Kingdom
-REM May 08 MSG Buddha's Birthday in South Korea
-REM May 08 MSG Elections for the National Assembly in Philippines
-REM May 08 MSG Truman Day in Missouri
-REM May 09 MSG VE day, end of Second World War, celebrated in many countries
-REM May 10 MSG Confederate Memorial Day in South Carolina
-REM May 10 MSG Mothers Day in Guatemala
-REM May 11 MSG Minnesota Day in Minnesota
-REM May 14 MSG Anniversary of the Founding of Guinean Democratic Party in Guinea
-REM May 14 MSG Buddhist Holiday (Waisak 2528) in Indonesia
-REM May 14 MSG Independence Day (2 days) in Paraguay
-REM May 14 MSG Unification Day in Liberia
-REM May 15 MSG Kamuzu Day in Malawi
-REM May 15 MSG Vesak Day, observed in Singapore and Malaysia
-REM May 15 MSG Visakha Bucha Day in Thailand
-REM May 16 MSG Discovery Day in Cayman Islands
-REM May 17 MSG Constitution Day in Nauru and Norway
-REM May 18 MSG Flag Day in Haiti
-REM May 18 MSG Prayer Day in Denmark
-REM May 19 MSG Youth and Sports Day in Turkey
-REM May 20 MSG Mecklenburg Independence Day in North Carolina
-REM May 20 MSG National Day in Cameroon
-REM May 20 MSG Victoria Day in Canada
-REM May 22 MSG National Heroes Day in Sri Lanka
-REM May 23 MSG Commonwealth Day in Jamaica and Belize
-REM May 23 MSG National Labor Day in Jamaica
-REM May 24 MSG Bermuda Day in Bermuda
-REM May 24 MSG Day of Slav Letters in Bulgaria
-REM May 25 MSG African Freedom Day in Zimbabwe
-REM May 25 MSG African Liberation Day in Chad, Mauritania and Zambia
-REM May 25 MSG Anniversary of the Revolution of 1810 in Argentina
-REM May 25 MSG Independence Day in Jordan
-REM May 25 MSG Memorial Day in New Mexico & Puerto Rico
-REM May 25 MSG Revolution in the Sudan in Libyan Arab Republic
-REM May 27 MSG Afghanistan attains sovereignty, 1921
-REM May 27 MSG Bank Holiday in UK
-REM May 28 MSG Mothers Day in Central African Republic
-REM May 31 MSG Pya Martyrs Day in Togo
-REM Mon May [Week_3] MSG Memorial Day in Michigan (3rd Monday)
-REM Jun 01 MSG Independence Days (3 days) in Western Samoa
-REM Jun 01 MSG Madaraka Day in Kenya
-REM Jun 01 MSG Victory Day in Tunisia
-REM Jun 02 MSG Corpus Christi in Paraguay
-REM Jun 03 MSG Confederate Memorial Day in Kentucky & Louisiana
-REM Jun 03 MSG Labor Day in Bahamas
-REM Jun 03 MSG Bank Holiday in Rep. of Ireland
-REM Jun 04 MSG Emancipation Day in Tonga
-REM Jun 04 MSG Queen's Birthday in New Zealand
-REM Jun 05 MSG Constitution Day in Denmark
-REM Jun 05 MSG Liberation Day in Seychelles
-REM Jun 06 MSG His Majesty, Yang Di-Pertuan Agong's Birthday in Malaysia
-REM Jun 06 MSG Memorial Day in South Korea
-REM Jun 09 MSG Senior Citizen's Day in Oklahoma
-REM Jun 10 MSG Camoes Day in Portugal
-REM Jun 11 MSG King Kamehameha I Day in Hawaii
-REM Jun 11 MSG Queen's Birthday
-REM Jun 12 MSG Independence Day in Philippines
-REM Jun 12 MSG Peace with Bolivia in Paraguay
-REM Jun 13 MSG Corrective Movement in Yemen Arab Republic
-REM Jun 14 MSG Flag Day, USA
-REM Jun 16 MSG Bloomsday - Anniversary of Dublin events, 1904, in "Ulysses"
-REM Jun 17 MSG Bunker Hill Day in Suffolk County, Massachusetts
-REM Jun 17 MSG Independence Day in Iceland
-REM Jun 18 MSG Evacuation Day in Egypt
-REM Jun 18 MSG Queen's Birthday in Fiji
-REM Jun 19 MSG Artigas Birthday in Uruguay
-REM Jun 19 MSG Emancipation Day in Texas
-REM Jun 19 MSG Labor Day in Trinidad and Tobago
-REM Jun 19 MSG Revolution Day in Algeria
-REM Jun 20 MSG Flag Day in Argentina
-REM Jun 20 MSG West Virginia Day in West Virginia
-REM Jun 22 MSG Corrective Movement in Yemen Democratic Republic
-REM Jun 22 MSG Midsummer Eve in Finland, Sweden
-REM Jun 22 MSG National Sovereignty Day in Haiti
-REM Jun 23 MSG National Holiday in Luxembourg
-REM Jun 24 MSG Battle of Carabobob in Venezuela
-REM Jun 24 MSG Fisherman's Day in Madagascar, Mozambique and Somalia
-REM Jun 24 MSG Kings Day in Spain
-REM Jun 24 MSG Peasants Day in Peru
-REM Jun 24 MSG St. Jean-Baptiste Day in Quebec
-REM Jun 28 MSG Mothers Day in Central African Republic
-REM Jun 29 MSG Independence Day in Seychelles
-REM Jun 30 MSG Day of the Army in Guatemala
-REM Mon Jun [Week_1] MSG Jefferson Davis's Birthday in Alabama & Mississippi (1st Monday)
-REM Mon Jun [Week_1] MSG Jefferson Davis's Birthday in Florida, Georgia, & S. Carolina
-REM Jul 01 MSG Dominion Day in Canada
-REM Jul 01 MSG Freedom Day in Suriname
-REM Jul 01 MSG Independence Day in Burundi
-REM Jul 01 MSG National Day in Rwanda
-REM Jul 01 MSG Republic Day in Ghana
-REM Jul 01 MSG Union of the Somalia Republic in Somalia
-REM Jul 02 MSG National Day in Kiribati
-REM Jul 04 MSG Caribbean Day in Guyana
-REM Jul 04 MSG Constitution Day in Cayman Islands
-REM Jul 04 MSG Family Day in Lesotho
-REM Jul 04 MSG Heroes Day in Zambia
-REM Jul 04 MSG Kadooment Day in Barbados
-REM Jul 04 MSG Philippine-American Friendship Day in the Philippines
-REM Jul 04 MSG Warriors Day (2 days) in Yugoslavia
-REM Jul 05 MSG Day of Peace and Unity in Rwanda
-REM Jul 05 MSG Independence Day in Algeria and Venezuela
-REM Jul 07 MSG Anniversary of the P.U.N. in Equatorial Guinea
-REM Jul 07 MSG National Day in Malawi
-REM Jul 07 MSG Saba Saba Day in Tanzania
-REM Jul 09 MSG Independence Day in Argentina
-REM Jul 10 MSG Independence Day in Bahamas
-REM Jul 11 MSG National Holiday in the Mongolian People's Republic
-REM Jul 12 MSG Battle of Boyne celebrated in Northern Ireland
-REM Jul 13 MSG Buddhist Lent in Thailand
-REM Jul 14 MSG Anniversary of the Revolution in Iraq
-REM Jul 14 MSG French National Festival
-REM Jul 14 MSG National Holiday in Monaco
-REM Jul 15 MSG St. Swithin's Day
-REM Jul 16 MSG Presidents Day in Botswana
-REM Jul 17 MSG Constitution Day in South Korea
-REM Jul 17 MSG July Revolution in Iraq
-REM Jul 17 MSG Munoz Rivera's Birthday (celebrated in Puerto Rico)
-REM Jul 17 MSG Public Holiday in Botswana
-REM Jul 18 MSG Constitution Day in Uruguay
-REM Jul 18 MSG Liberation Day in Nicaragua
-REM Jul 19 MSG Martyrs Day in Burma
-REM Jul 20 MSG Day of Sea in Japan
-REM Jul 20 MSG Independence Day in Colombia
-REM Jul 21 MSG National Holiday in Belgium
-REM Jul 22 MSG King's Birthday in Swaziland
-REM Jul 22 MSG National Day in Poland
-REM Jul 23 MSG Anniversary of the Revolution in Egypt
-REM Jul 23 MSG Egyptian National Day in Syrian Arab Republic
-REM Jul 23 MSG Remembrance Day in Papua New Guinea
-REM Jul 24 MSG Pioneer Day in Utah
-REM Jul 24 MSG Simon Bolivar's Day in Ecuador and Venezuela
-REM Jul 25 MSG Constitution Day in Puerto Rico
-REM Jul 25 MSG National Rebellion Day (3 days) in Cuba
-REM Jul 25 MSG Republic Day in Tunisia
-REM Jul 25 MSG St. James, Patron Saint in Spain
-REM Jul 26 MSG Independence Day in Liberia
-REM Jul 26 MSG National Day in Maldives
-REM Jul 27 MSG Barbosa's Birthday (celebrated in Puerto Rico)
-REM Jul 28 MSG Independence Days (2 days) in Peru
-REM Jul 29 MSG Olsok Eve in Norway to commemorate Norway's Viking King St. Olav
-REM Jul 29 MSG Rain Day in Waynesburg, PA
-REM Jul 31 MSG Revolution Day in Congo
-REM Aug 01 MSG Discovery Day in Trinidad and Tobago
-REM Aug 01 MSG Emancipation Day in Granada
-REM Aug 01 MSG Founding of Asuncion in Paraguay
-REM Aug 01 MSG Freedom Day in Guyana
-REM Aug 01 MSG National Day in Switzerland
-REM Aug 01 MSG National Holidays (5 days) in El Salvador
-REM Aug 01 MSG Parent's Day in Zaire
-REM Aug 02 MSG Our Lady of Los Angeles in Costa Rica
-REM Aug 03 MSG Independence Day in Jamaica and Niger
-REM Aug 03 MSG Massacre of the Pidjiguiti in Buinea-bissau
-REM Aug 03 MSG Memorial Day of Archbishop Makarios in Cyprus
-REM Aug 04 MSG Freedom Day in Guyana
-REM Aug 05 MSG Bank Holiday in Scotland and Northern Ireland
-REM Aug 06 MSG Bank Holiday in British Columbia, Fiji, Iceland, Ireland, Ontario
-REM Aug 06 MSG Emancipation Day in Bahamas
-REM Aug 06 MSG Independence Day in Bolivia
-REM Aug 07 MSG Battle of Boyaca in Colombia
-REM Aug 09 MSG National Day in Singapore
-REM Aug 10 MSG Independence Day in Ecuador
-REM Aug 11 MSG Heroes Day (2 days) in Zimbabwe
-REM Aug 11 MSG Independence Day in Chad
-REM Aug 11 MSG King Hussein's Accession to the Throne in Jordan
-REM Aug 12 MSG Queen's Birthday in Thailand
-REM Aug 13 MSG Proclamation of Independence in Central African Republic
-REM Aug 13 MSG Women's Day in Tunisia
-REM Aug 14 MSG Independence Day in Pakistan
-REM Aug 14 MSG VJ Day, 1945
-REM Aug 14 MSG Waddi Dhahab in Morocco
-REM Aug 15 MSG Founding of Ascuncion in Paraguay
-REM Aug 15 MSG Independence Day in India
-REM Aug 15 MSG Liberation Day in South Korea
-REM Aug 15 MSG National Day in Congo
-REM Aug 15 MSG Santa Maria in Malta
-REM Aug 16 MSG Bennington Battle Day in Vermont
-REM Aug 16 MSG Independence Days (3 days) in Gabon
-REM Aug 16 MSG Restoration Day in Dominican Republic
-REM Aug 17 MSG Anniversary of the Death of General San Martin in Argentina
-REM Aug 17 MSG Independence Day in Indonesia
-REM Aug 19 MSG Independence Day in Afghanistan
-REM Aug 20 MSG Constitution Day in Hungary
-REM Aug 24 MSG National Flag Day in Liberia
-REM Aug 25 MSG Constitution Day in Paraguay
-REM Aug 25 MSG Independence Day in Uruguay
-REM Aug 26 MSG Susan B. Anthony Day in Massachusetts
-REM Aug 26 MSG Bank Holiday in England and Wales
-REM Aug 27 MSG Liberation Day in Hong Kong
-REM Aug 28 MSG Heroes Day in Philippines
-REM Aug 30 MSG Huey P. Long Day in Louisiana
-REM Aug 30 MSG Victory Day in Turkey
-REM Aug 31 MSG Independence Day (Merdeka) in Malaysia
-REM Aug 31 MSG Independence Day in Trinidad and Tobago
-REM Aug 31 MSG Pashtoonian Day in Afghanistan
-REM Fri Aug [Week_3] MSG Admission Day in Hawaii, 1984 (3rd Friday)
-REM Sep 01 MSG Army Day in Chile
-REM Sep 03 MSG Independence Day in Qatar
-REM Sep 03 MSG Memorial Day in Tunisia
-REM Sep 06 MSG Defense of Pakistan Day in Pakistan
-REM Sep 07 MSG Independence Day in Brazil
-REM Sep 09 MSG Admission Day in California
-REM Sep 09 MSG Anniversary of the Socialist Revolution (2 days) in Bulgaria
-REM Sep 09 MSG National Day in North Korea
-REM Sep 10 MSG Korean Thanksgiving Day (Chusuk) in South Korea
-REM Sep 10 MSG Moon Festival in Taiwan
-REM Sep 10 MSG National Day in Belize
-REM Sep 11 MSG Anniversary of military coup in Chile
-REM Sep 11 MSG Ethiopian New Year in Ethiopia
-REM Sep 11 MSG National Holiday in Chile
-REM Sep 12 MSG Amilcar Cabral's Birthday in Guinea-Bissau
-REM Sep 12 MSG Defender's Day in Maryland
-REM Sep 12 MSG Revolution Day in Ethiopia
-REM Sep 13 MSG Barry Day commemorates the death of Commodore John Barry, USA
-REM Sep 14 MSG Battle of San Jacinto in Nicaragua
-REM Sep 15 MSG Foundation of Panama in Panama
-REM Sep 16 MSG Cherokee Strip Day in Oklahoma
-REM Sep 16 MSG Independence Days in Mexico and Papua New Guinea
-REM Sep 17 MSG National Heroes Day in Angola
-REM Sep 18 MSG Independence Day in Chile and Zimbabwe
-REM Sep 19 MSG Army Day in Chile
-REM Sep 21 MSG Independence Day in Belize
-REM Sep 22 MSG Independence Day in Mali
-REM Sep 22 MSG National Sovereignty Day in Haiti
-REM Sep 22 MSG Autumnal Equinox in Japan
-REM Sep 23 MSG Grito de Lares in Puerto Rico
-REM Sep 23 MSG Autumnal Equinox in Japan
-REM Sep 24 MSG Anniversary of the Third Republic in Ghana
-REM Sep 24 MSG Independence Day in Guinea-Bissau
-REM Sep 24 MSG National Day in Saudi Arabia
-REM Sep 24 MSG Our Lady of Mercedes in Dominican Republic
-REM Sep 24 MSG Republic Day in Trinidad and Tobago
-REM Sep 25 MSG Army Day in Mozambique
-REM Sep 25 MSG Referendum Day in Rwanda
-REM Sep 26 MSG National Day in Maldives
-REM Sep 26 MSG Revolution Anniversary Day in Yemen
-REM Sep 27 MSG Feast of Finding the True Cross in Ethiopia
-REM Sep 28 MSG Confucius' Day in Taiwan
-REM Sep 29 MSG Michaelmas
-REM Sep 29 MSG Battle of Boqueron in Paraguay
-REM Sep 30 MSG Botswana Day in Botswana
-REM Mon Sep [Week_3] MSG Respect for the Aged Day in Japan
-REM Oct 01 MSG Armed Forces Day in South Korea
-REM Oct 01 MSG Independence Day in Nigeria
-REM Oct 01 MSG National Liberation Day (2 days) in China
-REM Oct 01 MSG Public Holiday in Botswana
-REM Oct 02 MSG Anniversary of Guinean Independence in Guinea
-REM Oct 03 MSG Chung Yeung Festival in Hong Kong
-REM Oct 03 MSG Francisco Morazan's Birthday in Honduras
-REM Oct 03 MSG German Reunification Day
-REM Oct 03 MSG National Foundation Day in South Korea
-REM Oct 03 MSG U.N. Day in Barbados
-REM Oct 04 MSG Independence Day in Lesotho
-REM Oct 05 MSG Anniversary of Proclamation of the Republic in Portugal
-REM Oct 06 MSG National Sports Day in Lesotho
-REM Oct 07 MSG National Heroes Day in Jamaica
-REM Oct 08 MSG Battle of Agamos in Peru
-REM Oct 08 MSG Constitution Day in former USSR
-REM Oct 08 MSG Thanksgiving Day in Canada
-REM Oct 08 MSG Fiji Day
-REM Oct 09 MSG Independence Day in Uganda
-REM Oct 09 MSG Independence of Guayaquil in Ecuador
-REM Oct 09 MSG Korean Alphabet Day in South Korea
-REM Oct 09 MSG Leif Erikson Day commemorates the discovery of North America in AD 1000
-REM Oct 09 MSG Republic Day in Khmer Republic
-REM Oct 10 MSG National Day in Taiwan
-REM Oct 10 MSG Oklahoma Historical Day in Oklahoma
-REM Oct 11 MSG Day of the Revolution in Panama
-REM Oct 12 MSG Day of the Race in Argentina
-REM Oct 12 MSG Discovery Day in Bahamas
-REM Oct 12 MSG National Day in Equatorial Guinea and Spain
-REM Oct 12 MSG Our Lady Aparecida Day in Brazil
-REM Oct 12 MSG Pan American Day in Belize
-REM Oct 13 MSG St. Edward's Day - Patron saint of England
-REM Oct 14 MSG National Day in Yemen Arab Republic
-REM Oct 14 MSG Young People's Day in Zaire
-REM Oct 14 MSG Thanksgiving Day in Canada
-REM Oct 15 MSG Evacuation Day in Tunisia
-REM Oct 16 MSG National Boss Day, USA
-REM Oct 17 MSG Dessaline's Death Anniversary in Haiti
-REM Oct 17 MSG Heroes Day in Jamaica
-REM Oct 17 MSG Mother's Day in Malawi
-REM Oct 20 MSG Anniversary of the 1944 Revolution in Guatemala
-REM Oct 20 MSG Kenyatta Day in Kenya
-REM Oct 21 MSG Armed Forces Day in Honduras
-REM Oct 21 MSG Revolution Days (2 days) in Somalia
-REM Oct 23 MSG Chulalongkron's Day in Thailand
-REM Oct 24 MSG Independence Day in Zambia
-REM Oct 24 MSG United Nations Day
-REM Oct 25 MSG Taiwan Restoration Day in Taiwan
-REM Oct 25 MSG St. Crispin's day, patron saint of shoemakers
-REM Oct 26 MSG Agam Day in Nauru
-REM Oct 26 MSG Armed Forces Day in Benin and Rwanda
-REM Oct 26 MSG National Day in Austria
-REM Oct 28 MSG National Holiday in Greece
-REM Oct 28 MSG OHI Day in Cyprus
-REM Oct 28 MSG Bank Holiday in Republic of Ireland
-REM Oct 29 MSG Republic Day in Turkey
-REM Oct 31 MSG All Hallows Eve ("Halloween")
-REM Oct 31 MSG Nevada Day in Nevada
-REM Mon Oct [Week_4] MSG Labour Day in New Zealand
-REM Mon Oct [Week_2] MSG Health Sports Day in Japan
-REM Nov 01 MSG All Saints Day
-REM Nov 01 MSG Samhain; Beginning of the Celtic year and most important holiday.
-REM Nov 02 MSG All Souls Day
-REM Nov 02 MSG Memorial Day in Ecuador
-REM Nov 03 MSG Culture Day in Japan
-REM Nov 03 MSG Independence from Columbia in Panama
-REM Nov 03 MSG Independence of Cuenca in Ecuador
-REM Nov 03 MSG Thanksgiving Day in Liberia
-REM Nov 04 MSG Flag Day in Panama
-REM Nov 04 MSG Will Rogers Day, USA
-REM Nov 06 MSG Green March Day in Morocco
-REM Nov 07 MSG Anniversary of Great October Revolution in Bulgaria
-REM Nov 07 MSG October Revolution Day in Hungary
-REM Nov 08 MSG Her Majesty, the Queen's Birthday in Nepal
-REM Nov 10 MSG King's Birthday in Bhutan
-REM Nov 11 MSG Angola gains independence from Portugal, 1975
-REM Nov 11 MSG Independence Day in Angola
-REM Nov 11 MSG Independence of Cartagena in Colombia
-REM Nov 11 MSG Remembrance Day in Canada
-REM Nov 11 MSG Republic Day in Maldives
-REM Nov 14 MSG King Hussein's Birthday in Jordan
-REM Nov 15 MSG Dynasty Day in Belgium
-REM Nov 15 MSG Proclamation of the Republic in Brazil
-REM Nov 15 MSG Thatlouang Festival in Laos
-REM Nov 16 MSG Oklahoma Heritage Week in Oklahoma
-REM Nov 17 MSG Army Day in Zaire
-REM Nov 17 MSG Corrective Movement in Syrian Arab Republic
-REM Nov 18 MSG Battle of Viertieres in Haiti
-REM Nov 18 MSG Independence Day in Morocco
-REM Nov 18 MSG National Days (4 days) in Oman
-REM Nov 19 MSG Anniversary of the 1968 Coup by the Army in Mali
-REM Nov 19 MSG Discovery Day in Puerto Rico
-REM Nov 19 MSG Feast Day of S.A.S. Prince Rainier in Monaco
-REM Nov 19 MSG Garifuna Settlement in Belize
-REM Nov 20 MSG Revolution Day in Mexico
-REM Nov 22 MSG Anniversary of Portuguese Aggression in Guinea
-REM Nov 22 MSG Independence Day in Lebanon
-REM Nov 23 MSG Labor Thanksgiving Day in Japan
-REM Nov 24 MSG Anniversary of the New Regime in Zaire
-REM Nov 25 MSG Independence Day in Suriname
-REM Nov 28 MSG Independence Day in Albania and Mauritania
-REM Nov 28 MSG Independence from Spain in Panama
-REM Nov 28 MSG Proclamation of the Republic in Chad
-REM Nov 29 MSG Day of the Republic (2 days) in Yugoslavia
-REM Nov 29 MSG Goodwill Day in Liberia
-REM Nov 29 MSG Liberation Day in Albania
-REM Nov 29 MSG National Day in Burma
-REM Nov 30 MSG Independence Day in Barbados and Yemen Democratic Republic
-REM Nov 30 MSG National Day in Benin
-REM Nov 30 MSG National Heroes Day in Philippines
-REM Nov 30 MSG St. Andrew's Day
-REM Wed Nov [Week_3] MSG Day of Prayer and Repentance (Buss- und Bettag) in Federal Republic of Germany
-REM Dec 01 MSG Anniversary of the Restoration of Independence in Portugal
-REM Dec 01 MSG Union Day in Romania
-REM Dec 01 MSG Independence Day in Central African Republic
-REM Dec 01 MSG World AIDS Day
-REM Dec 02 MSG National Holiday in United Arab Emirates
-REM Dec 03 MSG National Holiday in Laos
-REM Dec 05 MSG King's Birthday in Thailand
-REM Dec 06 MSG Independence Day in Finland
-REM Dec 07 MSG Delaware Day in Delaware
-REM Dec 07 MSG Independence Day in Ivory Coast
-REM Dec 07 MSG Independence Day in Panama
-REM Dec 08 MSG Blessing of the Water in Uruguay
-REM Dec 08 MSG Mother's Day in Panama
-REM Dec 08 MSG Our Lady of the Cacupe in Paraguay
-REM Dec 09 MSG Independence Day in Tanzania
-REM Dec 10 MSG Foundation of Worker's Party in Angola
-REM Dec 10 MSG Human Rights Day
-REM Dec 10 MSG Thai Constitution Day in Thailand
-REM Dec 10 MSG Wyoming Day in Wyoming
-REM Dec 11 MSG Independence Day in Upper Volta
-REM Dec 12 MSG Independence Day in Kenya
-REM Dec 13 MSG Republic Day in Malta
-REM Dec 15 MSG Statue Day in the Netherlands Antilles
-REM Dec 16 MSG Constitution Day in Nepal
-REM Dec 16 MSG National Day in Bahrain
-REM Dec 16 MSG Victory Day in Bangladesh
-REM Dec 17 MSG National Day in Bhutan
-REM Dec 18 MSG Republic Day in Niger
-REM Dec 23 MSG Emperor's Birthday in Japan
-REM Dec 23 MSG Victory Day in Egypt
-REM Dec 25 MSG Birthday of Quaid-i-Azam in Pakistan
-REM Dec 25 MSG Children's Day in Congo
-REM Dec 26 MSG Boxing Day
-REM Dec 26 MSG Feast of Our Theotokos in Greece
-REM Dec 26 MSG St. Stephen's Day
-REM Dec 26 MSG Bank Holiday in Canada, Rep. of Ireland, and UK
-REM Dec 27 MSG Bank Holiday in Cayman Islands
-REM Dec 27 MSG Constitution Day in North Korea
-REM Dec 27 MSG Public Holiday in Lesotho, Zimbabwe
-REM Dec 29 MSG Civic Holidays (3 days) in Costa Rica
-REM Dec 29 MSG His Majesty, the King's Birthday in Nepal
-REM Dec 30 MSG Anniversary of the Democratic Republic of Madagascar in Madagascar
-REM Dec 31 MSG Bank Holiday in El Salvador, Honduras, Pakistan
-REM Dec 31 MSG Feed Yourself Day in Benin
-REM Dec 31 MSG Proclamation of the Republic in Congo
+REM Jan 01 MSF Beginning of the Year in Japan %
+REM Jan 01 MSF Independence Day in Haiti and Sudan %
+REM Jan 01 MSF Universal Fraternity Day in Mozambique %
+REM Jan 02 MSF Ancestry Day in Haiti %
+REM Jan 02 MSF St. Berchtold's Day in Switzerland %
+REM Jan 03 MSF New Year's Holiday in Scotland %
+REM Jan 03 MSF Revolution Day in Upper Volta %
+REM Jan 04 MSF Independence Day in Burma %
+REM Jan 04 MSF Martyrs Day in Zaire %
+REM Jan 06 MSF Children's Day in Uruguay %
+REM Jan 06 MSF Three Kings' Day in Puerto Rico %
+REM Jan 07 MSF Christmas in Ethiopia %
+REM Jan 07 MSF Pioneer's Day in Liberia %
+REM Jan 09 MSF Day of the Martyrs in Panama %
+REM Jan 11 MSF Armed Forces Day in Liberia %
+REM Jan 12 MSF Zanzibar Revolution Day in Tanzania %
+REM Jan 13 MSF National Liberation Day in Togo %
+REM Jan 15 MSF Arbor Day in Jordan %
+REM Jan 16 MSF Martyrs Day in Benin %
+REM Jan 18 MSF Revolution Day in Tunisia %
+REM Jan 19 MSF Confederate Heroes Day in Texas %
+REM Jan 19 MSF Ethiopian Epiphany in Ethiopia %
+REM Jan 19 MSF Nameday of Archbishop Makarios in Cyprus %
+REM Jan 20 MSF Army Day in Mali %
+REM Jan 20 MSF National Heroes Day in Guinea-Bissau %
+REM Jan 21 MSF Our Lady of Altagracia in Dominican Republic %
+REM Jan 23 MSF Feast of St. Ildefonsus %
+REM Jan 23 MSF US National Handwriting Day %
+REM Jan 24 MSF Economic Liberation Day in Togo %
+REM Jan 26 MSF Republic Day in India %
+REM Mon Jan [Week_2] MSF Adults Day in Japan %
+REM Mon Jan [Week_3] MSF Lee-Jackson Day in Virginia (3rd Monday) %
+REM Mon Jan [Week_3] MSF Robert E. Lee's Birthday in Alabama & Mississippi (3rd Monday) %
+REM Sun Jan [Week_3] MSF Martin Luther King Day in New York (3rd Sunday) %
+REM Feb 01 MSF Chinese New Year Holiday (3 days) in Taiwan %
+REM Feb 02 MSF Candlemas %
+REM Feb 04 MSF Independence Commemoration Day in Sri Lanka %
+REM Feb 05 MSF Constitution Day in Mexico %
+REM Feb 06 MSF New Zealand Day %
+REM Feb 07 MSF Independence Day in Grenada %
+REM Feb 09 MSF St. Maron's Day in Lebanon %
+REM Feb 10 MSF Feast of St. Paul's Shipwreck, AD 60 %
+REM Feb 11 MSF National Foundation Day in Japan %
+REM Feb 12 MSF Pyidaungsa Day in Burma %
+REM Feb 16 MSF Makha Bucha Day in Thailand %
+REM Feb 18 MSF Democracy Day in Nepal %
+REM Feb 18 MSF Independence Day in The Gambia %
+REM Feb 23 MSF Republic Day in Guyana %
+REM Feb 24 MSF Gregorian Calendar Day %
+REM Feb 25 MSF National Day in Kuwait %
+REM Feb 27 MSF Independence Day in Dominican Republic %
+REM Mar 01 MSF Samil Independence Movement Day in South Korea %
+REM Mar 01 MSF St. David's Day %
+REM Mar 02 MSF Peasants Day in Burma %
+REM Mar 02 MSF Texas Independence day %
+REM Mar 02 MSF Victory of Adowa in Ethiopia %
+REM Mar 03 MSF Throne Day in Morocco %
+REM Mar 04 MSF Vermont Admission Day (admitted as 14th US state in 1791) %
+REM Mar 05 MSF Independence Day in Equatorial Guinea %
+REM Mar 06 MSF Lantern Day, Bejing %
+REM Mar 08 MSF [Week_1] Annual International Women's Day, 1909 %
+REM Mar 08 MSF International Women's Day in former USSR %
+REM Mar 08 MSF Syrian National Day in Libyan Arab Republic %
+REM Mar 08 MSF Women's Day in Guinea-Bissau, Taiwan and Yemen Democratic Republic %
+REM Mar 08 MSF Youth Day in Zambia %
+REM Mar 09 MSF Decoration Day in Liberia %
+REM Mar 09 MSF Falgun Purnima Day in Nepal %
+REM Mar 10 MSF Labor Day in South Korea %
+REM Mar 11 MSF Johnny Appleseed Day; anniversary of the death of John Chapman %
+REM Mar 12 MSF Commonwealth Day in Swaziland %
+REM Mar 12 MSF Independence Day in Mauritius %
+REM Mar 12 MSF Moshoeshoe's Birthday in Lesotho %
+REM Mar 12 MSF Renovation Day in Gabon %
+REM Mar 13 MSF National Day in Grenada %
+REM Mar 16 MSF Black Press Day; first US Black newspaper founded in 1827 %
+REM Mar 17 MSF Evacuation Day in Suffolk County, Massachusetts %
+REM Mar 17 MSF St. Patrick's Day %
+REM Mar 19 MSF St. Joseph's Day, observed in Colombia, Costa Rica, Holy See, Liechtenstein, San Marino, Spain, Venezuela %
+REM Mar 19 MSF Tree Planting Day in Lestho %
+REM Mar 20 MSF Independence Day in Tunisia %
+REM Mar 20 MSF Youth Day in Oklahoma %
+REM Mar 20* MSF Vernal Equinox in Japan %
+REM Mar 21 MSF Afghan New Year in Afghanistan %
+REM Mar 21 MSF Juarez' Birthday in Mexico %
+REM Mar 21* MSF Vernal Equinox in Japan %
+REM Mar 22 MSF Abolition Day in Puerto Rico %
+REM Mar 23 MSF Pakistan Day in Pakistan %
+REM Mar 25 MSF Greek Independence Day in Cyprus %
+REM Mar 25 MSF Lady Day (a.k.a. the Feast of the Annunciation) %
+REM Mar 25 MSF Maryland Day in Maryland %
+REM Mar 25 MSF National Holiday in Greece %
+REM Mar 26 MSF Independence Day in Bangladesh %
+REM Mar 26 MSF Prince Jonah Kuhio Kalanianaole Day in Hawaii %
+REM Mar 27 MSF Armed Forces Day in Burma %
+REM Mar 29 MSF Death of President Barthelemy Boganda in Central African Republic %
+REM Mar 29 MSF Memorial Day in Madagascar %
+REM Mar 31 MSF National Day in Malta %
+REM Mon [_last(Mar)] MSF Seward's Day in Alaska (last Monday) %
+REM Apr 01 MSF Youth Day in Benin %
+REM Apr 02 MSF Malvinas Day in Argentina %
+REM Apr 02 MSF Pascua Florida Day in Florida %
+REM Apr 04 MSF Ching Ming Festival in Hong Kong %
+REM Apr 04 MSF Liberation Day in Hungary %
+REM Apr 04 MSF National Day in Senegal %
+REM Apr 05 MSF Arbor Day in South Korea %
+REM Apr 05 MSF Tomb Sweeping Day in Taiwan %
+REM Apr 06 MSF Chakri Memorial Day in Thailand %
+REM Apr 06 MSF Victory Day in Ethiopia %
+REM Apr 08 MSF Fast and Prayer Day in Liberia %
+REM Apr 09 MSF Martyrs Day in Tunisia %
+REM Apr 11 MSF National Heroes Day in Costa Rica %
+REM Apr 13 MSF National Day in Chad %
+REM Apr 13 MSF Songkron Day in Thailand %
+REM Apr 14 MSF Day of the Americas in Honduras %
+REM Apr 15 MSF Bengali New Year in Bangladesh %
+REM Apr 16 MSF De Diego's Birthday celebrated in Puerto Rico %
+REM Apr 16 MSF Holy Week (5 days) in Venezuela %
+REM Apr 16 MSF Tourist Week (5 days) in Uruguay %
+REM Apr 17 MSF Burmese New Year in Burma %
+REM Apr 18 MSF Independence Day in Chile and Zimbabwe %
+REM Apr 19 MSF Declaration of Independence in Venezuela %
+REM Apr 19 MSF Republic Day in Sierra Leone %
+REM Apr 21 MSF San Jacinto Day in Texas %
+REM Apr 21 MSF Tiradentes in Brazil %
+REM Apr 22 MSF Arbor Day in Nebraska & Delaware %
+REM Apr 22 MSF Oklahoma Day in Oklahoma %
+REM Apr 24 MSF Victory Day in Togo %
+REM Apr 25 MSF Anniversary of the Revolution in Portugal %
+REM Apr 25 MSF Anzac Day, observed in Australia, New Zealand, Tonga and Western Samoa %
+REM Apr 25 MSF Liberation Day in Italy %
+REM Apr 25 MSF National Flag Day in Swaziland %
+REM Apr 26 MSF Confederate Memorial Day in Florida & Georgia %
+REM Apr 26 MSF Union Day in Tanzania %
+REM Apr 27 MSF Independence Day in Togo %
+REM Apr 29 MSF Day of Green in Japan %
+REM Apr 30 MSF Queen's Birthday in the Netherlands, the Netherlands Antilles %
+REM Apr 30 MSF The Workers Day in Uruguay %
+REM Mon [_last(Apr)] MSF Arbor Day in Wyoming (last Monday) %
+REM Mon [_last(Apr)] MSF Confederate Memorial Day in Alabama & Mississippi (last Monday) %
+REM Mon Apr [Week_3] MSF Patriot's Day in Maine & Massachusetts (3rd Monday) %
+REM May 01 MSF Labor Day in many places in the USA %
+REM May 01 MSF May Day in many places %
+REM May 01 MSF US Law Day (decl. by Eisenhower) %
+REM May 02 MSF King's Birthday in Lesotho %
+REM May 03 MSF Constitution Memorial Day in Japan %
+REM May 04 MSF National Holiday in Japan %
+REM May 04 MSF Rhode Island Independence Day %
+REM May 05 MSF Battle of Puebla in Mexico %
+REM May 05 MSF Children's Day in Japan and South Korea %
+REM May 05 MSF Coronation Day in Thailand %
+REM May 05 MSF Liberation Day in the Netherlands %
+REM May 06 MSF Bataan Day in Philippines %
+REM May 06 MSF Bank Holiday in UK %
+REM May 07 MSF May Day in United Kingdom %
+REM May 08 MSF Buddha's Birthday in South Korea %
+REM May 08 MSF Elections for the National Assembly in Philippines %
+REM May 08 MSF Truman Day in Missouri %
+REM May 09 MSF VE day, end of Second World War, celebrated in many countries %
+REM May 10 MSF Confederate Memorial Day in South Carolina %
+REM May 10 MSF Mothers Day in Guatemala %
+REM May 11 MSF Minnesota Day in Minnesota %
+REM May 14 MSF Anniversary of the Founding of Guinean Democratic Party in Guinea %
+REM May 14 MSF Buddhist Holiday (Waisak 2528) in Indonesia %
+REM May 14 MSF Independence Day (2 days) in Paraguay %
+REM May 14 MSF Unification Day in Liberia %
+REM May 15 MSF Kamuzu Day in Malawi %
+REM May 15 MSF Vesak Day, observed in Singapore and Malaysia %
+REM May 15 MSF Visakha Bucha Day in Thailand %
+REM May 16 MSF Discovery Day in Cayman Islands %
+REM May 17 MSF Constitution Day in Nauru and Norway %
+REM May 18 MSF Flag Day in Haiti %
+REM May 18 MSF Prayer Day in Denmark %
+REM May 19 MSF Youth and Sports Day in Turkey %
+REM May 20 MSF Mecklenburg Independence Day in North Carolina %
+REM May 20 MSF National Day in Cameroon %
+REM May 20 MSF Victoria Day in Canada %
+REM May 22 MSF National Heroes Day in Sri Lanka %
+REM May 23 MSF Commonwealth Day in Jamaica and Belize %
+REM May 23 MSF National Labor Day in Jamaica %
+REM May 24 MSF Bermuda Day in Bermuda %
+REM May 24 MSF Day of Slav Letters in Bulgaria %
+REM May 25 MSF African Freedom Day in Zimbabwe %
+REM May 25 MSF African Liberation Day in Chad, Mauritania and Zambia %
+REM May 25 MSF Anniversary of the Revolution of 1810 in Argentina %
+REM May 25 MSF Independence Day in Jordan %
+REM May 25 MSF Memorial Day in New Mexico & Puerto Rico %
+REM May 25 MSF Revolution in the Sudan in Libyan Arab Republic %
+REM May 27 MSF Afghanistan attains sovereignty, 1921 %
+REM May 27 MSF Bank Holiday in UK %
+REM May 28 MSF Mothers Day in Central African Republic %
+REM May 31 MSF Pya Martyrs Day in Togo %
+REM Mon May [Week_3] MSF Memorial Day in Michigan (3rd Monday) %
+REM Jun 01 MSF Independence Days (3 days) in Western Samoa %
+REM Jun 01 MSF Madaraka Day in Kenya %
+REM Jun 01 MSF Victory Day in Tunisia %
+REM Jun 02 MSF Corpus Christi in Paraguay %
+REM Jun 03 MSF Confederate Memorial Day in Kentucky & Louisiana %
+REM Jun 03 MSF Labor Day in Bahamas %
+REM Jun 03 MSF Bank Holiday in Rep. of Ireland %
+REM Jun 04 MSF Emancipation Day in Tonga %
+REM Jun 04 MSF Queen's Birthday in New Zealand %
+REM Jun 05 MSF Constitution Day in Denmark %
+REM Jun 05 MSF Liberation Day in Seychelles %
+REM Jun 06 MSF His Majesty, Yang Di-Pertuan Agong's Birthday in Malaysia %
+REM Jun 06 MSF Memorial Day in South Korea %
+REM Jun 09 MSF Senior Citizen's Day in Oklahoma %
+REM Jun 10 MSF Camoes Day in Portugal %
+REM Jun 11 MSF King Kamehameha I Day in Hawaii %
+REM Jun 11 MSF Queen's Birthday %
+REM Jun 12 MSF Independence Day in Philippines %
+REM Jun 12 MSF Peace with Bolivia in Paraguay %
+REM Jun 13 MSF Corrective Movement in Yemen Arab Republic %
+REM Jun 14 MSF Flag Day, USA %
+REM Jun 16 MSF Bloomsday - Anniversary of Dublin events, 1904, in "Ulysses" %
+REM Jun 17 MSF Bunker Hill Day in Suffolk County, Massachusetts %
+REM Jun 17 MSF Independence Day in Iceland %
+REM Jun 18 MSF Evacuation Day in Egypt %
+REM Jun 18 MSF Queen's Birthday in Fiji %
+REM Jun 19 MSF Artigas Birthday in Uruguay %
+REM Jun 19 MSF Emancipation Day in Texas %
+REM Jun 19 MSF Labor Day in Trinidad and Tobago %
+REM Jun 19 MSF Revolution Day in Algeria %
+REM Jun 20 MSF Flag Day in Argentina %
+REM Jun 20 MSF West Virginia Day in West Virginia %
+REM Jun 22 MSF Corrective Movement in Yemen Democratic Republic %
+REM Jun 22 MSF Midsummer Eve in Finland, Sweden %
+REM Jun 22 MSF National Sovereignty Day in Haiti %
+REM Jun 23 MSF National Holiday in Luxembourg %
+REM Jun 24 MSF Battle of Carabobob in Venezuela %
+REM Jun 24 MSF Fisherman's Day in Madagascar, Mozambique and Somalia %
+REM Jun 24 MSF Kings Day in Spain %
+REM Jun 24 MSF Peasants Day in Peru %
+REM Jun 24 MSF St. Jean-Baptiste Day in Quebec %
+REM Jun 28 MSF Mothers Day in Central African Republic %
+REM Jun 29 MSF Independence Day in Seychelles %
+REM Jun 30 MSF Day of the Army in Guatemala %
+REM Mon Jun [Week_1] MSF Jefferson Davis's Birthday in Alabama & Mississippi (1st Monday) %
+REM Mon Jun [Week_1] MSF Jefferson Davis's Birthday in Florida, Georgia, & S. Carolina %
+REM Jul 01 MSF Dominion Day in Canada %
+REM Jul 01 MSF Freedom Day in Suriname %
+REM Jul 01 MSF Independence Day in Burundi %
+REM Jul 01 MSF National Day in Rwanda %
+REM Jul 01 MSF Republic Day in Ghana %
+REM Jul 01 MSF Union of the Somalia Republic in Somalia %
+REM Jul 02 MSF National Day in Kiribati %
+REM Jul 04 MSF Caribbean Day in Guyana %
+REM Jul 04 MSF Constitution Day in Cayman Islands %
+REM Jul 04 MSF Family Day in Lesotho %
+REM Jul 04 MSF Heroes Day in Zambia %
+REM Jul 04 MSF Kadooment Day in Barbados %
+REM Jul 04 MSF Philippine-American Friendship Day in the Philippines %
+REM Jul 04 MSF Warriors Day (2 days) in Yugoslavia %
+REM Jul 05 MSF Day of Peace and Unity in Rwanda %
+REM Jul 05 MSF Independence Day in Algeria and Venezuela %
+REM Jul 07 MSF Anniversary of the P.U.N. in Equatorial Guinea %
+REM Jul 07 MSF National Day in Malawi %
+REM Jul 07 MSF Saba Saba Day in Tanzania %
+REM Jul 09 MSF Independence Day in Argentina %
+REM Jul 10 MSF Independence Day in Bahamas %
+REM Jul 11 MSF National Holiday in the Mongolian People's Republic %
+REM Jul 12 MSF Battle of Boyne celebrated in Northern Ireland %
+REM Jul 13 MSF Buddhist Lent in Thailand %
+REM Jul 14 MSF Anniversary of the Revolution in Iraq %
+REM Jul 14 MSF French National Festival %
+REM Jul 14 MSF National Holiday in Monaco %
+REM Jul 15 MSF St. Swithin's Day %
+REM Jul 16 MSF Presidents Day in Botswana %
+REM Jul 17 MSF Constitution Day in South Korea %
+REM Jul 17 MSF July Revolution in Iraq %
+REM Jul 17 MSF Munoz Rivera's Birthday (celebrated in Puerto Rico) %
+REM Jul 17 MSF Public Holiday in Botswana %
+REM Jul 18 MSF Constitution Day in Uruguay %
+REM Jul 18 MSF Liberation Day in Nicaragua %
+REM Jul 19 MSF Martyrs Day in Burma %
+REM Jul 20 MSF Day of Sea in Japan %
+REM Jul 20 MSF Independence Day in Colombia %
+REM Jul 21 MSF National Holiday in Belgium %
+REM Jul 22 MSF King's Birthday in Swaziland %
+REM Jul 22 MSF National Day in Poland %
+REM Jul 23 MSF Anniversary of the Revolution in Egypt %
+REM Jul 23 MSF Egyptian National Day in Syrian Arab Republic %
+REM Jul 23 MSF Remembrance Day in Papua New Guinea %
+REM Jul 24 MSF Pioneer Day in Utah %
+REM Jul 24 MSF Simon Bolivar's Day in Ecuador and Venezuela %
+REM Jul 25 MSF Constitution Day in Puerto Rico %
+REM Jul 25 MSF National Rebellion Day (3 days) in Cuba %
+REM Jul 25 MSF Republic Day in Tunisia %
+REM Jul 25 MSF St. James, Patron Saint in Spain %
+REM Jul 26 MSF Independence Day in Liberia %
+REM Jul 26 MSF National Day in Maldives %
+REM Jul 27 MSF Barbosa's Birthday (celebrated in Puerto Rico) %
+REM Jul 28 MSF Independence Days (2 days) in Peru %
+REM Jul 29 MSF Olsok Eve in Norway to commemorate Norway's Viking King St. Olav %
+REM Jul 29 MSF Rain Day in Waynesburg, PA %
+REM Jul 31 MSF Revolution Day in Congo %
+REM Aug 01 MSF Discovery Day in Trinidad and Tobago %
+REM Aug 01 MSF Emancipation Day in Granada %
+REM Aug 01 MSF Founding of Asuncion in Paraguay %
+REM Aug 01 MSF Freedom Day in Guyana %
+REM Aug 01 MSF National Day in Switzerland %
+REM Aug 01 MSF National Holidays (5 days) in El Salvador %
+REM Aug 01 MSF Parent's Day in Zaire %
+REM Aug 02 MSF Our Lady of Los Angeles in Costa Rica %
+REM Aug 03 MSF Independence Day in Jamaica and Niger %
+REM Aug 03 MSF Massacre of the Pidjiguiti in Buinea-bissau %
+REM Aug 03 MSF Memorial Day of Archbishop Makarios in Cyprus %
+REM Aug 04 MSF Freedom Day in Guyana %
+REM Aug 05 MSF Bank Holiday in Scotland and Northern Ireland %
+REM Aug 06 MSF Bank Holiday in British Columbia, Fiji, Iceland, Ireland, Ontario %
+REM Aug 06 MSF Emancipation Day in Bahamas %
+REM Aug 06 MSF Independence Day in Bolivia %
+REM Aug 07 MSF Battle of Boyaca in Colombia %
+REM Aug 09 MSF National Day in Singapore %
+REM Aug 10 MSF Independence Day in Ecuador %
+REM Aug 11 MSF Heroes Day (2 days) in Zimbabwe %
+REM Aug 11 MSF Independence Day in Chad %
+REM Aug 11 MSF King Hussein's Accession to the Throne in Jordan %
+REM Aug 12 MSF Queen's Birthday in Thailand %
+REM Aug 13 MSF Proclamation of Independence in Central African Republic %
+REM Aug 13 MSF Women's Day in Tunisia %
+REM Aug 14 MSF Independence Day in Pakistan %
+REM Aug 14 MSF VJ Day, 1945 %
+REM Aug 14 MSF Waddi Dhahab in Morocco %
+REM Aug 15 MSF Founding of Ascuncion in Paraguay %
+REM Aug 15 MSF Independence Day in India %
+REM Aug 15 MSF Liberation Day in South Korea %
+REM Aug 15 MSF National Day in Congo %
+REM Aug 15 MSF Santa Maria in Malta %
+REM Aug 16 MSF Bennington Battle Day in Vermont %
+REM Aug 16 MSF Independence Days (3 days) in Gabon %
+REM Aug 16 MSF Restoration Day in Dominican Republic %
+REM Aug 17 MSF Anniversary of the Death of General San Martin in Argentina %
+REM Aug 17 MSF Independence Day in Indonesia %
+REM Aug 19 MSF Independence Day in Afghanistan %
+REM Aug 20 MSF Constitution Day in Hungary %
+REM Aug 24 MSF National Flag Day in Liberia %
+REM Aug 25 MSF Constitution Day in Paraguay %
+REM Aug 25 MSF Independence Day in Uruguay %
+REM Aug 26 MSF Susan B. Anthony Day in Massachusetts %
+REM Aug 26 MSF Bank Holiday in England and Wales %
+REM Aug 27 MSF Liberation Day in Hong Kong %
+REM Aug 28 MSF Heroes Day in Philippines %
+REM Aug 30 MSF Huey P. Long Day in Louisiana %
+REM Aug 30 MSF Victory Day in Turkey %
+REM Aug 31 MSF Independence Day (Merdeka) in Malaysia %
+REM Aug 31 MSF Independence Day in Trinidad and Tobago %
+REM Aug 31 MSF Pashtoonian Day in Afghanistan %
+REM Fri Aug [Week_3] MSF Admission Day in Hawaii, 1984 (3rd Friday) %
+REM Sep 01 MSF Army Day in Chile %
+REM Sep 03 MSF Independence Day in Qatar %
+REM Sep 03 MSF Memorial Day in Tunisia %
+REM Sep 06 MSF Defense of Pakistan Day in Pakistan %
+REM Sep 07 MSF Independence Day in Brazil %
+REM Sep 09 MSF Admission Day in California %
+REM Sep 09 MSF Anniversary of the Socialist Revolution (2 days) in Bulgaria %
+REM Sep 09 MSF National Day in North Korea %
+REM Sep 10 MSF Korean Thanksgiving Day (Chusuk) in South Korea %
+REM Sep 10 MSF Moon Festival in Taiwan %
+REM Sep 10 MSF National Day in Belize %
+REM Sep 11 MSF Anniversary of military coup in Chile %
+REM Sep 11 MSF Ethiopian New Year in Ethiopia %
+REM Sep 11 MSF National Holiday in Chile %
+REM Sep 12 MSF Amilcar Cabral's Birthday in Guinea-Bissau %
+REM Sep 12 MSF Defender's Day in Maryland %
+REM Sep 12 MSF Revolution Day in Ethiopia %
+REM Sep 13 MSF Barry Day commemorates the death of Commodore John Barry, USA %
+REM Sep 14 MSF Battle of San Jacinto in Nicaragua %
+REM Sep 15 MSF Foundation of Panama in Panama %
+REM Sep 16 MSF Cherokee Strip Day in Oklahoma %
+REM Sep 16 MSF Independence Days in Mexico and Papua New Guinea %
+REM Sep 17 MSF National Heroes Day in Angola %
+REM Sep 18 MSF Independence Day in Chile and Zimbabwe %
+REM Sep 19 MSF Army Day in Chile %
+REM Sep 21 MSF Independence Day in Belize %
+REM Sep 22 MSF Independence Day in Mali %
+REM Sep 22 MSF National Sovereignty Day in Haiti %
+REM Sep 22 MSF Autumnal Equinox in Japan %
+REM Sep 23 MSF Grito de Lares in Puerto Rico %
+REM Sep 23 MSF Autumnal Equinox in Japan %
+REM Sep 24 MSF Anniversary of the Third Republic in Ghana %
+REM Sep 24 MSF Independence Day in Guinea-Bissau %
+REM Sep 24 MSF National Day in Saudi Arabia %
+REM Sep 24 MSF Our Lady of Mercedes in Dominican Republic %
+REM Sep 24 MSF Republic Day in Trinidad and Tobago %
+REM Sep 25 MSF Army Day in Mozambique %
+REM Sep 25 MSF Referendum Day in Rwanda %
+REM Sep 26 MSF National Day in Maldives %
+REM Sep 26 MSF Revolution Anniversary Day in Yemen %
+REM Sep 27 MSF Feast of Finding the True Cross in Ethiopia %
+REM Sep 28 MSF Confucius' Day in Taiwan %
+REM Sep 29 MSF Michaelmas %
+REM Sep 29 MSF Battle of Boqueron in Paraguay %
+REM Sep 30 MSF Botswana Day in Botswana %
+REM Mon Sep [Week_3] MSF Respect for the Aged Day in Japan %
+REM Oct 01 MSF Armed Forces Day in South Korea %
+REM Oct 01 MSF Independence Day in Nigeria %
+REM Oct 01 MSF National Liberation Day (2 days) in China %
+REM Oct 01 MSF Public Holiday in Botswana %
+REM Oct 02 MSF Anniversary of Guinean Independence in Guinea %
+REM Oct 03 MSF Chung Yeung Festival in Hong Kong %
+REM Oct 03 MSF Francisco Morazan's Birthday in Honduras %
+REM Oct 03 MSF German Reunification Day %
+REM Oct 03 MSF National Foundation Day in South Korea %
+REM Oct 03 MSF U.N. Day in Barbados %
+REM Oct 04 MSF Independence Day in Lesotho %
+REM Oct 05 MSF Anniversary of Proclamation of the Republic in Portugal %
+REM Oct 06 MSF National Sports Day in Lesotho %
+REM Oct 07 MSF National Heroes Day in Jamaica %
+REM Oct 08 MSF Battle of Agamos in Peru %
+REM Oct 08 MSF Constitution Day in former USSR %
+REM Oct 08 MSF Thanksgiving Day in Canada %
+REM Oct 08 MSF Fiji Day %
+REM Oct 09 MSF Independence Day in Uganda %
+REM Oct 09 MSF Independence of Guayaquil in Ecuador %
+REM Oct 09 MSF Korean Alphabet Day in South Korea %
+REM Oct 09 MSF Leif Erikson Day commemorates the discovery of North America in AD 1000 %
+REM Oct 09 MSF Republic Day in Khmer Republic %
+REM Oct 10 MSF National Day in Taiwan %
+REM Oct 10 MSF Oklahoma Historical Day in Oklahoma %
+REM Oct 11 MSF Day of the Revolution in Panama %
+REM Oct 12 MSF Day of the Race in Argentina %
+REM Oct 12 MSF Discovery Day in Bahamas %
+REM Oct 12 MSF National Day in Equatorial Guinea and Spain %
+REM Oct 12 MSF Our Lady Aparecida Day in Brazil %
+REM Oct 12 MSF Pan American Day in Belize %
+REM Oct 13 MSF St. Edward's Day - Patron saint of England %
+REM Oct 14 MSF National Day in Yemen Arab Republic %
+REM Oct 14 MSF Young People's Day in Zaire %
+REM Oct 14 MSF Thanksgiving Day in Canada %
+REM Oct 15 MSF Evacuation Day in Tunisia %
+REM Oct 16 MSF National Boss Day, USA %
+REM Oct 17 MSF Dessaline's Death Anniversary in Haiti %
+REM Oct 17 MSF Heroes Day in Jamaica %
+REM Oct 17 MSF Mother's Day in Malawi %
+REM Oct 20 MSF Anniversary of the 1944 Revolution in Guatemala %
+REM Oct 20 MSF Kenyatta Day in Kenya %
+REM Oct 21 MSF Armed Forces Day in Honduras %
+REM Oct 21 MSF Revolution Days (2 days) in Somalia %
+REM Oct 23 MSF Chulalongkron's Day in Thailand %
+REM Oct 24 MSF Independence Day in Zambia %
+REM Oct 24 MSF United Nations Day %
+REM Oct 25 MSF Taiwan Restoration Day in Taiwan %
+REM Oct 25 MSF St. Crispin's day, patron saint of shoemakers %
+REM Oct 26 MSF Agam Day in Nauru %
+REM Oct 26 MSF Armed Forces Day in Benin and Rwanda %
+REM Oct 26 MSF National Day in Austria %
+REM Oct 28 MSF National Holiday in Greece %
+REM Oct 28 MSF OHI Day in Cyprus %
+REM Oct 28 MSF Bank Holiday in Republic of Ireland %
+REM Oct 29 MSF Republic Day in Turkey %
+REM Oct 31 MSF All Hallows Eve ("Halloween") %
+REM Oct 31 MSF Nevada Day in Nevada %
+REM Mon Oct [Week_4] MSF Labour Day in New Zealand %
+REM Mon Oct [Week_2] MSF Health Sports Day in Japan %
+REM Nov 01 MSF All Saints Day %
+REM Nov 01 MSF Samhain; Beginning of the Celtic year and most important holiday. %
+REM Nov 02 MSF All Souls Day %
+REM Nov 02 MSF Memorial Day in Ecuador %
+REM Nov 03 MSF Culture Day in Japan %
+REM Nov 03 MSF Independence from Columbia in Panama %
+REM Nov 03 MSF Independence of Cuenca in Ecuador %
+REM Nov 03 MSF Thanksgiving Day in Liberia %
+REM Nov 04 MSF Flag Day in Panama %
+REM Nov 04 MSF Will Rogers Day, USA %
+REM Nov 06 MSF Green March Day in Morocco %
+REM Nov 07 MSF Anniversary of Great October Revolution in Bulgaria %
+REM Nov 07 MSF October Revolution Day in Hungary %
+REM Nov 08 MSF Her Majesty, the Queen's Birthday in Nepal %
+REM Nov 10 MSF King's Birthday in Bhutan %
+REM Nov 11 MSF Angola gains independence from Portugal, 1975 %
+REM Nov 11 MSF Independence Day in Angola %
+REM Nov 11 MSF Independence of Cartagena in Colombia %
+REM Nov 11 MSF Remembrance Day in Canada %
+REM Nov 11 MSF Republic Day in Maldives %
+REM Nov 14 MSF King Hussein's Birthday in Jordan %
+REM Nov 15 MSF Dynasty Day in Belgium %
+REM Nov 15 MSF Proclamation of the Republic in Brazil %
+REM Nov 15 MSF Thatlouang Festival in Laos %
+REM Nov 16 MSF Oklahoma Heritage Week in Oklahoma %
+REM Nov 17 MSF Army Day in Zaire %
+REM Nov 17 MSF Corrective Movement in Syrian Arab Republic %
+REM Nov 18 MSF Battle of Viertieres in Haiti %
+REM Nov 18 MSF Independence Day in Morocco %
+REM Nov 18 MSF National Days (4 days) in Oman %
+REM Nov 19 MSF Anniversary of the 1968 Coup by the Army in Mali %
+REM Nov 19 MSF Discovery Day in Puerto Rico %
+REM Nov 19 MSF Feast Day of S.A.S. Prince Rainier in Monaco %
+REM Nov 19 MSF Garifuna Settlement in Belize %
+REM Nov 20 MSF Revolution Day in Mexico %
+REM Nov 22 MSF Anniversary of Portuguese Aggression in Guinea %
+REM Nov 22 MSF Independence Day in Lebanon %
+REM Nov 23 MSF Labor Thanksgiving Day in Japan %
+REM Nov 24 MSF Anniversary of the New Regime in Zaire %
+REM Nov 25 MSF Independence Day in Suriname %
+REM Nov 28 MSF Independence Day in Albania and Mauritania %
+REM Nov 28 MSF Independence from Spain in Panama %
+REM Nov 28 MSF Proclamation of the Republic in Chad %
+REM Nov 29 MSF Day of the Republic (2 days) in Yugoslavia %
+REM Nov 29 MSF Goodwill Day in Liberia %
+REM Nov 29 MSF Liberation Day in Albania %
+REM Nov 29 MSF National Day in Burma %
+REM Nov 30 MSF Independence Day in Barbados and Yemen Democratic Republic %
+REM Nov 30 MSF National Day in Benin %
+REM Nov 30 MSF National Heroes Day in Philippines %
+REM Nov 30 MSF St. Andrew's Day %
+REM Wed Nov [Week_3] MSF Day of Prayer and Repentance (Buss- und Bettag) in Federal Republic of Germany %
+REM Dec 01 MSF Anniversary of the Restoration of Independence in Portugal %
+REM Dec 01 MSF Union Day in Romania %
+REM Dec 01 MSF Independence Day in Central African Republic %
+REM Dec 01 MSF World AIDS Day %
+REM Dec 02 MSF National Holiday in United Arab Emirates %
+REM Dec 03 MSF National Holiday in Laos %
+REM Dec 05 MSF King's Birthday in Thailand %
+REM Dec 06 MSF Independence Day in Finland %
+REM Dec 07 MSF Delaware Day in Delaware %
+REM Dec 07 MSF Independence Day in Ivory Coast %
+REM Dec 07 MSF Independence Day in Panama %
+REM Dec 08 MSF Blessing of the Water in Uruguay %
+REM Dec 08 MSF Mother's Day in Panama %
+REM Dec 08 MSF Our Lady of the Cacupe in Paraguay %
+REM Dec 09 MSF Independence Day in Tanzania %
+REM Dec 10 MSF Foundation of Worker's Party in Angola %
+REM Dec 10 MSF Human Rights Day %
+REM Dec 10 MSF Thai Constitution Day in Thailand %
+REM Dec 10 MSF Wyoming Day in Wyoming %
+REM Dec 11 MSF Independence Day in Upper Volta %
+REM Dec 12 MSF Independence Day in Kenya %
+REM Dec 13 MSF Republic Day in Malta %
+REM Dec 15 MSF Statue Day in the Netherlands Antilles %
+REM Dec 16 MSF Constitution Day in Nepal %
+REM Dec 16 MSF National Day in Bahrain %
+REM Dec 16 MSF Victory Day in Bangladesh %
+REM Dec 17 MSF National Day in Bhutan %
+REM Dec 18 MSF Republic Day in Niger %
+REM Dec 23 MSF Emperor's Birthday in Japan %
+REM Dec 23 MSF Victory Day in Egypt %
+REM Dec 25 MSF Birthday of Quaid-i-Azam in Pakistan %
+REM Dec 25 MSF Children's Day in Congo %
+REM Dec 26 MSF Boxing Day %
+REM Dec 26 MSF Feast of Our Theotokos in Greece %
+REM Dec 26 MSF St. Stephen's Day %
+REM Dec 26 MSF Bank Holiday in Canada, Rep. of Ireland, and UK %
+REM Dec 27 MSF Bank Holiday in Cayman Islands %
+REM Dec 27 MSF Constitution Day in North Korea %
+REM Dec 27 MSF Public Holiday in Lesotho, Zimbabwe %
+REM Dec 29 MSF Civic Holidays (3 days) in Costa Rica %
+REM Dec 29 MSF His Majesty, the King's Birthday in Nepal %
+REM Dec 30 MSF Anniversary of the Democratic Republic of Madagascar in Madagascar %
+REM Dec 31 MSF Bank Holiday in El Salvador, Honduras, Pakistan %
+REM Dec 31 MSF Feed Yourself Day in Benin %
+REM Dec 31 MSF Proclamation of the Republic in Congo %

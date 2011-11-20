@@ -1,0 +1,7 @@
+RUN OFF
+
+RUN ON
+REM Nov 13 RUN echo testing 1..2..3.. %c %
+REM Nov 14 +1 RUN echo testing 1..2..3.. %c %
+REM Nov 15 +7 RUN echo testing 1..2..3.. %c %
+RUN OFF

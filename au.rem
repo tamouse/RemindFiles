@@ -1,45 +1,45 @@
 # Australia
-REM Jan 26 MSG Australia Day
-REM Sun [_last(3)] MSG Daylight Savings Time ends in ACT, NSW, SA, TAS and VIC.
-REM Apr 25 MSG Anzac Day
-REM Mon Jun [Week_2] MSG Queen's Birthday Holiday (Australia, except WA)
-REM Sun [_last(10)] MSG Daylight Savings Time starts in ACT, NSW, SA and VIC.
+REM Jan 26 MSG Australia Day %
+REM Sun [_last(3)] MSG Daylight Savings Time ends in ACT, NSW, SA, TAS and VIC. %
+REM Apr 25 MSG Anzac Day %
+REM Mon Jun [Week_2] MSG Queen's Birthday Holiday (Australia, except WA) %
+REM Sun [_last(10)] MSG Daylight Savings Time starts in ACT, NSW, SA and VIC. %
 
 # ACT, NSW, common
-REM Mar 18 MSG Canberra Day (ACT)
-REM Mon Aug [Week_1] MSG Bank Holiday (ACT, NSW)
-REM Mon Oct [Week_1] MSG Labour Day (ACT, NSW, SA)
+REM Mar 18 MSG Canberra Day (ACT) %
+REM Mon Aug [Week_1] MSG Bank Holiday (ACT, NSW) %
+REM Mon Oct [Week_1] MSG Labour Day (ACT, NSW, SA) %
 
 # Victoria
-REM Mon Mar [Week_2] MSG Labour Day (Vic)
-REM Tue Nov [Week_1] MSG Melbourne Cup (Vic)
+REM Mon Mar [Week_2] MSG Labour Day (Vic) %
+REM Tue Nov [Week_1] MSG Melbourne Cup (Vic) %
 
 # Tasmania
-REM Feb 11 MSG Regatta Day (Tas)
-REM Feb 27 MSG Launceston Cup (Tas)
-REM Mar 11 MSG Eight Hours Day (Tas)
-REM Sun Oct [Week_1] MSG Daylight Savings Time starts in TAS.
-REM Oct 10 MSG Launceston Show Day (Tas)
-REM Oct 24 MSG Hobart Show Day (Tas)
-REM Nov 04 MSG Recreation Day (N Tas)
+REM Feb 11 MSG Regatta Day (Tas) %
+REM Feb 27 MSG Launceston Cup (Tas) %
+REM Mar 11 MSG Eight Hours Day (Tas) %
+REM Sun Oct [Week_1] MSG Daylight Savings Time starts in TAS. %
+REM Oct 10 MSG Launceston Show Day (Tas) %
+REM Oct 24 MSG Hobart Show Day (Tas) %
+REM Nov 04 MSG Recreation Day (N Tas) %
 
 # South Australia
-REM Mon May [Week_3] MSG Adelaide Cup (SA)
-REM Dec 26 MSG Proclamation Day holiday (SA)
+REM Mon May [Week_3] MSG Adelaide Cup (SA) %
+REM Dec 26 MSG Proclamation Day holiday (SA) %
 
 # Western Australia
-REM Mon Mar [Week_1] MSG Labour Day (WA)
-REM Mon Jun [Week_1] MSG Foundation Day (WA)
-REM Sep 30 MSG Queen's Birthday (WA)
+REM Mon Mar [Week_1] MSG Labour Day (WA) %
+REM Mon Jun [Week_1] MSG Foundation Day (WA) %
+REM Sep 30 MSG Queen's Birthday (WA) %
 
 # Northern Territory
-REM Mon May [Week_1] MSG May Day (NT)
-REM Fri Jul [Week_1] MSG Alice Springs Show Day (NT)
-REM Fri Jul [Week_2] MSG Tennant Creek Show Day (NT)
-REM Fri Jul [Week_3] MSG Katherine Show Day (NT)
-REM Fri  [_last(7)] MSG Darwin Show Day (NT)
-REM Mon Aug [Week_1] MSG Picnic Day (NT)
+REM Mon May [Week_1] MSG May Day (NT) %
+REM Fri Jul [Week_1] MSG Alice Springs Show Day (NT) %
+REM Fri Jul [Week_2] MSG Tennant Creek Show Day (NT) %
+REM Fri Jul [Week_3] MSG Katherine Show Day (NT) %
+REM Fri  [_last(7)] MSG Darwin Show Day (NT) %
+REM Mon Aug [Week_1] MSG Picnic Day (NT) %
 
 # Queensland
-REM Mon May [Week_1] MSG Labour Day (Qld)
-REM Aug 14 MSG RNA Show Day (Brisbane metro)
+REM Mon May [Week_1] MSG Labour Day (Qld) %
+REM Aug 14 MSG RNA Show Day (Brisbane metro) %

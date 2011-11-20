@@ -26,7 +26,7 @@
 # $Id: defs.rem,v 1.4 2000/02/18 03:45:36 dfs Exp $
 #
 
-RUN OFF
+# RUN OFF
 
 ################################################
 # Ensure required version of remind is used... #
@@ -179,8 +179,8 @@ FSET _mo_num(mo, yr)		ORD(12 * (YEAR(TRIGDATE()) - yr) + \
 					MONNUM(TRIGDATE()) - mo)
 
 # Here's an example of how to use them:
-REM 1 Nov ++12 MSG %"Dean's [_yr_num(1984)] birthday%" is %b.
-REM 1 MSG Dean's [_mo_num(11, 1984)] 'monthly' anniversary
+#REM 1 Nov ++12 MSG %"Dean's [_yr_num(1984)] birthday%" is %b.
+#REM 1 MSG Dean's [_mo_num(11, 1984)] 'monthly' anniversary
 
 ###########################################################
 # Function to send mail via elm's "fastmail" (by GMS!)... #
@@ -189,10 +189,10 @@ REM 1 MSG Dean's [_mo_num(11, 1984)] 'monthly' anniversary
 #FSET _mail(from, subj)	"mailx -s " + \
 #				Quote + from + " : " + subj + Quote \
 #				GETENV("LOGNAME") + " < /dev/null 1>&0"
-FSET _mail(from, subj)	"fastmail -f " + \
-				Quote + from + Quote + \
-				" -s " + Quote + subj + Quote + \
-				" /dev/null " + GETENV("LOGNAME")
+#FSET _mail(from, subj)	"fastmail -f " + \
+#				Quote + from + Quote + \
+#				" -s " + Quote + subj + Quote + \
+#				" /dev/null " + GETENV("LOGNAME")
 
 #############################################################################
 # Here's a tricky problem:  The 4th of July is a holiday in the U.S.
@@ -637,12 +637,12 @@ SET BrWht Esc + "[37;1m"
 # will highlight priority-0 reminders in bright red,
 # priority-2500 in red, and priority-7500 in blue.  All others
 # will be in the normal colors
-FSET msgprefix(x) iif(x==0, BrRed, x==2500, Red, x==7500, Blu, Nrm)
+#FSET msgprefix(x) iif(x==0, BrRed, x==2500, Red, x==7500, Blu, Nrm)
 
 # Don't forget to return to normal color set at the end of reminder!
-FSET msgsuffix(x) Nrm
+#FSET msgsuffix(x) Nrm
 
 # The next examples are great for putting right at the end of the reminder
 # file.  They make queued reminders more eye-catching when they pop up.
-FSET msgprefix(x) char(13,10,13,10)+"******************"+char(13,10,13,10)
-FSET msgsuffix(x) char(13,10)+"******************"+char(13,10,13,10)
+#FSET msgprefix(x) char(13,10,13,10)+"******************"+char(13,10,13,10)
+#FSET msgsuffix(x) char(13,10)+"******************"+char(13,10,13,10)
