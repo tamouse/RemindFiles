@@ -386,6 +386,15 @@ REM  Fri Nov [Week_4+1]	SCANFROM [_back(7)] SATISFY 1
 OMIT     Dec 24		MSG %"Christmas Eve%"
 OMIT     Dec 25		MSG %"Christmas%" Day
 
+## Some additional US Holidays
+REM Mar 05 MSF Mother-in-Law Day, USA %
+REM Apr 28 MSF Arbor Day, USA (varies from state to state) %
+REM Jul 04 MSF US Independence Day %
+REM Sun Sep [Week_2] MSF Grandparent's Day in USA (2nd Sunday of September; varies from state to state) %
+REM Nov 11 MSF Veterans' Day %
+REM Dec 31 MSF New Year's Eve %
+
+
 ##########################################################################
 #								         #
 # If any US holidays were triggered above, shade in the calendar         #

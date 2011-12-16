@@ -1,4 +1,6 @@
 # Ignore the usual suspects
+.DS_Store
+.localized
 *~
 *.bak
 *.zip
@@ -7,6 +9,9 @@
 *.tgz
 *.bz2
 *.bzip2
+RCS/*
+*,v
+
 
 # personal files
 02-mystuff.rem

@@ -1,4 +1,4 @@
 MSG [hebday(today())] [hebmon(today())] [hebyear(today())] of the Jewish Calendar
-REM 2011 RUN ddate
-REM 2012 RUN ddate
+# REM 2011 RUN ddate
+# REM 2012 RUN ddate
 SET $SubsIndent = 5

@@ -21,10 +21,9 @@ FSET _mnph() iif(moonphase() < 2,"New",\
 MSG The moon is [_mnph()] %
 MSG Next full moon: [mon(moondate(2))] [day(moondate(2))], [year(moondate(2))].%"%"%
 
-MSG
 
-REM 2011 RUN $HOME/bin/currentconditions.pl
-REM 2012 RUN $HOME/bin/currentconditions.pl
+#REM 2011 RUN $HOME/bin/currentconditions.pl
+#REM 2012 RUN $HOME/bin/currentconditions.pl
 
 
 
