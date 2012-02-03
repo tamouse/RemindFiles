@@ -1,35 +1,35 @@
-OMIT 01 Jan MSG New Year's Day (Bank Holiday)%
-REM Mon 1 May MSG May Day (Bank Holiday)%
-REM Mon 1 Jun -7 MSG Spring Bank Holiday (Whitsun)%
-REM Mon 1 Sep -7 MSG Summer Bank Holiday%
+OMIT 01 Jan MSG New Year's Day (Bank Holiday) (UK) %
+REM Mon 1 May MSG May Day (Bank Holiday) (UK) % (UK) 
+REM Mon 1 Jun -7 MSG Spring Bank Holiday (Whitsun) (UK) %
+REM Mon 1 Sep -7 MSG Summer Bank Holiday (UK) %
 
-OMIT 25 Dec MSG Christmas Day%
+OMIT 25 Dec MSG Christmas Day (UK) %
 # Boxing Day is the first weekday after Christmas
-REM Mon Tue Wed Thu Fri 26 Dec MSG Boxing Day (Bank Holiday)%
+REM Mon Tue Wed Thu Fri 26 Dec MSG Boxing Day (Bank Holiday) (UK) %
 
 # Easter stuff
 SET easter EASTERDATE(YEAR(TODAY()))
-OMIT [TRIGGER(easter-2)] MSG Good Friday (Bank Holiday)%
-REM [TRIGGER(easter)] MSG Easter Sunday%
-OMIT [TRIGGER(easter+1)] MSG Easter Monday (Bank Holiday)%
+OMIT [TRIGGER(easter-2)] MSG Good Friday (Bank Holiday) (UK) %
+REM [TRIGGER(easter)] MSG Easter Sunday (UK) %
+OMIT [TRIGGER(easter+1)] MSG Easter Monday (Bank Holiday) (UK) %
 
 # Mother's Day is defined as the 4th Sunday of Lent. Lent begins on
 # Ash Wednesday (easter-46), so the 4th Sunday is easter-21
-REM [TRIGGER(easter-21)] MSG Mother's Day%
+REM [TRIGGER(easter-21)] MSG Mother's Day (UK) %
 
 # other annual dates or holidays I want to be reminded of:
-REM 25 Jan MSG Burns Night%
-REM 14 Feb MSG Valentine's Day%
-REM 01 Mar MSG St. David's Day%
-REM 17 Mar MSG St. Patrick's Day%
-REM 21 Apr MSG The Queen's Birthday (her actual birthday)%
-REM 23 Apr MSG St. George's Day%
-REM 08 May MSG VE Day%
-REM Sun 15 Jun MSG Father's Day%
-REM 31 Oct MSG Halloween%
-REM 05 Nov MSG Bonfire Night%
-REM 11 Nov MSG Rememberance Day%
-REM 30 Nov MSG St. Andrew's Day%
+REM 25 Jan MSG Burns Night (UK) %
+REM 14 Feb MSG Valentine's Day (UK) %
+REM 01 Mar MSG St. David's Day (UK) %
+REM 17 Mar MSG St. Patrick's Day (UK) %
+REM 21 Apr MSG The Queen's Birthday (her actual birthday) (UK) %
+REM 23 Apr MSG St. George's Day (UK) %
+REM 08 May MSG VE Day (UK) %
+REM Sun 15 Jun MSG Father's Day (UK) %
+REM 31 Oct MSG Halloween (UK) %
+REM 05 Nov MSG Bonfire Night (UK) %
+REM 11 Nov MSG Rememberance Day (UK) %
+REM 30 Nov MSG St. Andrew's Day (UK) %
 
 # Western European Summer Time definitions. I'm not sure what the
 # algorithm is for deciding these, so these are the mandated dates

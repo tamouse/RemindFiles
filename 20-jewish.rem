@@ -1,0 +1,158 @@
+#JHOLS
+##########################################################################
+#								         #
+# This portion of the file contains reminders for Jewish holidays.  The	 #
+# dates were obtained from "The First Jewish Catalog" by Richard Siegel	 #
+# and Michael and Sharon Strassfeld, published by the Jewish Publication #
+# Society of America.  The Reform version of the calendar was guessed	 #
+# at by David Skoll based on experience.  There is probably no standard  #
+# Reform position on many of the holidays, so you may have to adjust     #
+# the file as required.                                                  #
+#									 #
+# Additional corrections were made from the paper "Calendrical		 #
+# Calculations" by Nachum Dershowitz and Edward M. Reingold.  Any	 #
+# further corrections are welcome.					 #
+#				        			         #
+##########################################################################
+
+# Here are some general functions that you might find nice to use
+
+# _hstr:  Returns a string which is the full Hebrew date of its argument.
+#         Example: hstr('1994/02/02') returns "21 Shvat 5754"
+FSET _hstr(x) HEBDAY(x) + " " + HEBMON(x) + " " + HEBYEAR(x)
+
+# _hyrlen:  Return the length of the specified Hebrew year
+#           Example: _hyrlen(5754) returns 355
+FSET _hyrlen(x) HEBDATE(1, "Tishrey", x+1) - HEBDATE(1, "Tishrey", x)
+
+# --- HERE ARE THE JEWISH HOLIDAYS ---
+# Set the variable InIsrael to 1 if you live in Israel.  Otherwise,
+# you get the Diaspora versions of Jewish holidays
+SET InIsrael 0
+
+# Set the variable Reform to 1 if you want the Reform version of the
+# Jewish calendar.  Otherwise, you get the traditional version
+SET Reform 0
+
+# Convenient function definition to save typing
+FSET _h(x, y) TRIGGER(HEBDATE(x,y))
+FSET _h2(x, y) HEBDATE(x, y, TODAY()-7)
+FSET _PastSat(x, y) TRIGGER(IIF(WKDAYNUM(_h2(x,y))!=6, _h2(x,y), _h2(x,y)+1))
+
+# Default values in case InIsrael and Reform are not set
+SET InIsrael VALUE("InIsrael", 0)
+SET Reform   VALUE("Reform", 0)
+
+[_h(1,  "Tishrey")] ++4 MSG %"Rosh Hashana 1%" is %b. %
+
+# No RH-2 or Tzom Gedalia in Reform
+IF !Reform
+   [_h(2,  "Tishrey")] ++4 MSG %"Rosh Hashana 2%" is %b. %
+   [_PastSat(3,  "Tishrey")] ++4 MSG %"Tzom Gedalia%" is %b. %
+ENDIF
+
+[_h(10, "Tishrey")] ++4 MSG %"Yom Kippur%" is %b. %
+[_h(15, "Tishrey")] ++4 MSG %"Sukkot 1%" is %b. %
+
+IF !InIsrael
+   [_h(16, "Tishrey")] MSG %"Sukkot 2%" %
+ENDIF
+
+[_h(21, "Tishrey")] ++4 MSG %"Hashana Rabba%" is %b. %
+[_h(22, "Tishrey")] ++4 MSG %"Shemini Atzeret%" is %b. %
+
+IF InIsrael
+   [_h(22, "Tishrey")] ++4 MSG %"Simchat Torah%" is %b. %
+ELSE
+   [_h(23, "Tishrey")] ++4 MSG %"Simchat Torah%" is %b. %
+ENDIF
+
+# Because Kislev can change length, we must be more careful about Chanukah
+FSET _chan(x) TRIGGER(HEBDATE(24, "Kislev", today()-9)+x)
+[_chan(1)] ++4 MSG %"Chanukah 1%" is %b. %
+[_chan(2)] MSG %"Chanukah 2%" %
+[_chan(3)] MSG %"Chanukah 3%" %
+[_chan(4)] MSG %"Chanukah 4%" %
+[_chan(5)] MSG %"Chanukah 5%" %
+[_chan(6)] MSG %"Chanukah 6%" %
+[_chan(7)] MSG %"Chanukah 7%" %
+[_chan(8)] MSG %"Chanukah 8%" %
+
+# Not sure about Reform's position on the next one.
+IF !Reform
+# 10 Tevet will never be a Saturday, so whether or not to
+# move it is moot.  (Thanks to Art Werschulz.)
+   [_h(10, "Tevet")] MSG %"Tzom Tevet%" is %b. %
+ENDIF
+
+[_h(15, "Shvat")] ++4 MSG %"Tu B'Shvat%" is %b. %
+[_h(15, "Adar A")] ++4 MSG %"Purim Katan%" is %b. %
+
+# If Purim is on Sunday, then Fast of Esther is 11 Adar.
+IF WKDAYNUM(_h2(13, "Adar")) != 6
+   REM [TRIGGER(_h2(13, "Adar"))] ++4 MSG %"Fast of Esther%" is %b. %
+ELSE
+   REM [TRIGGER(_h2(11, "Adar"))] ++4 MSG %"Fast of Esther%" is %b. %
+ENDIF
+[_h(14, "Adar")] ++4 MSG %"Purim%" is %b. %
+[_h(15, "Nisan")] ++4 MSG %"Pesach%" is %b. %
+
+IF !InIsrael
+   [_h(16, "Nisan")] MSG %"Pesach 2%" %
+ENDIF
+
+[_h(21, "Nisan")] MSG %"Pesach 7%" %
+
+IF !InIsrael && !Reform
+   [_h(22, "Nisan")] MSG %"Pesach 8%" %
+ENDIF
+
+[_h(27, "Nisan")] ++4 MSG %"Yom HaShoah%" is %b. %
+[_h(4,  "Iyar")] ++4 MSG %"Yom HaZikaron%" is %b. %
+[_h(5,  "Iyar")] ++4 MSG %"Yom Ha'atzmaut%" is %b. %
+
+# Not sure about Reform's position on Lag B'Omer
+IF !Reform
+   [_h(18, "Iyar")] ++4 MSG %"Lag B'Omer%" is %b. %
+ENDIF
+
+[_h(28, "Iyar")] ++4 MSG %"Yom Yerushalayim%" is %b. %
+[_h(6,  "Sivan")] ++4 MSG %"Shavuot%" is %b. %
+
+IF !InIsrael && !Reform
+   [_h(7, "Sivan")] MSG %"Shavuot 2%" %
+ENDIF
+
+# Fairly sure Reform Jews don't observe the next two
+IF !Reform
+# Tzom Tamuz and Tish'a B'Av are moved to Sunday if they normally
+# fall on a Saturday
+   [_PastSat(17, "Tamuz")] ++4 MSG %"Tzom Tammuz%" is %b. %
+   [_PastSat(9,  "Av")] ++4 MSG %"Tish'a B'Av%" is %b. %
+ENDIF
+
+# Counting the omer - do the whole spiel, i.e:
+# "This is the xth day of the omer, being y weeks and z days of the omer."
+# Nice Remind programming example here!
+SET ostart HEBDATE(16, "Nisan", TODAY()-50)
+IF ostart <= TODAY() && (TODAY() - ostart < 49)
+   SET odays TODAY()-ostart+1
+   IF odays < 7
+      MSG %"%"Today is the [ORD(odays)] day of the Omer. %
+   ELSE
+      IF !(odays % 7)
+         MSG %"%"Today is the [ORD(odays)] day of the Omer, being [odays / 7] [PLURAL(odays/7, "week")] of the Omer. %
+      ELSE
+	 MSG %"%"Today is the [ORD(odays)] day of the Omer, being [odays/7] [PLURAL(odays/7, "week")] and [odays%7] [PLURAL(odays%7, "day")] of the Omer. %
+      ENDIF
+   ENDIF
+   CAL [ORD(odays)] of Omer
+ENDIF
+
+### Candle lighting and Havdalah.  You should probably add candle lighting
+### for other holidays besides Shabbat.  These just create calendar entries
+### for Friday and Saturday.  Note:  You must set your latitude, longitude
+### and possibly time zone for these to work properly!
+
+REM Friday   CAL Candle lighting at [sunset(trigdate())-18]
+REM Saturday CAL Havdalah at [sunset(trigdate())+42]
