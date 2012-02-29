@@ -1,22 +1,25 @@
-# Silly Holidays
+# Silly Holidays from http://holidayinsights.com/moreholidays/index.htm
 
 MSG
-MSG Silly Holidays
+
 
 # January
 
 #Month:
 
-REM Jan MSF National Bath Safety Month %
-REM Jan MSF National Blood Donor Month %
-REM Jan MSF National Braille Literacy Month %
-REM Jan MSF National Hobby Month %
-REM Jan MSF Hot Tea Month %
-REM Jan MSF National Oatmeal Month %
-REM Jan MSF National Soup Month  %
+REM Jan MSG The month of January is: %_ \
+    National Bath Safety Month %_ \
+    National Blood Donor Month %_ \
+    National Braille Literacy Month %_ \
+    National Hobby Month %_ \
+    Hot Tea Month %_ \
+    National Oatmeal Month %_ \
+    National Soup Month
 
 #Week Celebrations:
-#2nd Week Letter Writing Week
+REM  Sun Mon Tue Wed Thu Fri Sat Jan [Week_2] \
+MSG Second week of January is:%_ \
+     Letter Writing Week
 
 REM Jan 02 MSF Run It Up The Flagpole and See If Anyone Salutes Day %
 REM Jan 03 MSF Fruitcake Toss Day %
@@ -69,20 +72,23 @@ REM Jan 31 MSF Backward Day %
 
 # February
 # Month:
-REM Feb MSF American Heart Month %
-REM Feb MSF An Affair to Remember Month %
-REM Feb MSF Black History Month %
-REM Feb MSF Canned Food Month %
-REM Feb MSF Creative Romance Month %
-REM Feb MSF Great American Pie Month %
-REM Feb MSF National Cherry Month %
-REM Feb MSF National Children’s Dental Health Month %
-REM Feb MSF National Grapefruit Month %
-REM Feb MSF National Weddings Month  %
+REM Feb MSF The month of %m is: %_ \
+    American Heart Month %_ \
+    An Affair to Remember Month %_ \
+    Black History Month %_ \
+    Canned Food Month %_ \
+    Creative Romance Month %_ \
+    Great American Pie Month %_ \
+    National Cherry Month %_ \
+    National Children’s Dental Health Month %_ \
+    National Grapefruit Month %_ \
+    National Weddings Month  %_
 
 #Weekly Celebrations:
 
-#3rd Week International Flirting Week
+REM Sun Mon Tue Wed Thu Fri Sat February [Week_3] \
+    MSF The 3rd week of %m is: %_ \
+    International Flirting Week
 
 REM Feb 1 MSF National Freedom Day %
 REM Feb 2 MSF Ground Hog Day %
@@ -137,24 +143,30 @@ REM Feb 27 MSF No Brainer Day - this day is for me! %
 REM Feb 28 MSF Floral Design Day %
 REM Feb 28 MSF Public Sleeping Day %
 REM Feb 28 MSF National Tooth Fairy Day - and/or August 22 %
-REM Feb 29 MSF Leap Day - 2012, once every four years  %
 
 # March
 
-REM Mar MSF Irish American Month %
-REM Mar MSF Music in Our Schools Month %
-REM Mar MSF National Craft Month %
-REM Mar MSF National Frozen Food Month %
-REM Mar MSF National Irish American Heritage Month- designated by Congress in 1995. %
-REM Mar MSF National Nutrition Month %
-REM Mar MSF National Peanut Month %
-REM Mar MSF National Women's History Month %
-REM Mar MSF Poetry Month %
-REM Mar MSF Red Cross Month %
-REM Mar MSF Social Workers Month  %
+REM Mar MSG The month of %m is: %_ \
+    Irish American Month %_ \
+    Music in Our Schools Month %_ \
+    National Craft Month %_ \
+    National Frozen Food Month %_ \
+    National Irish American Heritage Month- designated by Congress in 1995. %_ \
+    National Nutrition Month %_ \
+    National Peanut Month %_ \
+    National Women's History Month %_ \
+    Poetry Month %_ \
+    Red Cross Month %_ \
+    Social Workers Month
 
-#2nd Week National Bubble Week
-#2nd Week Crochet Week 
+# Weeks
+
+REM Sun Mon Tue Wed Thu Fri Sat Mar [Week_2] \
+    MSG The second week in %m is: %_ \
+    National Bubble Week %_ \
+    Crochet Week 
+
+# Daily events:
 
 REM Mar 1 MSF National Pig Day %
 REM Mar 1 MSF Peanut Butter Lovers' Day %
@@ -218,5 +230,782 @@ REM Mar 30 MSF Take a Walk in the Park Day %
 REM Mar 31 MSF Bunsen Burner Day %
 REM Mar 31 MSF National Clam on the Half Shell Day %
 
-# April
+# April, 2012 Bizarre and Unique Holidays
 
+# Month:
+
+REM April MSG The month of %m is: %_ \
+    National Humor Month %_ \
+    International Guitar Month %_ \
+    Keep America Beautiful Month %_ \
+    Lawn and Garden Month %_ \
+    Poetry Month %_ \
+    National Pecan Month %_ \
+    National Welding Month %_ \
+    Records and Information Management Month %_ \
+    Stress Awareness Month %_ \
+    Sexual Assault Awareness Month
+
+# April Weekly Celebrations:
+
+REM Sun Mon Tue Wed Thu Fri Sat April [Week_1] \
+    MSG The First Week of %m is: %_ \
+    Library Week %_ \
+    Read a Road Map Week.
+REM Sun Mon Tue Wed Thu Fri Sat April [Week_2] \
+    MSG The Second Week of %m is %_ \
+    Garden Week
+REM Sun Mon Tue Wed Thu Fri Sat April [Week_3] \
+    MSG The Third Week of %m is %_ \
+    Organize Your Files Week %_ \
+    Medical Labs Week 
+REM Sun Mon Tue Wed Thu Fri Sat April [Week_4] \
+    MSG The Fourth Week of %m is %_ \
+    Administrative Assistants Week %_ \
+    National Karaoke Week
+
+# Each Day:
+
+REM Apr 1  MSF April Fool's Day %
+REM Apr 1  MSF International Fun at Work Day %
+REM Apr 1  MSF International Tatting Day %
+REM Apr 2  MSF Children's Book Day %
+REM Apr 2  MSF National Peanut Butter and Jelly Day %
+REM Apr 2  MSF Reconciliation Day %
+REM Apr 3  MSF Don't Go to Work Unless it's Fun Day - we know your decision %
+REM Apr 3  MSF Tweed Day %
+REM Apr 4  MSF Hug a Newsman Day %
+REM Apr 4  MSF Walk Around Things Day %
+REM Apr 4  MSF School Librarian Day %
+REM Apr 4  MSF Tell a Lie Day %
+REM Apr 5  MSF Go for Broke Day   %
+REM Fri Apr [Week_1] MSF National Walk to Work Day - first Friday of month %
+REM Apr 6  MSF Plan Your Epitaph Day - a little morbid if you ask me %
+REM Apr 6  MSF Sorry Charlie Day %
+REM Apr 7  MSF Caramel Popcorn Day - Most likely created by a popcorn maker, or an Ecard company. %
+REM Apr 7  MSF No Housework Day %
+REM Apr 7  MSF World Health Day %
+REM Apr 8  MSF All is Ours Day %
+REM Apr 8  MSF Draw a Picture of a Bird Day %
+REM [TRIGGER(easter+1)]  MSF Dyngus Day %
+REM Apr 9  MSF Name Yourself Day %
+REM Apr 9  MSF Winston Churchill Day %
+REM Apr 10  MSF Golfer's Day  %
+REM Apr 10  MSF National Siblings Day %
+REM Apr 11  MSF Eight Track Tape Day - do you remember those? %
+REM Apr 11  MSF Barbershop Quartet Day %
+REM Apr 11  MSF National Submarine Day %
+REM Apr 12  MSF Big Wind Day - this day blows me away! %
+REM Apr 12  MSF Russian Cosmonaut Day %
+REM Apr 13  MSF Scrabble Day %
+REM Apr 14  MSF Ex Spouse Day %
+REM Apr 14  MSF International Moment of Laughter Day %
+REM Apr 14  MSF Look up at the Sky Day - don't you have anything better to do? %
+REM Apr 14  MSF National Pecan Day %
+REM Apr 14  MSF Reach as High as You Can Day %
+REM Apr 15  MSF Rubber Eraser Day %
+REM Apr 15  MSF Titanic Remembrance Day %
+REM Apr 16  MSF National Eggs Benedict Day %
+REM Apr 16  MSF National Librarian Day %
+REM Apr 16  MSF National Stress Awareness Day %
+REM Mon Apr [Week_3]  MSF Patriot's Day - third Monday of the month %
+REM Apr 17  MSF Blah, Blah, Blah Day %
+REM Apr 17  MSF National Cheeseball Day      %
+REM Apr 17  MSF Pet Owners Independence Day %
+REM Apr 18  MSF International Juggler's Day - also applies to multi tasking office workers %
+REM Apr 18  MSF Newspaper Columnists Day %
+REM Apr 19  MSF National Garlic Day %
+REM Thu Apr [Week_3]  MSF National High Five Day third Thursday %
+REM Apr 20  MSF Look Alike Day %
+REM Apr 20  MSF Volunteer Recognition Day %
+REM Apr 21  MSF Kindergarten Day %
+REM Apr 22  MSF Girl Scout Leader Day %
+REM Apr 22  MSF National Jelly Bean Day %
+REM Apr 23  MSF Lover's Day %
+REM Apr 23  MSF National Zucchini Bread Day - they hold this at a time when you are not sick of all that zucchini. %
+REM Apr 23  MSF Take a Chance Day %
+REM Apr 23  MSF World Laboratory Day %
+REM Apr 24  MSF Pig in a Blanket Day %
+REM Apr 25  MSF East meets West Day %
+REM Apr 25  MSF Executive Admin's Day (Secretary's Day) -  date varies, Also called Administrative Professional's Day %
+REM Apr 25  MSF World Penguin Day   %
+REM Apr 26  MSF Hug an Australian Day %
+REM Apr 26  MSF National Pretzel Day %
+REM Apr 26  MSF Richter Scale Day %
+REM Apr 27  MSF Babe Ruth Day %
+REM Apr 27  MSF National Prime Rib Day %
+REM Apr 27  MSF Tell a Story Day %
+REM Apr 28  MSF Great Poetry Reading Day %
+REM Apr 28  MSF Kiss Your Mate Day %
+REM Apr 29  MSF Greenery Day %
+REM Apr 29  MSF National Shrimp Scampi Day %
+REM Apr 30  MSF Hairstyle Appreciation Day %
+REM Apr 30  MSF National Honesty Day  %
+REM Thu Apr [Week_4] MSF Take Your Daughter to Work 4th Thursday %
+
+
+# May, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM May MSG The month of %m is %_ \
+    Date Your Mate Month %_ \
+    Foster Care Month %_ \
+    National Barbecue Month %_ \
+    National Bike Month %_ \
+    National Blood Pressure Month %_ \
+    National Hamburger Month %_ \
+    National Photograph Month %_ \
+    National Recommitment Month %_ \
+    National Salad Month %_ \
+    Older Americans Month
+
+# Weekly Celebrations:
+
+REM Sun Mon Tue Wed Thu Fri Sat May [Week_1] MSG The first week of %m is %_ \
+     Nurse's Week
+REM Sun Mon Tue Wed Thu Fri Sat May [Week_2] MSG The second week of %m is %_ \
+     Wildflower Week
+REM Sun Mon Tue Wed Thu Fri Sat May [Week_3] MSG The third week of %m is %_ \
+     National Bike Week %_ \
+     National Police Week
+REM Sun Mon Tue Wed Thu Fri Sat May [Week_4] MSG The fourth week of %m is %_ \
+     Emergency Medical Services Week
+
+# Each Day:
+
+REM May 1 MSF May Day %
+REM May 1 MSF Loyalty Day %
+REM May 1 MSF Mother Goose Day %
+REM May 1 MSF Save the Rhino Day %
+REM May 2 MSF Baby Day %
+REM May 2 MSF Brothers and Sisters Day %
+REM May 3 MSF Lumpy Rug Day %
+REM May 3 MSF World Press Freedom Day %
+REM May 4 MSF Bird Day %
+REM Fri May [Week_1] MSF International Tuba Day %
+REM May 4 MSF National Candied Orange Peel Day %
+REM May 4 MSF Renewal Day %
+REM Fri May [Week_1] MSF Space Day %
+REM May 5 MSF National Hoagie Day %
+REM May 5 MSF Oyster Day %
+REM May 6 MSF Beverage Day %
+REM May 6 MSF National Tourist Appreciation Day %
+REM May 6 MSF National Nurses Day %
+REM May 6 MSF No Diet Day %
+REM May 7 MSF Astronomy Day  - date varies %
+REM May 7 MSF National Tourism Day %
+REM May 8 MSF Iris  Day %
+REM May 8 MSF National Teachers Day (Tuesday of the first full week of May) %
+REM May 8 MSF No Socks Day %
+REM May 8 MSF World Red Cross Day / World Red Crescent Day %
+REM May 9 MSF Lost Sock Memorial Day   %
+REM Wed May [Week_2] MSF National Receptionist Day %
+REM May 9 MSF National Train Day - date varies %
+REM May 9 MSF School Nurses Day the Wednesday during Nurse's Week %
+REM May 10 MSF Clean up Your Room Day %
+REM May 11 MSF Eat What You Want Day %
+REM Fri May [Week_1] MSF Military Spouses Day  %
+REM May 11 MSF Twilight Zone Day %
+REM Sat May [Week_1] MSF Birth Mother's Day %
+REM May 12 MSF Fatigue Syndrome Day %
+REM Sat May [Week_2] MSF International Migratory Bird Day the second Saturday in May %
+REM May 12 MSF International Nurses Day %
+REM May 12 MSF Limerick Day %
+REM May 13 MSF Frog Jumping Day %
+REM May 13 MSF Leprechaun Day %
+REM May 14 MSF Dance Like a Chicken Day %
+REM May 15 MSF National Chocolate Chip Day %
+REM May 15 MSF Police Officer's Memorial Day %
+REM May 16 MSF Love a Tree Day %
+REM May 16 MSF National Sea Monkey Day %
+REM May 16 MSF Wear Purple for Peace Day %
+REM May 17 MSF Pack Rat Day %
+REM May 18 MSF International Museum Day %
+REM Fri May [Week_3] MSF National Bike to Work Day %
+REM May 18 MSF No Dirty Dishes Day %
+REM May 18 MSF Visit Your Relatives Day %
+REM May 19 MSF Boy's Club Day %
+REM May 20 MSF Be a Millionaire Day - now we all can go for that %
+REM May 20 MSF Pick Strawberries Day %
+REM May 21 MSF National Memo Day %
+REM May 21 MSF National Waiters and Waitresses Day %
+REM May 22 MSF Buy a Musical Instrument Day %
+REM May 23 MSF Lucky Penny Day %
+REM May 24 MSF National Escargot Day %
+REM May 25 MSF National Missing Children's Day %
+REM May 25 MSF Tap Dance Day %
+REM Sat [_last(May)]	SCANFROM [_back(7)] SATISFY 1
+			OMIT [_trig()] MSG %"International Jazz Day" %
+REM May 26 MSF Sally Ride Day %
+REM May 27 MSF Sun Screen Day %
+REM May 28 MSF Amnesty International Day %
+REM May 29 MSF Learn About Composting Day %
+REM May 30 MSF Water a Flower Day %
+REM May 31 MSF National Macaroon Day %
+REM May 31 MSF Save Your Hearing Day %
+REM May 31 MSF World No Tobacco Day %
+
+# June, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM Jun MSG The month of %m is: %_ \
+    Aquarium Month %_ \
+    Candy Month %_ \
+    Dairy Month %_ \
+    Fight the Filthy Fly Month %_ \
+    Gay Pride Month %_ \
+    National Accordion Awareness Month %_ \
+    National Adopt a Cat Month %_ \
+    National Fresh Fruit and Vegetables Month %_ \
+    Rose Month %_ \
+    Turkey Lovers Month
+
+# Weeks:
+
+REM Sun Mon Tue Wed Thu Fri Sat Jun [Week_1] MSG First week of %m is: %_ \
+    Fishing Week
+REM Sun Mon Tue Wed Thu Fri Sat Jun [Week_2] MSG Second week of %m is: %_ \
+    Email Week
+
+# Daily:
+
+REM Jun 1 MSF Dare Day %
+REM Jun 1 MSF Flip a Coin Day %
+REM Jun 2 MSF National Bubba Day %
+REM Fri Jun [Week_1] MSF National Doughnut Day always the first Friday in June %
+REM Jun 2 MSF National Rocky Road Day %
+REM Jun 3 MSF Repeat Day (I said "Repeat Day") %
+REM Jun 4 MSF Applesauce Cake Day %
+REM Jun 4 MSF Hug Your Cat Day %
+REM Jun 4 MSF Old Maid's Day %
+REM Jun 5 MSF World Environment Day %
+REM Jun 6 MSF National Gardening Exercise Day- Get out and exercise with your plants. %
+REM Jun 6 MSF National Yo-Yo Day %
+REM Jun 7 MSF National Chocolate Ice Cream Day %
+REM Jun 8 MSF Best Friends Day %
+REM Jun 8 MSF Name Your Poison Day %
+REM Jun 9 MSF Donald Duck Day %
+REM Jun 10 MSF Iced Tea Day %
+REM Jun 11 MSF Hug Holiday %
+REM Jun 12 MSF Red Rose Day %
+REM Jun 13 MSF Sewing Machine Day %
+REM Jun 14 MSF Flag Day %
+REM Jun 15 MSF Smile Power Day %
+REM Jun 16 MSF Fresh Veggies Day %
+REM Jun 16 MSF Nursing Assistants Day - First day of National Nursing Assistants Week %
+REM Sat Jun [Week_3] MSF National Hollerin' Contest Day - third Saturday in June %
+REM Sat Jun 17 SCANFROM [_back(1)] SATISFY 1
+    	       OMIT [_trig()] MSF World Juggler's Day - Saturday closest to June 17th %
+REM Jun 17 MSF Eat Your Vegetables Day %
+REM Jun 18 MSF Go Fishing Day %
+REM Jun 18 MSF International Panic Day %
+REM Jun 18 MSF National Splurge Day - Oh yeah!! %
+REM Jun 19 MSF World Sauntering Day %
+REM Jun 20 MSF Ice Cream Soda Day %
+REM Jun 21 MSF Go Skate Day %
+REM Jun 22 MSF National Chocolate Eclair Day %
+REM Jun 23 MSF National Columnists Day %
+REM Jun 23 MSF National Pink Day %
+REM Jun 23 MSF Take Your Dog to Work Day (Why!?) .....date varies %
+REM Jun 24 MSF Swim a Lap Day %
+REM Jun 25 MSF Log Cabin Day %
+REM Jun 25 MSF National Catfish Day %
+REM Jun 26 MSF Beautician's Day %
+REM Jun 26 MSF Forgiveness Day %
+REM Jun 27 MSF Sun Glasses Day %
+REM Jun 28 MSF Insurance Awareness Day - Now who do you  think invented that!?! %
+REM Jun 28 MSF Paul Bunyan Day %
+REM Jun 29 MSF Camera Day %
+REM Jun 29 MSF Hug Holiday %
+REM Jun 29 MSF Waffle Iron Day %
+REM Jun 30 MSF Meteor Day  %
+
+
+# July, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM July MSG The month of %m is: %_ \
+    National Blueberry Month %_ \
+    National Anti-Boredom Month %_ \
+    Unlucky Month for weddings %_ \
+    National Cell Phone Courtesy Month %_ \
+    National Hot Dog Month %_ \
+    National Ice Cream Month
+
+# Week Event:
+
+REM Sun Mon Tue Wed Thu Fri Sat July [Week_2] MSG The second week of %m is: %_ \
+    Nude Recreation Week 
+
+# Individual Days:
+
+REM Sun Jul [Week_1] MSF Build A Scarecrow Day - first Sunday in month %
+REM Jul 1 MSF Canada Day %
+REM Jul 1 MSF Creative Ice Cream Flavors Day %
+REM Jul 1 MSF International Joke Day %
+REM Jul 2 MSF I Forgot Day %
+REM Jul 2 MSF World UFO Day %
+REM Jul 3 MSF Compliment Your Mirror Day %
+REM Jul 3 MSF Disobedience Day %
+REM Jul 3 MSF Stay out of the Sun Day %
+REM Jul 4 MSF National Country Music Day %
+REM Jul 4 MSF Sidewalk Egg Frying Day- Hmmmm, I wonder why!?! %
+REM Jul 5 MSF Work-a-holics Day - even though everyone is on holiday %
+REM Jul 6 MSF National Fried Chicken Day %
+REM Jul 7 MSF Chocolate Day %
+REM Jul 7 MSF National Strawberry Sundae Day %
+REM Jul 8 MSF Video Games Day %
+REM Jul 9 MSF National Sugar Cookie Day %
+REM Jul 10 MSF Teddy Bear Picnic Day %
+REM Jul 11 MSF Cheer up the Lonely Day %
+REM Jul 11 MSF World Population Day %
+REM Jul 12 MSF Different Colored Eyes Day %
+REM Jul 12 MSF Pecan Pie Day %
+REM Jul 13 MSF Barbershop Music Appreciation Day %
+REM Jul 13 MSF Embrace Your Geekness Day %
+REM Jul 13 MSF Fool's Paradise Day %
+REM Jul 14 MSF Bastille Day %
+REM Jul 14 MSF Pandemonium Day %
+REM Jul 14 MSF National Nude Day %
+REM Sun Jul [Week_3] MSF National Ice Cream Day (third Sunday of the month) %
+REM Jul 15 MSF Tapioca Pudding Day %
+REM Jul 15 MSF Cow Appreciation Day- Go out and give a cow a hug %
+REM Jul 17 MSF Peach Ice Cream Day %
+REM Jul 17 MSF Yellow Pig Day %
+REM Jul 18 MSF National Caviar Day- something's fishy here %
+REM Jul 19 MSF National Raspberry Cake Day %
+REM Jul 20 MSF Moon Day %
+REM Jul 20 MSF Ugly Truck Day- it's a "guy" thing %
+REM Jul 21 MSF National Junk Food Day %
+REM Jul 22 MSF Hammock Day %
+REM Sun Jul [Week_4] MSF Parent's Day  - fourth Sunday in July %
+REM Jul 22 MSF Ratcatcher's Day %
+REM Jul 23 MSF National Hot Dog Day %
+REM Jul 23 MSF Vanilla Ice Cream Day %
+REM Jul 24 MSF Amelia Earhart Day %
+REM Jul 24 MSF Cousins Day %
+REM Jul 25 MSF Culinarians Day %
+REM Jul 25 MSF Threading the Needle Day %
+REM Jul 26 MSF All or Nothing Day %
+REM Jul 26 MSF Aunt and Uncle Day %
+REM Jul 27 MSF Take Your Pants for a Walk Day %
+REM Jul 28 MSF National Milk Chocolate Day %
+REM Jul 29 MSF National Lasagna Day %
+REM Jul 30 MSF National Cheesecake Day %
+REM Jul 30 MSF Father-in-Law Day %
+REM Jul 31 MSF Mutt's Day  %
+
+# August, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM August MSG The month of %m is: %_ \
+    Admit You're Happy Month %_ \
+    Family Fun Month %_ \
+    National Catfish Month %_ \
+    National Eye Exam Month %_ \
+    National Golf Month %_ \
+    Peach Month %_ \
+    Romance Awareness Month %_ \
+    Water Quality Month %_ \
+    National Picnic Month
+
+# Weekly Events:
+
+REM Sun Mon Tue Wed Thu Fri Sat August [Week_1] MSG The first week of %m is: %_ \
+    National Simplify your Life Week
+REM Sun Mon Tue Wed Thu Fri Sat August [Week_2] MSG The second week of %m is: %_ \
+    National Smile Week
+REM Sun Mon Tue Wed Thu Fri Sat August [Week_3] MSG The third week of %m is: %_ \
+    Friendship Week
+REM Sun Mon Tue Wed Thu Fri Sat August [Week_4] MSG The fourth week of %m is: %_ \
+    Be Kind to Humankind Week
+
+# Daily:
+
+REM Aug 1 MSF National Raspberry Cream Pie Day %
+REM Aug 2 MSF National Ice Cream Sandwich Day %
+REM Aug 3 MSF National Watermelon Day %
+REM Sat Aug [Week_1] MSF National Mustard Day first Saturday %
+REM Aug 4 MSF U.S. Coast Guard Day %
+REM Sun Aug [Week_1] MSF Friendship Day - First Sunday in August %
+REM Sun Aug [Week_1] MSF International Forgiveness Day - First Sunday in August %
+REM Sun Aug [Week_1] MSF Sisters Day - First Sunday in August %
+REM Aug 5 MSF Work Like a Dog Day %
+REM Aug 6 MSF Wiggle Your Toes Day %
+REM Aug 7 MSF National Lighthouse Day %
+REM Aug 8 MSF Sneak Some Zucchini onto Your Neighbor's Porch Day %
+REM Aug 9 MSF Book Lover's Day %
+REM Aug 10 MSF Lazy Day %
+REM Aug 10 MSF National S'mores Day %
+REM Aug 11 MSF Presidential Joke Day %
+REM Aug 11 MSF Son and Daughter Day %
+REM Aug 12 MSF Middle Child's Day %
+REM Aug 13 MSF Left Hander's Day %
+REM Aug 14 MSF National Creamsicle Day %
+REM Aug 14 MSF V-J Day - which date do you mark the end of WWII?
+REM Aug 15 MSF Relaxation Day %
+REM Aug 16 MSF National Tell a Joke Day %
+REM Aug 17 MSF National Thriftshop Day %
+REM Aug 18 MSF Bad Poetry Day %
+REM Aug 19 MSF Aviation Day %
+REM Aug 20 MSF National Radio Day %
+REM Aug 21 MSF Senior Citizen's Day %
+REM Aug 22 MSF Be an Angel Day %
+REM Aug 22 MSF National Tooth Fairy Day %
+# REM Aug 23 MSF Chinese Valentine's Day/Daughter's Day - 7th day of 7th Lunar Month %
+REM Aug 23 MSF Ride the Wind Day %
+REM Aug 24 MSF Vesuvius Day %
+REM Aug 25 MSF Kiss and Make Up Day %
+REM Aug 26 MSF National Dog Day %
+REM Aug 26 MSF Women's Equality Day %
+REM Aug 27 MSF Global Forgiveness Day %
+REM Aug 27 MSF Just Because Day %
+REM Aug 28 MSF Race Your Mouse Day %
+REM Aug 29 MSF More Herbs, Less Salt Day %
+REM Aug 30 MSF Frankenstein Day %
+REM Aug 30 MSF Toasted Marshmallow Day %
+REM Aug 31 MSF National Trail Mix Day  %
+
+# September, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM September MSG The month of %m is: %_ \
+    Classical Music Month %_ \
+    Hispanic Heritage Month %_ \
+    Fall Hat Month %_ \
+    International Square Dancing Month %_ \
+    National Blueberry Popsicle Month %_ \
+    National Courtesy Month %_ \
+    National Piano Month %_ \
+    Chicken Month %_ \
+    Baby Safety Month %_ \
+    Little League Month %_ \
+    Honey Month %_ \
+    Self Improvement Month %_ \
+    Better Breakfast Month
+
+# Each Day:
+
+REM Sep 1 MSF Emma M. Nutt Day, the first woman telephone operator %
+REM Sep 2 MSF VJ Day - Surrender ceremony aboard the USS Missouri formally ends WWII %
+REM Sep 2 MSF National Beheading Day %
+REM Sep 3 MSF Skyscraper Day %
+REM Sep 4 MSF Newspaper Carrier Day %
+REM Sep 5 MSF Be Late for Something Day %
+REM Sep 5 MSF Cheese Pizza Day %
+REM Sep 6 MSF Fight Procrastination Day %
+REM Sep 6 MSF Read a Book Day %
+REM Sep 7 MSF Neither Rain nor Snow Day %
+REM Sep 8 MSF International Literacy Day %
+REM Sep 8 MSF National Date Nut Bread Day %
+REM Sep 8 MSF Pardon Day %
+REM Sun Sep [Week_2] MSF Grandparent's Day - first Sunday after Labor Day %
+REM Sun Sep [Week_2] MSF National Pet Memorial Day -second Sunday in September %
+REM Sep 9 MSF Teddy Bear Day %
+REM Sep 10 MSF Sewing Machine Day %
+REM Sep 10 MSF Swap Ideas Day %
+REM Sep 11 MSF 911 Remembrance %
+REM Sep 11 MSF Make Your Bed Day %
+REM Sep 11 MSF No News is Good News Day %
+REM Sep 12 MSF Chocolate Milk Shake Day %
+REM Sep 12 MSF National Video Games Day %
+REM Sep 13 MSF Defy Superstition Day %
+REM Sep 13 MSF Fortune Cookie Day %
+REM Sep 13 MSF National Peanut Day %
+REM Sep 13 MSF Positive Thinking Day %
+REM Sep 13 MSF Uncle Sam Day - his image was first used in 1813 %
+REM Sep 14 MSF National Cream-Filled Donut Day %
+REM Sep 15 MSF Make a Hat Day %
+REM Sep 15 MSF Felt Hat Day - On this day, men traditionally put away their felt hats. %
+REM Sep 16 MSF Collect Rocks Day %
+REM Sep 16 MSF Step Family Day %
+REM Sep 16 MSF Mayflower Day %
+REM Sep 16 MSF Mexican Independence Day %
+REM Sep 16 MSF National Play Doh Day %
+REM Sun Sep [Week_3] MSF National Women's Friendship Day - third Sunday in September %
+REM Sep 16 MSF Working Parents Day %
+REM Sep 17 MSF National Apple Dumpling Day %
+REM Sep 17 MSF Citizenship Day %
+REM Sep 17 MSF Constitution Day %
+REM Sep 18 MSF National Cheeseburger Day %
+REM Sep 19 MSF Yarrrrr!! It be International Talk Like A Pirate Day, ye swabs!! %
+REM Sep 19 MSF  National Butterscotch Pudding Day %
+REM Sep 20 MSF National Punch Day %
+REM Sep 21 MSF International Peace Day %
+REM Sep 21 MSF Miniature Golf Day %
+REM Fri Sep [Week_3] MSF POW/MIA Recognition Day - Third Friday of September %
+REM Sep 21 MSF World Gratitude Day %
+REM Sep 22 MSF Business Women's Day %
+REM Sep 22 MSF Elephant Appreciation Day %
+REM Sat Sep [Week_4] MSF International Rabbit Day - Fourth Saturday in September %
+REM Sep 23 MSF Checkers Day %
+REM Sep 23 MSF Dog in Politics Day %
+REM Sep 24 MSF National Cherries Jubilee Day %
+REM Sep 25 MSF National Comic Book Day %
+REM Sep 26 MSF Johnny Appleseed Day %
+REM Sep 27 MSF Crush a Can Day %
+REM Sep 28 MSF Ask a Stupid Question Day (one of my favorite days) %
+REM Sep 28 MSF National Good Neighbor Day %
+REM Fri Sep [Week_4] MSF Native American Day %
+REM Sep 29 MSF Confucius Day %
+REM Sep 30 MSF National Mud Pack Day  %
+
+# October, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM October MSG The month of %m is: %_ \
+    Adopt a Shelter Dog Month %_ \
+    American Pharmacist Month %_ \
+    Apple Jack Month %_ \
+    Awareness Month %_ \
+    Breast Cancer Awareness Month %_ \
+    Clergy Appreciation Month %_ \
+    Computer Learning Month %_ \
+    Cookie Month %_ \
+    Domestic Violence Awareness Month %_ \
+    Eat Country Ham Month %_ \
+    International Drum Month %_ \
+    Lupus Awareness Month %_ \
+    National Diabetes Month %_ \
+    National Pizza Month %_ \
+    National Vegetarian Month %_ \
+    National Popcorn Popping Month %_ \
+    Sarcastic Month %_ \
+    Seafood Month
+
+# Weekly Celebrations:
+
+REM Sun Mon Tue Wed Thu Fri Sat Oct [Week_1] MSG The first week of %m is: %_ \
+     Get Organized Week %_ \
+     Customer Service Week
+REM Sun Mon Tue Wed Thu Fri Sat Oct [Week_2] MSG The second week of %m is: %_ \
+     Fire Prevention Week %_ \
+     Pet Peeve Week 
+REM Sun Mon Tue Wed Thu Fri Sat Oct [Week_3] MSG The third week of %m is: %_ \
+     Pastoral Care Week
+
+
+# Each Day:
+
+REM Oct 1 MSF World Vegetarian Day %
+REM Oct 2 MSF National Custodial Worker Day %
+REM Oct 2 MSF Name Your Car Day %
+REM Oct 3 MSF Techies Day %
+REM Oct 3 MSF Virus Appreciation Day %
+REM Oct 4 MSF National Golf Day %
+REM Oct 4 MSF National Frappe Day %
+REM Oct 5 MSF Do Something Nice Day %
+REM Oct 5 MSF World Teacher's Day %
+REM Oct 6 MSF Come and Take it Day %
+REM Oct 6 MSF International Frugal Fun Day - first Saturday of the month %
+REM Oct 6 MSF Mad Hatter Day %
+REM Oct 6 MSF Physician Assistant Day %
+REM Oct 7 MSF Bald and Free Day %
+REM Oct 7 MSF Oktoberfest in Germany ends, date varies %
+REM Oct 7 MSF World Smile Day %
+REM Oct 8 MSF American Touch Tag Day %
+REM Oct 8 MSF Columbus Day - second Monday of month %
+REM Oct 9 MSF Curious Events Day %
+REM Oct 9 MSF Fire Prevention Day %
+REM Oct 9 MSF Leif Erikson Day %
+REM Oct 9 MSF Moldy Cheese Day %
+REM Oct 10 MSF Emergency Nurses Day- date varies %
+REM Oct 10 MSF National Angel Food Cake Day %
+REM Oct 11 MSF It's My Party Day %
+REM Oct 11 MSF Take Your Teddy Bear to Work Day %
+REM Oct 12 MSF Cookbook Launch Day %
+REM Oct 12 MSF Old Farmer's Day %
+REM Oct 12 MSF Moment of Frustration Day %
+REM Oct 12 MSF World Egg Day -  second Friday of the month %
+REM Oct 13 MSF International Skeptics Day %
+REM Oct 14 MSF Be Bald and Free Day %
+REM Oct 14 MSF National Dessert Day - take an extra helping, or two %
+REM Oct 15 MSF White Cane Safety Day %
+REM Oct 16 MSF Bosses Day %
+REM Oct 16 MSF Dictionary Day %
+REM Oct 17 MSF Wear Something Gaudy Day %
+REM Oct 18 MSF No Beard Day   %
+REM Oct 19 MSF Evaluate Your Life Day %
+REM Oct 20 MSF Brandied Fruit Day     %
+REM Oct 20 MSF International Newspaper Carrier Day -date varies each year %
+REM Oct 20 MSF Sweetest Day Third Saturday of month %
+REM Oct 21 MSF Babbling Day %
+REM Oct 21 MSF Count Your Buttons Day %
+REM Oct 21 MSF National Pumpkin Cheesecake Day find a recipe, too. %
+REM Oct 22 MSF National Nut Day %
+REM Oct 23 MSF National Mole Day %
+REM Oct 23 MSF Tv Talk Show Host Day %
+REM Oct 24 MSF National Bologna Day %
+REM Oct 24 MSF United Nations Day     %
+REM Oct 25 MSF Punk for a Day Day %
+REM Oct 25 MSF World Pasta Day %
+REM Oct 26 MSF Frankenstein Friday - last Friday in October %
+REM Oct 26 MSF National Mincemeat Day %
+REM Oct 27 MSF Make a Difference Day-  fourth Saturday of the month, an opportunity for neighbors to help neighbors. %
+REM Oct 27 MSF National Tell a Story Day - in Scotland and the U.K. %
+REM Oct 27 MSF Navy Day %
+REM Oct 28 MSF  Mother-In-Law Day - fourth Sunday in October %
+REM Oct 28 MSF Plush Animal Lover's Day     %
+REM Oct 29 MSF Hermit Day %
+REM Oct 29 MSF National Frankenstein Day %
+REM Oct 30 MSF National Candy Corn Day %
+REM Oct 30 MSF Mischief Night %
+REM Oct 31 MSF Carve a Pumpkin Day - no surprise here %
+REM Oct 31 MSF Halloween %
+REM Oct 31 MSF Increase Your Psychic Powers Day  %
+
+
+# November, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM November MSG The month of %m is: %_ \
+    Aviation History Month %_ \
+    Child Safety Protection Month %_ \
+    International Drum Month %_ \
+    National Adoption Awareness Month %_ \
+    National Epilepsy Month %_ \
+    National Model Railroad Month %_ \
+    NAtional Novel Writing Month %_ \
+    Native American Heritage Month %_ \
+    Peanut Butter Lovers Month %_ \
+    Real Jewelry Month %_ \
+    National Sleep Comfort Month
+
+# Week Celebrations:
+
+REM Sun Mon Tue Wed Thu Fri Sat Nov [Week_1] MSG The first week of %m is: %_ \
+    Chemistry Week
+REM Sun Mon Tue Wed Thu Fri Sat Nov [Week_3] MSG The third week of %m is: %_ \
+    Game and Puzzle Week
+
+# Daily Celebrations:
+
+REM Nov 1 MSF All Saint's Day %
+REM Nov 2 MSF All Soul's Day %
+REM Nov 2 MSF Look for Circles Day %
+REM Nov 2 MSF Deviled Egg Day %
+REM Sat Nov [Week_1] MSF Book Lovers Day - first Saturday of the month %
+REM Nov 3 MSF Housewife's Day %
+REM Nov 3 MSF Sandwich Day %
+REM Nov 4 MSF King Tut Day %
+REM Nov 5 MSF Gunpowder Day %
+REM Nov 5 MSF Guy Fawkes Day %
+REM Nov 6 MSF Marooned without a Compass Day %
+REM Nov 6 MSF Saxophone Day %
+REM Nov 7 MSF Bittersweet Chocolate with Almonds Day %
+REM Nov 8 MSF Cook Something Bold Day %
+REM Nov 8 MSF Dunce Day %
+REM Nov 9 MSF Chaos Never Dies Day %
+REM Nov 10 MSF Forget-Me-Not Day %
+REM Nov 10 MSF USMC Day %
+REM Nov 11 MSF Veteran's Day %
+REM Nov 12 MSF Chicken Soup for the Soul Day %
+REM Nov 13 MSF National Indian Pudding Day %
+REM Nov 13 MSF Sadie Hawkins Day %
+REM Nov 13 MSF World Kindness Day %
+REM Tue Nov [Week_2] MSF Young Readers Day second Tuesday of month %
+REM Nov 14 MSF Operating Room Nurse Day %
+REM Nov 15 MSF Clean Your Refrigerator Day %
+REM Nov 15 MSF America Recycles Day %
+REM Thu Nov [Week_3] MSF Great American Smokeout  - third Thursday in November %
+REM Nov 15 MSF National Philanthropy Day %
+REM Nov 16 MSF Button Day %
+REM Nov 16 MSF Have a Party With Your Bear Day %
+REM Nov 17 MSF Electronic Greeting Card Day %
+REM Nov 17 MSF Homemade Bread Day %
+REM Sat Nov [Week_3] MSF National Adoption Day - Saturday before Thanksgiving %
+REM Nov 17 MSF Take A Hike Day %
+REM Nov 17 MSF World Peace Day %
+REM Nov 18 MSF Occult Day %
+REM Nov 19 MSF Have a Bad Day Day %
+REM Nov 20 MSF Absurdity Day %
+REM Nov 20 MSF Beautiful Day %
+REM Nov 20 MSF Universal Children's Day %
+REM Nov 21 MSF False Confession Day %
+REM Nov 21 MSF World Hello Day %
+REM Nov 22 MSF Go For a Ride Day %
+REM Nov 23 MSF Black Friday %
+REM Nov 23 MSF Buy Nothing Day %
+REM Nov 23 MSF Eat a Cranberry Day %
+REM Nov 23 MSF National Cashew Day %
+REM Nov 23 MSF You're Welcome Day %
+REM Nov 25 MSF National Parfait Day   %
+REM Nov 26 MSF Shopping Reminder Day %
+REM Nov 27 MSF Pins and Needles Day %
+REM Nov 28 MSF Make Your Own Head Day %
+REM Nov 28 MSF Red Planet Day %
+REM Nov 29 MSF Electronic Greetings Day %
+REM Nov 29 MSF Square Dance Day %
+REM Nov 30 MSF Stay At Home Because You Are Well Day  %
+
+# December, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM December MSG The month of %m is: %_ \
+    Bingo Month %_ \
+    Write a Friend Month
+
+# Each day
+
+REM Dec 1 MSF Eat a Red Apple Day %
+REM Dec 1 MSF World Aids Awareness Day %
+REM Dec 2 MSF National Fritters Day %
+REM Dec 3 MSF National Roof over Your Head Day %
+REM Dec 4 MSF Santa's List Day %
+REM Dec 4 MSF Wear Brown Shoes Day %
+REM Dec 5 MSF Bathtub Party Day %
+REM Dec 5 MSF Repeal Day %
+REM Dec 6 MSF St. Nicholas Day %
+REM Dec 6 MSF Mitten Tree Day %
+REM Dec 6 MSF Put on your own Shoes Day %
+REM Dec 7 MSF International Civil Aviation Day %
+REM Dec 7 MSF Letter Writing Day %
+REM Dec 7 MSF National Cotton Candy Day %
+REM Dec 7 MSF Pearl Harbor Day %
+REM Dec 8 MSF National Brownie Day %
+REM Dec 8 MSF Take it in the Ear Day %
+REM Dec 9 MSF Christmas Card Day %
+REM Sun Dec [Week_2] MSF International Children's Day - Second Sunday in December %
+REM Dec 9 MSF National Pastry Day %
+REM Dec 10 MSF Human Rights Day %
+REM Dec 11 MSF National Noodle Ring Day %
+REM Dec 12 MSF National Ding-a-Ling Day %
+REM Dec 12 MSF Poinsettia Day      %
+REM Dec 13 MSF Ice Cream Day %
+REM Dec 13 MSF Violin Day %
+REM Dec 14 MSF National Bouillabaisse Day %
+REM Dec 15 MSF Bill of Rights Day %
+REM Dec 15 MSF National Lemon Cupcake Day %
+REM Dec 16 MSF National Chocolate Covered Anything Day %
+REM Dec 17 MSF National Maple Syrup Day %
+REM Dec 18 MSF Bake Cookies Day %
+REM Dec 18 MSF National Roast Suckling Pig Day %
+REM Dec 19 MSF Look for an Evergreen Day %
+REM Dec 19 MSF Oatmeal Muffin Day %
+REM Dec 20 MSF Go Caroling Day %
+REM Dec 21 2012 MSF Mayan Calendar Ends %
+REM Dec 21 MSF Forefather's Day %
+REM Dec 21 MSF Humbug Day %
+REM Dec 21 MSF National Flashlight Day %
+REM Dec 21 MSF Look on the Bright Side Day %
+REM Dec 22 MSF National Date Nut Bread Day %
+REM Dec 23 MSF Festivus %
+REM Dec 23 MSF Roots Day %
+REM Dec 24 MSF National Chocolate Day %
+REM Dec 24 MSF National Egg Nog Day %
+REM Dec 25 MSF National Pumpkin Pie Day %
+REM Dec 27 MSF Make Cut Out Snowflakes Day %
+REM Dec 27 MSF National Fruitcake Day %
+REM Dec 28 MSF Card Playing Day %
+REM Dec 29 MSF Pepper Pot Day %
+REM Dec 30 MSF  National Bicarbonate of Soda Day %
+REM Dec 31 MSF Make Up Your Mind Day %
+REM Dec 31 MSF Unlucky Day  %

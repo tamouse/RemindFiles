@@ -93,6 +93,8 @@ SET December  12
 SET Quote CHAR(34)
 
 # Handy constants/function for specifing week of month...
+# Usage: REM <dow> <month> Week_<n> MSG <reminder>
+# Example: REM Sun May [Week_2] MSG Mother's Day 
 SET  Week_1		 1
 SET  Week_2		 8
 SET  Week_3		15
