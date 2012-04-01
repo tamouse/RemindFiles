@@ -34,7 +34,7 @@ REM      Feb 14		MSG %"Valentine's%" Day %
 REM  Mon Feb [Week_3]	SCANFROM [_back(7)] SATISFY 1
 			OMIT [_trig()] MSG %"President's Day%" %
 REM      Mar 17		MSG %"St. Patrick's%" Day %
-REM  Sun Apr  1 ++2	MSG Daylight Savings Time - %"DST starts%" %b %
+#REM  Sun Apr  1 ++2	MSG Daylight Savings Time - %"DST starts%" %b %
 REM      Apr  1		MSG %"April Fool's%" Day %
 REM  Mon Tue Wed Thu Fri Sat 15 Apr MSG %"Income tax%" due %
 REM      May  5		MSG %"Cinco de Mayo%" %
@@ -49,7 +49,7 @@ REM  Mon Sep [Week_1]	SCANFROM [_back(7)] SATISFY 1
 			OMIT [_trig()] MSG %"Labor Day%" %
 REM  Mon Oct [Week_2]	MSG %"Columbus Day%" %
 REM      Nov 11		MSG %"Veterans Day%" %
-REM  Sun [_last(Oct)]	MSG Daylight Savings Time - %"DST over%" %
+#REM  Sun [_last(Oct)]	MSG Daylight Savings Time - %"DST over%" %
 REM      Oct 30		MSG %"Mischief Night%" %
 REM      Oct 31		MSG %"Halloween%" %
 REM  Tue Nov  2		SCANFROM [_back(7)] \
