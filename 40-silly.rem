@@ -438,8 +438,8 @@ REM May 23 MSF Lucky Penny Day %
 REM May 24 MSF National Escargot Day %
 REM May 25 MSF National Missing Children's Day %
 REM May 25 MSF Tap Dance Day %
-REM Sat [_last(May)]	SCANFROM [_back(7)] SATISFY 1 \
-			OMIT [_trig()] MSG %"International Jazz Day" %
+#REM Sat [_last(May)]	SCANFROM [_back(7)] SATISFY 1 \
+#			OMIT [_trig()] MSG %"International Jazz Day" %
 REM May 26 MSF Sally Ride Day %
 REM May 27 MSF Sun Screen Day %
 REM May 28 MSF Amnesty International Day %
@@ -540,7 +540,7 @@ REM July MSG The month of %m is: %_ \
 
 # Week Event:
 
-REM Sun Mon Tue Wed Thu Fri Sat July [Week_2] MSG The second week of %m is: %_ \
+REM July SATISFY [$Td >= 8 && $Td <= 15] MSG Second week of %m is %_ \
     Nude Recreation Week 
 
 # Individual Days:
@@ -565,7 +565,7 @@ REM Jul 9 MSF National Sugar Cookie Day %
 REM Jul 10 MSF Teddy Bear Picnic Day %
 REM Jul 11 MSF Cheer up the Lonely Day %
 REM Jul 11 MSF World Population Day %
-REM Jul 12 MSF Different Colored Eyes Day %
+REM Jul 12 MSF Heterochromia (Different Colored Eyes) Day %
 REM Jul 12 MSF Pecan Pie Day %
 REM Jul 13 MSF Barbershop Music Appreciation Day %
 REM Jul 13 MSF Embrace Your Geekness Day %
