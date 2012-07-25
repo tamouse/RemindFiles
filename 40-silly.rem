@@ -30,7 +30,7 @@ REM Jan MSG The month of January is: %_ \
     National Soup Month
 
 #Week Celebrations:
-REM January SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
+REM January SATISFY [All_Week_2()] MSG Second week of %m is %_ \
     Nude Recreation Week %_ \
     Letter Writing Week
 
@@ -101,7 +101,7 @@ REM Feb MSG The month of %m is: %_ \
 
 #Weekly Celebrations:
 
-REM February SATISFY [All_Week_3($T)] MSG Third week of %m is %_ \
+REM February SATISFY [All_Week_3()] MSG Third week of %m is %_ \
     International Flirting Week
 
 REM Feb 1 MSF National Freedom Day %
@@ -175,7 +175,7 @@ REM Mar MSG The month of %m is: %_ \
 
 # Weeks
 
-REM March SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
+REM March SATISFY [All_Week_2()] MSG Second week of %m is %_ \
     National Bubble Week %_ \
     Crochet Week 
 
@@ -263,15 +263,15 @@ REM April MSG The month of %m is: %_ \
 
 # April Weekly Celebrations:
 
-REM April SATISFY [All_Week_1($T)] MSG The First Week of %m is: %_ \
+REM April SATISFY [All_Week_1()] MSG The First Week of %m is: %_ \
     Library Week %_ \
     Read a Road Map Week.
-REM April SATISFY [All_Week_2($T)] MSG The Second Week of %m is %_ \
+REM April SATISFY [All_Week_2()] MSG The Second Week of %m is %_ \
     Garden Week
-REM April SATISFY [All_Week_3($T)] MSG The Third Week of %m is %_ \
+REM April SATISFY [All_Week_3()] MSG The Third Week of %m is %_ \
     Organize Your Files Week %_ \
     Medical Labs Week 
-REM April SATISFY [All_Week_4($T)] MSG The Fourth Week of %m is %_ \
+REM April SATISFY [All_Week_4()] MSG The Fourth Week of %m is %_ \
     Administrative Assistants Week %_ \
     National Karaoke Week
 
@@ -374,14 +374,14 @@ REM May MSG The month of %m is %_ \
 
 # Weekly Celebrations:
 
-REM May SATISFY [All_Week_1($T)] MSG First week of %m is %_ \
+REM May SATISFY [All_Week_1()] MSG First week of %m is %_ \
      Nurse's Week
-REM May SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
+REM May SATISFY [All_Week_2()] MSG Second week of %m is %_ \
      Wildflower Week
-REM May SATISFY [All_Week_3($T)] MSG Third week of %m is %_ \
+REM May SATISFY [All_Week_3()] MSG Third week of %m is %_ \
      National Bike Week %_ \
      National Police Week
-REM May SATISFY [All_Week_4($T)] MSG Fourth week of %m is %_ \
+REM May SATISFY [All_Week_4()] MSG Fourth week of %m is %_ \
      Emergency Medical Services Week
 
 # Each Day:
@@ -477,9 +477,9 @@ REM Jun MSG The month of %m is: %_ \
 
 # Weeks:
 
-REM Jun SATISFY [All_Week_1($T)] MSG First week of %m is: %_ \
+REM Jun SATISFY [All_Week_1()] MSG First week of %m is: %_ \
     Fishing Week
-REM Jun SATISFY [All_Week_2($T)] MSG Second week of %m is: %_ \
+REM Jun SATISFY [All_Week_2()] MSG Second week of %m is: %_ \
     Email Week
 
 # Daily:
@@ -551,7 +551,7 @@ REM July MSG The month of %m is: %_ \
 
 # Week Event:
 
-REM July SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
+REM July SATISFY [All_Week_2()] MSG Second week of %m is %_ \
     Nude Recreation Week 
 
 # Individual Days:
@@ -630,13 +630,13 @@ REM August MSG The month of %m is: %_ \
 
 # Weekly Events:
 
-REM August [All_Week_1($T)] MSG The first week of %m is: %_ \
+REM August [All_Week_1()] MSG The first week of %m is: %_ \
     National Simplify your Life Week
-REM August [All_Week_2($T)] MSG The second week of %m is: %_ \
+REM August [All_Week_2()] MSG The second week of %m is: %_ \
     National Smile Week
-REM August [All_Week_3($T)] MSG The third week of %m is: %_ \
+REM August [All_Week_3()] MSG The third week of %m is: %_ \
     Friendship Week
-REM August [All_Week_4($T)] MSG The fourth week of %m is: %_ \
+REM August [All_Week_4()] MSG The fourth week of %m is: %_ \
     Be Kind to Humankind Week
 
 # Daily:
@@ -796,13 +796,13 @@ REM October MSG The month of %m is: %_ \
 
 # Weekly Celebrations:
 
-REM  Oct [All_Week_1($T)] MSG The first week of %m is: %_ \
+REM  Oct [All_Week_1()] MSG The first week of %m is: %_ \
      Get Organized Week %_ \
      Customer Service Week
-REM  Oct [All_Week_2($T)] MSG The second week of %m is: %_ \
+REM  Oct [All_Week_2()] MSG The second week of %m is: %_ \
      Fire Prevention Week %_ \
      Pet Peeve Week 
-REM  Oct [All_Week_3($T)] MSG The third week of %m is: %_ \
+REM  Oct [All_Week_3()] MSG The third week of %m is: %_ \
      Pastoral Care Week
 
 
@@ -895,9 +895,9 @@ REM November MSG The month of %m is: %_ \
 
 # Week Celebrations:
 
-REM Nov [All_Week_1($T)] MSG The first week of %m is: %_ \
+REM Nov [All_Week_1()] MSG The first week of %m is: %_ \
     Chemistry Week
-REM Nov [All_Week_3($T)] MSG The third week of %m is: %_ \
+REM Nov [All_Week_3()] MSG The third week of %m is: %_ \
     Game and Puzzle Week
 
 # Daily Celebrations:
@@ -1025,5 +1025,6 @@ REM Dec 30 MSF  National Bicarbonate of Soda Day %
 REM Dec 31 MSF Make Up Your Mind Day %
 REM Dec 31 MSF Unlucky Day  %
 
-REM Fri 13 MSG Happy Triskaidekaphobia Day %
+REM 13 SATISFY [wkdaynum(TRIGDATE()) == 5] MSG Happy Triskaidekaphilia Day!%
+
 
