@@ -100,6 +100,11 @@ SET  Week_2		 8
 SET  Week_3		15
 SET  Week_4		22
 FSET _last(mo)		"1 " + MON((mo%12)+1)+" --7"
+FSET All_Week_1(x)	day(x) <=  7
+FSET All_Week_2(x)	day(x) >=  8 && day(x) <= 15
+FSET All_Week_3(x)	day(x) >= 16 && day(x) <= 22
+FSET All_Week_4(x)	day(x) >= 23 && day(x) <= 29
+FSET All_Week_5(x)	day(x) >= 30
 
 # Shorthand for commonly used expression...
 FSET _trig()		TRIGGER(TRIGDATE())

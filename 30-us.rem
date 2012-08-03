@@ -29,6 +29,8 @@ REM  [TRIGGER(easter+60)] MSG %"Corpus Christi%" %
 
 OMIT     Jan  1		MSG %"New Year's%" Day %
 REM  Mon Jan [Week_3]	MSG Martin Luther King - %"MLK Day%" %
+REM Mon Jan [Week_3] MSF Lee-Jackson Day in Virginia (3rd Monday) %
+REM Mon Jan [Week_3] MSF Robert E. Lee's Birthday in Alabama & Mississippi (3rd Monday) %
 REM      Feb  2		MSG %"Ground Hog Day%" %
 REM      Feb 14		MSG %"Valentine's%" Day %
 REM  Mon Feb [Week_3]	SCANFROM [_back(7)] SATISFY 1

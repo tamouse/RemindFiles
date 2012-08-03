@@ -1,4 +1,18 @@
 # Silly Holidays from http://holidayinsights.com/moreholidays/index.htm
+#
+# For week long holidays:
+# REM month SATISFY [All_Week_1($T)] MSG First week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_3($T)] MSG Third week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_4($T)] MSG Fourth week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_5($T)] MSG Fifth week of %m is %_ \
+#    events
+
+
 
 MSG
 
@@ -16,9 +30,9 @@ REM Jan MSG The month of January is: %_ \
     National Soup Month
 
 #Week Celebrations:
-REM  Sun Mon Tue Wed Thu Fri Sat Jan [Week_2] \
-MSG Second week of January is:%_ \
-     Letter Writing Week
+REM January SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
+    Nude Recreation Week %_ \
+    Letter Writing Week
 
 REM Jan 02 MSF Run It Up The Flagpole and See If Anyone Salutes Day %
 REM Jan 03 MSF Fruitcake Toss Day %
@@ -57,6 +71,7 @@ REM Jan 23 MSF Measure Your Feet Day %
 REM Jan 24 MSF Opposite Day %
 REM Jan 24 MSF Compliment Day %
 REM Jan 24 MSF Beer Can Appreciation Day %
+REM Jan 25 MSG Robert Burns Day/Burns Night %
 REM Jan 26 MSF Spouse's Day %
 REM Jan 27 MSF Punch the Clock Day %
 REM Jan 27 MSF No Brainer Day %
@@ -68,10 +83,11 @@ REM Jan 29 MSF National Corn Chip Day %
 REM Jan 30 MSF National Inane Answering Message Day %
 REM Jan 31 MSF Inspire Your Heart With Art Day %
 REM Jan 31 MSF Backward Day %
+REM Jan 31 MSG National Gorilla Suit Day %
 
 # February
 # Month:
-REM Feb MSF The month of %m is: %_ \
+REM Feb MSG The month of %m is: %_ \
     American Heart Month %_ \
     An Affair to Remember Month %_ \
     Black History Month %_ \
@@ -85,8 +101,7 @@ REM Feb MSF The month of %m is: %_ \
 
 #Weekly Celebrations:
 
-REM Sun Mon Tue Wed Thu Fri Sat February [Week_3] \
-    MSF The 3rd week of %m is: %_ \
+REM February SATISFY [All_Week_3($T)] MSG Third week of %m is %_ \
     International Flirting Week
 
 REM Feb 1 MSF National Freedom Day %
@@ -160,8 +175,7 @@ REM Mar MSG The month of %m is: %_ \
 
 # Weeks
 
-REM Sun Mon Tue Wed Thu Fri Sat Mar [Week_2] \
-    MSG The second week in %m is: %_ \
+REM March SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
     National Bubble Week %_ \
     Crochet Week 
 
@@ -249,19 +263,15 @@ REM April MSG The month of %m is: %_ \
 
 # April Weekly Celebrations:
 
-REM Sun Mon Tue Wed Thu Fri Sat April [Week_1] \
-    MSG The First Week of %m is: %_ \
+REM April SATISFY [All_Week_1($T)] MSG The First Week of %m is: %_ \
     Library Week %_ \
     Read a Road Map Week.
-REM Sun Mon Tue Wed Thu Fri Sat April [Week_2] \
-    MSG The Second Week of %m is %_ \
+REM April SATISFY [All_Week_2($T)] MSG The Second Week of %m is %_ \
     Garden Week
-REM Sun Mon Tue Wed Thu Fri Sat April [Week_3] \
-    MSG The Third Week of %m is %_ \
+REM April SATISFY [All_Week_3($T)] MSG The Third Week of %m is %_ \
     Organize Your Files Week %_ \
     Medical Labs Week 
-REM Sun Mon Tue Wed Thu Fri Sat April [Week_4] \
-    MSG The Fourth Week of %m is %_ \
+REM April SATISFY [All_Week_4($T)] MSG The Fourth Week of %m is %_ \
     Administrative Assistants Week %_ \
     National Karaoke Week
 
@@ -350,6 +360,7 @@ REM Thu Apr [Week_4] MSF Take Your Daughter to Work 4th Thursday %
 # Month:
 
 REM May MSG The month of %m is %_ \
+    EDS Awareness Month %_ \
     Date Your Mate Month %_ \
     Foster Care Month %_ \
     National Barbecue Month %_ \
@@ -363,14 +374,14 @@ REM May MSG The month of %m is %_ \
 
 # Weekly Celebrations:
 
-REM Sun Mon Tue Wed Thu Fri Sat May [Week_1] MSG The first week of %m is %_ \
+REM May SATISFY [All_Week_1($T)] MSG First week of %m is %_ \
      Nurse's Week
-REM Sun Mon Tue Wed Thu Fri Sat May [Week_2] MSG The second week of %m is %_ \
+REM May SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
      Wildflower Week
-REM Sun Mon Tue Wed Thu Fri Sat May [Week_3] MSG The third week of %m is %_ \
+REM May SATISFY [All_Week_3($T)] MSG Third week of %m is %_ \
      National Bike Week %_ \
      National Police Week
-REM Sun Mon Tue Wed Thu Fri Sat May [Week_4] MSG The fourth week of %m is %_ \
+REM May SATISFY [All_Week_4($T)] MSG Fourth week of %m is %_ \
      Emergency Medical Services Week
 
 # Each Day:
@@ -417,6 +428,7 @@ REM May 13 MSF Frog Jumping Day %
 REM May 13 MSF Leprechaun Day %
 REM May 14 MSF Dance Like a Chicken Day %
 REM May 15 MSF National Chocolate Chip Day %
+REM May 15 MSF National Sea Monkey Day %
 REM May 15 MSF Police Officer's Memorial Day %
 REM May 16 MSF Love a Tree Day %
 REM May 16 MSF National Sea Monkey Day %
@@ -436,8 +448,8 @@ REM May 23 MSF Lucky Penny Day %
 REM May 24 MSF National Escargot Day %
 REM May 25 MSF National Missing Children's Day %
 REM May 25 MSF Tap Dance Day %
-REM Sat [_last(May)]	SCANFROM [_back(7)] SATISFY 1
-			OMIT [_trig()] MSG %"International Jazz Day" %
+#REM Sat [_last(May)]	SCANFROM [_back(7)] SATISFY 1 \
+#			OMIT [_trig()] MSG %"International Jazz Day" %
 REM May 26 MSF Sally Ride Day %
 REM May 27 MSF Sun Screen Day %
 REM May 28 MSF Amnesty International Day %
@@ -465,9 +477,9 @@ REM Jun MSG The month of %m is: %_ \
 
 # Weeks:
 
-REM Sun Mon Tue Wed Thu Fri Sat Jun [Week_1] MSG First week of %m is: %_ \
+REM Jun SATISFY [All_Week_1($T)] MSG First week of %m is: %_ \
     Fishing Week
-REM Sun Mon Tue Wed Thu Fri Sat Jun [Week_2] MSG Second week of %m is: %_ \
+REM Jun SATISFY [All_Week_2($T)] MSG Second week of %m is: %_ \
     Email Week
 
 # Daily:
@@ -496,6 +508,7 @@ REM Jun 14 MSF Flag Day %
 REM Jun 15 MSF Smile Power Day %
 REM Jun 16 MSF Fresh Veggies Day %
 REM Jun 16 MSF Nursing Assistants Day - First day of National Nursing Assistants Week %
+REM Jun 16 MSG Bloomsday (https://en.wikipedia.org/wiki/Bloomsday) %
 REM Sat Jun [Week_3] MSF National Hollerin' Contest Day - third Saturday in June %
 REM Sat Jun 17 SCANFROM [_back(1)] SATISFY 1
     	       OMIT [_trig()] MSF World Juggler's Day - Saturday closest to June 17th %
@@ -538,7 +551,7 @@ REM July MSG The month of %m is: %_ \
 
 # Week Event:
 
-REM Sun Mon Tue Wed Thu Fri Sat July [Week_2] MSG The second week of %m is: %_ \
+REM July SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
     Nude Recreation Week 
 
 # Individual Days:
@@ -563,7 +576,7 @@ REM Jul 9 MSF National Sugar Cookie Day %
 REM Jul 10 MSF Teddy Bear Picnic Day %
 REM Jul 11 MSF Cheer up the Lonely Day %
 REM Jul 11 MSF World Population Day %
-REM Jul 12 MSF Different Colored Eyes Day %
+REM Jul 12 MSF Heterochromia (Different Colored Eyes) Day %
 REM Jul 12 MSF Pecan Pie Day %
 REM Jul 13 MSF Barbershop Music Appreciation Day %
 REM Jul 13 MSF Embrace Your Geekness Day %
@@ -584,6 +597,7 @@ REM Jul 21 MSF National Junk Food Day %
 REM Jul 22 MSF Hammock Day %
 REM Sun Jul [Week_4] MSF Parent's Day  - fourth Sunday in July %
 REM Jul 22 MSF Ratcatcher's Day %
+REM Jul 22 MSG Pi Approximation Day (22/7) %
 REM Jul 23 MSF National Hot Dog Day %
 REM Jul 23 MSF Vanilla Ice Cream Day %
 REM Jul 24 MSF Amelia Earhart Day %
@@ -616,13 +630,13 @@ REM August MSG The month of %m is: %_ \
 
 # Weekly Events:
 
-REM Sun Mon Tue Wed Thu Fri Sat August [Week_1] MSG The first week of %m is: %_ \
+REM August [All_Week_1($T)] MSG The first week of %m is: %_ \
     National Simplify your Life Week
-REM Sun Mon Tue Wed Thu Fri Sat August [Week_2] MSG The second week of %m is: %_ \
+REM August [All_Week_2($T)] MSG The second week of %m is: %_ \
     National Smile Week
-REM Sun Mon Tue Wed Thu Fri Sat August [Week_3] MSG The third week of %m is: %_ \
+REM August [All_Week_3($T)] MSG The third week of %m is: %_ \
     Friendship Week
-REM Sun Mon Tue Wed Thu Fri Sat August [Week_4] MSG The fourth week of %m is: %_ \
+REM August [All_Week_4($T)] MSG The fourth week of %m is: %_ \
     Be Kind to Humankind Week
 
 # Daily:
@@ -783,13 +797,13 @@ REM October MSG The month of %m is: %_ \
 
 # Weekly Celebrations:
 
-REM Sun Mon Tue Wed Thu Fri Sat Oct [Week_1] MSG The first week of %m is: %_ \
+REM  Oct [All_Week_1($T)] MSG The first week of %m is: %_ \
      Get Organized Week %_ \
      Customer Service Week
-REM Sun Mon Tue Wed Thu Fri Sat Oct [Week_2] MSG The second week of %m is: %_ \
+REM  Oct [All_Week_2($T)] MSG The second week of %m is: %_ \
      Fire Prevention Week %_ \
      Pet Peeve Week 
-REM Sun Mon Tue Wed Thu Fri Sat Oct [Week_3] MSG The third week of %m is: %_ \
+REM  Oct [All_Week_3($T)] MSG The third week of %m is: %_ \
      Pastoral Care Week
 
 
@@ -882,9 +896,9 @@ REM November MSG The month of %m is: %_ \
 
 # Week Celebrations:
 
-REM Sun Mon Tue Wed Thu Fri Sat Nov [Week_1] MSG The first week of %m is: %_ \
+REM Nov [All_Week_1($T)] MSG The first week of %m is: %_ \
     Chemistry Week
-REM Sun Mon Tue Wed Thu Fri Sat Nov [Week_3] MSG The third week of %m is: %_ \
+REM Nov [All_Week_3($T)] MSG The third week of %m is: %_ \
     Game and Puzzle Week
 
 # Daily Celebrations:
