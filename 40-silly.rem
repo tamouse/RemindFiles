@@ -630,13 +630,13 @@ REM August MSG The month of %m is: %_ \
 
 # Weekly Events:
 
-REM August [All_Week_1()] MSG The first week of %m is: %_ \
+REM August SATISFY [All_Week_1()] MSG The first week of %m is: %_ \
     National Simplify your Life Week
-REM August [All_Week_2()] MSG The second week of %m is: %_ \
+REM August SATISFY [All_Week_2()] MSG The second week of %m is: %_ \
     National Smile Week
-REM August [All_Week_3()] MSG The third week of %m is: %_ \
+REM August SATISFY [All_Week_3()] MSG The third week of %m is: %_ \
     Friendship Week
-REM August [All_Week_4()] MSG The fourth week of %m is: %_ \
+REM August SATISFY [All_Week_4()] MSG The fourth week of %m is: %_ \
     Be Kind to Humankind Week
 
 # Daily:

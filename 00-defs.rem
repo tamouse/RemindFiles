@@ -665,3 +665,36 @@ SET BrWht Esc + "[37;1m"
 # file.  They make queued reminders more eye-catching when they pop up.
 #FSET msgprefix(x) char(13,10,13,10)+"******************"+char(13,10,13,10)
 #FSET msgsuffix(x) char(13,10)+"******************"+char(13,10,13,10)
+
+# NOTIFY is an environment variable that contains a string for a
+# shell command to execute to pop up the reminder.
+#
+# The way the RUN directive works, however, means you effectively
+# have to put the event in twice:
+#  1) so it shows up in the regular run of remind -q (no events)
+#  2) so it can be used to run a pop-up notification using the
+#     $NOTIFY envar
+#
+# On Ubuntu, the NOTIFY command that works best is:
+#     NOTIFY='/usr/bin/notify-send -t 0 REMINDER'
+#
+# On Mac, the NOTIFY command should be:
+#     NOTIFY='/usr/local/bin/growlnotify --sticky --message'
+#   For this to work the entire message must be quoted
+#
+# On non-Ubutu linuxen or other unixen with X Windows, you can probably gin
+# something up with xmessage:
+#     NOTIFY='/usr/bin/xmessage -center'
+#
+# To use this feature, run remind in server-mode:
+#
+#  remind -z <remind-files> &
+#
+# (Include the & to send it to the background.)
+#
+# Best place to set this is in your .profile. DON'T FORGET TO EXPORT IT.
+# Otherwise, you can stack it in front of the call to remind:
+#
+#  NOTIFY='/usr/bin/notify-send -t 0 REMINDER' remind -z ~/.remind/ &
+#
+
