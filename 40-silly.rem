@@ -1,15 +1,15 @@
 # Silly Holidays from http://holidayinsights.com/moreholidays/index.htm
 #
 # For week long holidays:
-# REM month SATISFY [All_Week_1($T)] MSG First week of %m is %_ \
+# REM month SATISFY [All_Week_1()] MSG First week of %m is %_ \
 #    events
-# REM month SATISFY [All_Week_2($T)] MSG Second week of %m is %_ \
+# REM month SATISFY [All_Week_2()] MSG Second week of %m is %_ \
 #    events
-# REM month SATISFY [All_Week_3($T)] MSG Third week of %m is %_ \
+# REM month SATISFY [All_Week_3()] MSG Third week of %m is %_ \
 #    events
-# REM month SATISFY [All_Week_4($T)] MSG Fourth week of %m is %_ \
+# REM month SATISFY [All_Week_4()] MSG Fourth week of %m is %_ \
 #    events
-# REM month SATISFY [All_Week_5($T)] MSG Fifth week of %m is %_ \
+# REM month SATISFY [All_Week_5()] MSG Fifth week of %m is %_ \
 #    events
 
 
@@ -797,14 +797,24 @@ REM October MSG The month of %m is: %_ \
 
 # Weekly Celebrations:
 
-REM  Oct [All_Week_1()] MSG The first week of %m is: %_ \
+REM October SATISFY [All_Week_1()] MSG First week of %m is %_ \
      Get Organized Week %_ \
      Customer Service Week
-REM  Oct [All_Week_2()] MSG The second week of %m is: %_ \
+
+REM October SATISFY [All_Week_2()] MSG Second week of %m is %_ \
      Fire Prevention Week %_ \
      Pet Peeve Week 
-REM  Oct [All_Week_3()] MSG The third week of %m is: %_ \
+
+REM October SATISFY [All_Week_3()] MSG Third week of %m is %_ \
      Pastoral Care Week
+
+#REM October SATISFY [All_Week_4()] MSG Fourth week of %m is %_ \
+
+#REM October SATISFY [All_Week_5()] MSG Fifth week of %m is %_ \
+
+#REM  Oct SATISFY [All_Week_1()] MSG The first week of %m is: %_ \
+#REM  Oct SATISFY [All_Week_2()] MSG The second week of %m is: %_ \
+#REM  Oct SATISFY [All_Week_3()] MSG The third week of %m is: %_ \
 
 
 # Each Day:
@@ -861,7 +871,7 @@ REM Oct 24 MSF National Bologna Day %
 REM Oct 24 MSF United Nations Day     %
 REM Oct 25 MSF Punk for a Day Day %
 REM Oct 25 MSF World Pasta Day %
-REM Oct 26 MSF Frankenstein Friday - last Friday in October %
+    	 REM Oct 26 MSF Frankenstein Friday - last Friday in October %
 REM Oct 26 MSF National Mincemeat Day %
 REM Oct 27 MSF Make a Difference Day-  fourth Saturday of the month, an opportunity for neighbors to help neighbors. %
 REM Oct 27 MSF National Tell a Story Day - in Scotland and the U.K. %
@@ -896,9 +906,9 @@ REM November MSG The month of %m is: %_ \
 
 # Week Celebrations:
 
-REM Nov [All_Week_1()] MSG The first week of %m is: %_ \
+REM Nov SATISFY [All_Week_1()] MSG The first week of %m is: %_ \
     Chemistry Week
-REM Nov [All_Week_3()] MSG The third week of %m is: %_ \
+REM Nov SATISFY [All_Week_3()] MSG The third week of %m is: %_ \
     Game and Puzzle Week
 
 # Daily Celebrations:
