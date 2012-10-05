@@ -24,6 +24,7 @@ REM Jan MSG The month of January is: %_ \
     National Bath Safety Month %_ \
     National Blood Donor Month %_ \
     National Braille Literacy Month %_ \
+    National Glaucoma Awareness Month %_ \
     National Hobby Month %_ \
     Hot Tea Month %_ \
     National Oatmeal Month %_ \
@@ -94,6 +95,7 @@ REM Feb MSG The month of %m is: %_ \
     Canned Food Month %_ \
     Creative Romance Month %_ \
     Great American Pie Month %_ \
+    National AMD/Low Vision Awareness Month %_ \
     National Cherry Month %_ \
     National Children’s Dental Health Month %_ \
     National Grapefruit Month %_ \
@@ -164,6 +166,7 @@ REM Mar MSG The month of %m is: %_ \
     Irish American Month %_ \
     Music in Our Schools Month %_ \
     National Craft Month %_ \
+    National Eye Wellness Month %_ \
     National Frozen Food Month %_ \
     National Irish American Heritage Month- designated by Congress in 1995. %_ \
     National Nutrition Month %_ \
@@ -259,7 +262,8 @@ REM April MSG The month of %m is: %_ \
     National Welding Month %_ \
     Records and Information Management Month %_ \
     Stress Awareness Month %_ \
-    Sexual Assault Awareness Month
+    Sexual Assault Awareness Month %_ \
+    Women's Eye Health and Safety Month
 
 # April Weekly Celebrations:
 
@@ -370,7 +374,9 @@ REM May MSG The month of %m is %_ \
     National Photograph Month %_ \
     National Recommitment Month %_ \
     National Salad Month %_ \
-    Older Americans Month
+    Older Americans Month %_ \
+    Ultraviolet Awareness Month
+
 
 # Weekly Celebrations:
 
@@ -466,8 +472,10 @@ REM May 31 MSF World No Tobacco Day %
 REM Jun MSG The month of %m is: %_ \
     Aquarium Month %_ \
     Candy Month %_ \
+    Cataract Awareness Month %_ \
     Dairy Month %_ \
     Fight the Filthy Fly Month %_ \
+    Fireworks Safety Month %_ \
     Gay Pride Month %_ \
     National Accordion Awareness Month %_ \
     National Adopt a Cat Month %_ \
@@ -542,6 +550,7 @@ REM Jun 30 MSF Meteor Day  %
 # Month:
 
 REM July MSG The month of %m is: %_ \
+    Fireworks Safety Month %_ \
     National Blueberry Month %_ \
     National Anti-Boredom Month %_ \
     Unlucky Month for weddings %_ \
@@ -619,6 +628,7 @@ REM Jul 31 MSF Mutt's Day  %
 
 REM August MSG The month of %m is: %_ \
     Admit You're Happy Month %_ \
+    Childrens' Eye Heath and Safety Month %_ \
     Family Fun Month %_ \
     National Catfish Month %_ \
     National Eye Exam Month %_ \
@@ -691,19 +701,21 @@ REM Aug 31 MSF National Trail Mix Day  %
 # Month:
 
 REM September MSG The month of %m is: %_ \
+    Baby Safety Month %_ \
+    Better Breakfast Month %_ \
+    Chicken Month %_ \
     Classical Music Month %_ \
-    Hispanic Heritage Month %_ \
     Fall Hat Month %_ \
+    Hispanic Heritage Month %_ \
+    Honey Month %_ \
     International Square Dancing Month %_ \
+    Little League Month %_ \
     National Blueberry Popsicle Month %_ \
     National Courtesy Month %_ \
     National Piano Month %_ \
-    Chicken Month %_ \
-    Baby Safety Month %_ \
-    Little League Month %_ \
-    Honey Month %_ \
     Self Improvement Month %_ \
-    Better Breakfast Month
+    Sports Eye Safety Month
+
 
 # Each Day:
 
@@ -786,6 +798,7 @@ REM October MSG The month of %m is: %_ \
     Cookie Month %_ \
     Domestic Violence Awareness Month %_ \
     Eat Country Ham Month %_ \
+    Home Eye Safety Month %_ \
     International Drum Month %_ \
     Lupus Awareness Month %_ \
     National Diabetes Month %_ \
@@ -894,15 +907,16 @@ REM Oct 31 MSF Increase Your Psychic Powers Day  %
 REM November MSG The month of %m is: %_ \
     Aviation History Month %_ \
     Child Safety Protection Month %_ \
+    Diabetic Eye Disease Month %_ \
     International Drum Month %_ \
     National Adoption Awareness Month %_ \
     National Epilepsy Month %_ \
     National Model Railroad Month %_ \
-    NAtional Novel Writing Month %_ \
+    National Novel Writing Month %_ \
+    National Sleep Comfort Month %_ \
     Native American Heritage Month %_ \
     Peanut Butter Lovers Month %_ \
     Real Jewelry Month %_ \
-    National Sleep Comfort Month
 
 # Week Celebrations:
 
@@ -977,6 +991,7 @@ REM Nov 30 MSF Stay At Home Because You Are Well Day  %
 
 REM December MSG The month of %m is: %_ \
     Bingo Month %_ \
+    Safe Toys and Gifts Month %_ \
     Write a Friend Month
 
 # Each day
