@@ -1,3 +1,5 @@
+MSG %_Jewish Holidays:%
+
 #JHOLS
 ##########################################################################
 #								         #
@@ -14,6 +16,8 @@
 # further corrections are welcome.					 #
 #				        			         #
 ##########################################################################
+
+MSG [hebday(today())] [hebmon(today())] [hebyear(today())] of the Jewish Calendar %
 
 # Here are some general functions that you might find nice to use
 
@@ -156,3 +160,5 @@ ENDIF
 
 REM Friday   CAL Candle lighting at [sunset(trigdate())-18]
 REM Saturday CAL Havdalah at [sunset(trigdate())+42]
+
+MSG

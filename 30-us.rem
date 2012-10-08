@@ -1,3 +1,5 @@
+MSG %_United States Holidays:%
+
 #USHOLS
 #############################################################################
 #       								    #
@@ -32,9 +34,11 @@ REM  Mon Jan [Week_3]	MSG Martin Luther King - %"MLK Day%" %
 REM Mon Jan [Week_3] MSF Lee-Jackson Day in Virginia (3rd Monday) %
 REM Mon Jan [Week_3] MSF Robert E. Lee's Birthday in Alabama & Mississippi (3rd Monday) %
 REM      Feb  2		MSG %"Ground Hog Day%" %
+REM Feb 12 MSF Abraham Lincoln's Birthday %
 REM      Feb 14		MSG %"Valentine's%" Day %
 REM  Mon Feb [Week_3]	SCANFROM [_back(7)] SATISFY 1
 			OMIT [_trig()] MSG %"President's Day%" %
+REM Feb 22 MSF George Washington's Birthday %
 REM      Mar 17		MSG %"St. Patrick's%" Day %
 #REM  Sun Apr  1 ++2	MSG Daylight Savings Time - %"DST starts%" %b %
 REM      Apr  1		MSG %"April Fool's%" Day %
@@ -47,11 +51,14 @@ REM  Mon [_last(May)]	SCANFROM [_back(7)] SATISFY 1
 			OMIT [_trig()] MSG %"Memorial Day%" %
 REM      Jun 14		MSG %"Flag Day%" %
 REM  Sun Jun [Week_3]	MSG %"Father's Day%" %
+REM Aug 4 MSF U.S. Coast Guard Day %
 REM  Mon Sep [Week_1]	SCANFROM [_back(7)] SATISFY 1
 			OMIT [_trig()] MSG %"Labor Day%" %
 REM  Mon Oct [Week_2]	MSG %"Columbus Day%" %
+REM Nov 10 MSF USMC Day %
 REM      Nov 11		MSG %"Veterans Day%" %
 #REM  Sun [_last(Oct)]	MSG Daylight Savings Time - %"DST over%" %
+REM      Oct 18		MSG %"Alaska Day%" %
 REM      Oct 30		MSG %"Mischief Night%" %
 REM      Oct 31		MSG %"Halloween%" %
 REM  Tue Nov  2		SCANFROM [_back(7)] \
@@ -70,6 +77,7 @@ REM Apr 28 MSF Arbor Day, USA (varies from state to state) %
 REM Jul 04 MSF US Independence Day %
 REM Sun Sep [Week_2] MSF Grandparent's Day in USA (2nd Sunday of September; varies from state to state) %
 REM Nov 11 MSF Veterans' Day %
+REM Dec 15 MSG Bill of Rights Day %
 REM Dec 31 MSF New Year's Eve %
 
 ##########################################################################

@@ -1,4 +1,4 @@
-# Canadian Holidays (gleened from WP)
+MSG %_Canadian Holidays: %
 
 
 REM Jan 1 MSG New Year's Day %
@@ -7,7 +7,7 @@ REM [TRIGGER(easter-2)] MSG Good Friday %
 REM [TRIGGER(easter+1)] MSG Easter Monday %
 #REM Mon May (Last Monday on or before 24 May) MSG – Victoria Day. Also known as "Journée nationale des Patriotes" in Quebec. %
 REM June 24 MSG Fête nationale du Québec also known as St. John the Baptist Day – public holiday in Quebec %
-REM July 1 MSG Canada Day %
+REM July 1 MSG Canada (Dominion) Day %
 REM Mon Aug [Week_1] MSG name varies by province, not a holiday in Quebec %
 REM Mon Sep [Week_1] MSG Labour Day %
 REM Monday October [Week_2] MSG Thanksgiving Day %

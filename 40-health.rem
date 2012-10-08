@@ -1,0 +1,137 @@
+## Health observances (lifted from wikipedia)
+
+REM January MSG %_Health Observances in %m: %_ \
+    National Glaucoma Awareness Month %_ \
+
+
+REM February MSG %_Health Observances in %m: %_ \
+    American Heart Month %_ \
+    National AMD/Low Vision Awareness Month %_ \
+    National Children’s Dental Health Month %_ \
+
+
+REM Fri Feb [Week_1] MSG National Wear Red Day, US %
+REM Feb 26 MSG National Wear Red Day, UK %
+REM Feb 14 MSF National Organ Donor Day %
+
+
+
+REM March MSG %_Health Observances in %m: %_ \
+    National Eye Wellness Month %_ \
+    National Nutrition Month, US (American Diabetic Ass'n) %_ \
+    American Red Cross Month %_ \
+    Colorectal Cancer Awareness Month %_ \
+    
+
+
+REM Mar SATISFY [All_Week_3()] MSG Multiple Sclerosis Awareness Week %
+
+REM Mar 1 MSG Self-Injuray Awareness Day %
+REM Mar 5 MSF Multiple Personality Day %
+REM Mar 6 MSF Dentist's Day %
+REM Thu Mar [Week_3] MSG World Kidney Day %
+
+
+REM April MSG %_Health Observances in %m: %_ \
+    Stress Awareness Month %_ \
+    Women's Eye Health and Safety Month %_ \
+
+
+REM Apr 7 MSG World Health Day %
+REM Apr 16 MSG National Healthcare Decisions Day (US) %
+
+REM May MSG %_Health Observances in %m: %_ \
+    Brain Tumour Awareness Month %_ \
+    EDS Awareness Month %_ \
+    Mental Health Awareness Month %_ \
+    National ALS Awareness Month %_ \
+    National Blood Pressure Month %_ \
+    Skin Cancer Awareness Month $_ \
+    Ultraviolet Awareness Month %_ \
+
+
+
+REM May SATISFY [All_Week_4()] MSG Health Observances fourth week of %m is %_ \
+     Emergency Medical Services Week
+
+REM 12 May MSG Chronic Immunological and Neurological Diseases Awareness Day %
+
+
+REM June MSG %_Health Observances in %m: %_ \
+    Cataract Awareness Month %_ \
+
+REM 15 June +30 MSG Tourette's Syndrome Awareness %
+
+REM July MSG %_Health Observances in %m: %_ \
+    Fireworks Safety Month %_ \
+
+
+
+REM August MSG %_Health Observances in %m: %_ \
+    Cataract Awareness Month %_ \
+    Childrens' Eye Heath and Safety Month %_ \
+    Childrens' Vision and Learning Month %_ \
+    National Eye Exam Month %_ \
+    National Immunization Month %_ \
+    National Psoriasis Awareness Month %_ \
+    Neurosurgery Outreach Month %_ \
+    Spinal Muscular Atrophy Month %_ \
+
+
+REM September MSG %_Health Observances in %m: %_ \
+    Baby Safety Month %_ \
+    Prostate Cancer Awareness Month %_ \
+    Sports Eye Safety Month
+
+
+
+REM October MSG %_Health Observances in %m: %_ \
+    Celiac Sprue Awareness Month %_ \
+    Health Literacy Month %_ \
+    Healthy Lung Month %_ \
+    Home Eye Safety Month %_ \
+    National Breast Cancer Awareness Month (in United States and Canada) %_ \
+    National Dental Hygiene Month (in United States) %_ \
+    National Diabetes Month %_ \
+    National Down Syndrome Awareness Month (in United States) %_ \
+    National Infertility Awareness Month (in United States) %_ \
+    National Domestic Violence Awareness Month (in United States) %_ \
+    National Lupus Erythematosus Awareness Month (in United States) %_ \
+    National Physical Therapy Month (in United States) %_ \
+    National Spina Bifida Awareness Month (in United States) %_ \
+    Rett Syndrome Awareness Month (in United States) %_ \
+    Sudden Infant Death Syndrome (SIDS) Awareness Month (in United States)  %_ \
+    World Blindness Awareness Month %_ \
+    American Pharmacist Month  %_ \
+    Medical Ultrasound Awareness Month  %_ \
+    3D Ultrasound Awareness Month  %_ \
+
+
+REM October SATISFY [All_Week_1()] MSG Health Observances for first week of %m: %_ \
+    Mental Illness Awareness Week %_ \
+
+
+
+REM November MSG %_Health Observances in %m: %_ \
+    Alzheimer's Disease Awareness Month %_ \
+    American Diabetes Month %_ \
+    Child Safety Protection Month %_ \
+    Chronic Obstructive Pulmonary Disease (COPD) Awareness Month %_ \
+    Crohn's & Ulcerative Colitis Awareness Month %_ \
+    Diabetic Eye Disease Month %_ \
+    Epilepsy Awareness Month %_ \
+    Lung Cancer Awareness Month %_ \
+    National Epilepsy Month %_ \
+    National Stomach Cancer Awareness Month %_ \
+    Pancreatic Cancer Awareness Month %_ \
+    
+
+
+REM Thu Nov [Week_3] MSG Great American Smokeout %
+
+REM 14 Nov MSG World Diabetes Day %
+
+
+# REM December MSG %_Health Observances in %m: %_ \
+
+REM Dec 1 MSF World Aids Awareness Day %

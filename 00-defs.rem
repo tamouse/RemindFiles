@@ -216,21 +216,21 @@ FSET _mo_num(mo, yr)		ORD(12 * (YEAR(TRIGDATE()) - yr) + \
 # The SCANFROM clause should help make these OMITs very safe.
 ############################################################################
 
-# Calculate the weekday of the holiday.
-REM 4 July SCANFROM [_back(7)] SATISFY 1
-
-IF WKDAYNUM(TRIGDATE()) == Sat
-	REM [TRIGGER(TRIGDATE())] MSG Independence day (actual)
-	OMIT [TRIGGER(TRIGDATE()-1)] MSG Independence day (observed)
-ELSE
-	IF WKDAYNUM(TRIGDATE()) == Sun
-		REM [TRIGGER(TRIGDATE())] MSG Independence day (actual)
-		OMIT [TRIGGER(TRIGDATE()+1)] MSG Independence day (observed)
-	ELSE
-		OMIT [TRIGGER(TRIGDATE())] MSG Independence day
-	ENDIF
-ENDIF
-
+## # Calculate the weekday of the holiday.
+## REM 4 July SCANFROM [_back(7)] SATISFY 1
+## 
+## IF WKDAYNUM(TRIGDATE()) == Sat
+## 	REM [TRIGGER(TRIGDATE())] MSG Independence day (actual)
+## 	OMIT [TRIGGER(TRIGDATE()-1)] MSG Independence day (observed)
+## ELSE
+## 	IF WKDAYNUM(TRIGDATE()) == Sun
+## 		REM [TRIGGER(TRIGDATE())] MSG Independence day (actual)
+## 		OMIT [TRIGGER(TRIGDATE()+1)] MSG Independence day (observed)
+## 	ELSE
+## 		OMIT [TRIGGER(TRIGDATE())] MSG Independence day
+## 	ENDIF
+## ENDIF
+## 
 ############################################################################
 #									   #
 # A meeting on the first Monday of every month which is moved to the       #
@@ -327,7 +327,7 @@ ENDIF
 
 # The following reminder will shade the Saturday and Sunday calendar
 # entries.
-REM Sat Sun SPECIAL SHADE 220
+# REM Sat Sun SPECIAL SHADE 220
 
 # #USHOLS
 # #############################################################################
@@ -337,8 +337,8 @@ REM Sat Sun SPECIAL SHADE 220
 # #									    #
 # #############################################################################
 # 
-# SET SaveTrig $NumTrig
-# SET easter EASTERDATE(YEAR(TODAY()))
+SET SaveTrig $NumTrig
+SET easter EASTERDATE(YEAR(TODAY()))
 # 
 # REM  [TRIGGER(easter-46)] MSG %"Ash Wednesday%" %
 # REM  [TRIGGER(easter-7)]  MSG %"Palm Sunday%" %
@@ -698,3 +698,4 @@ SET BrWht Esc + "[37;1m"
 #  NOTIFY='/usr/bin/notify-send -t 0 REMINDER' remind -z ~/.remind/ &
 #
 
+BANNER Reminders for %w, %d%s %m, %y%o:

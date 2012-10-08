@@ -1,18 +1,16 @@
-REM Jan 5 MSG Last (twelfth) day of Christmastide %
-REM Jan 6 MSG Epiphany %
+MSG %_Christian Holidays:%
 
-# The following Easter holidays are set in Defs.rem: %
-# REM Easter-47 MSG Shrove Tuesday / Mardi Gras (day before Ash Wednesday) %
-# REM Easter-46 MSG Ash Wednesday (First day of Lent) %
-# REM Easter-7 MSG Palm Sunday (7 days before Easter) %
-# REM Easter-3 MSG Maundy Thursday (3 days before Easter) %
-# REM Easter-2 MSG Good Friday (2 days before Easter) %
-# REM Easter MSG Easter Sunday %
-# REM Easter+39 MSG Ascension Day (10 days before Pentecost) %
-# REM Easter+49 MSG Pentecost (Whitsunday) %
-# REM Easter+50 MSG Whitmonday %
-# REM Easter+56 MSG Trinity Sunday (7 days after Pentecost) %
-# REM Easter+60 MSG Corpus Christi (11 days after Pentecost) %
+REM  [TRIGGER(easter-46)] MSG %"Ash Wednesday%" %
+REM  [TRIGGER(easter-7)]  MSG %"Palm Sunday%" %
+REM  [TRIGGER(easter-3)]  MSG %"Maundy Thursday%" %
+OMIT [TRIGGER(easter-2)]  MSG %"Good Friday%" %
+OMIT [TRIGGER(easter)]    MSG %"Easter%" Sunday %
+REM  [TRIGGER(easter+39)] MSG %"Ascension Day%" %
+REM  [TRIGGER(easter+49)] MSG %"Pentecost (Whitsunday)%" %
+REM  [TRIGGER(easter+50)] MSG %"Whitmonday%" %
+REM  [TRIGGER(easter+56)] MSG %"Trinity Sunday"% %
+REM  [TRIGGER(easter+60)] MSG %"Corpus Christi%" %
+ 
 
 REM May 28 MSG Rogation Sunday %
 REM Oct 18 MSG Feast Day of St. Luke %
@@ -21,4 +19,7 @@ REM Sun Dec [Week_1] MSG First Sunday of Advent (4th Sunday before Christmas) %
 REM Dec 06 MSG St. Nicholas' Day %
 REM Dec 24 MSG Christmas eve %
 REM Dec 25 MSG Christmastide begins: First day of Christmas %
-REM Dec 26 MSG Second day of Christmas (Boxing Day) %
+REM Jan 5 MSG Last (twelfth) day of Christmastide %
+REM Jan 6 MSG Epiphany %
+
+

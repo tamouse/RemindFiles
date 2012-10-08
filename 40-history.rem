@@ -1,3 +1,5 @@
+MSG %_On this day in history:%
+
 REM 01 Jan MSG Anniversary of the Triumph of the Revolution in Cuba %
 REM 01 Jan MSG Castro expels Cuban President Batista, 1959 %
 REM 01 Jan MSG Churchill delivers his "Iron Curtain" speech, 1947 %
@@ -126,6 +128,8 @@ REM 07 May MSG Germany surrenders after WWII, 1945 %
 REM 08 May MSG Beginning of ostrich mating season %
 REM 08 May MSG US institutes mining of Haiphong Harbor, 1972 %
 REM 09 May MSG 94 degrees, New York, 1979 %
+REM 10 May MSG Golden Spike Day, 1969 %_ \
+    Completion of First Transcontinental Railroad, Promontory Summit, Utah (US) %
 REM 10 May MSG Germany invades Low Countries, 1940 %
 REM 10 May MSG Nazi bookburning, 1933 %
 REM 14 May MSG Beginning of Lewis and Clark Expedition, 1804 %
@@ -154,7 +158,7 @@ REM 04 Jun MSG Roquefort cheese developed, 1070 %
 REM 05 Jun MSG Robert Kennedy assassinated, 1968 %
 REM 05 Jun MSG US leaves the Gold Standard, 1933 %
 REM 06 Jun MSG First drive-in movie, 1933 %
-REM 06 Jun MSG Normandy landing, 1944 %
+REM 06 Jun MSG D-Day, Normandy landing, 1944 %
 REM 10 Jun MSG Death of Alexander the Great, 323 B.C. %
 REM 10 Jun MSG Denver police tear gas Jethro Tull and 2000 fans at Red Rocks, 1971 %
 REM 11 Jun MSG Greeks seize Troy, 1184BC %
@@ -303,11 +307,13 @@ REM 13 Sep MSG Chiang Kai-Shek becomes president of China, 1943 %
 REM 14 Sep MSG Benjamin Franklin is sent to France as an American minister, 1778 %
 REM 14 Sep MSG Salem, Massachusetts, is founded, 1629 %
 REM 14 Sep MSG The US Selective Service Act establishes the first peacetime draft, 1940 %
+REM 14 Sep MSG Francis Scott Key pens the "Star Spangled Banner", 1814 %
 REM 15 Sep MSG Soviet Premier Nikita Khrushchev begins his 13 day tour of the US, 1959 %
 REM 15 Sep MSG The US Foreign Affairs Dept. becomes the US State Department, 1789 %
 REM 16 Sep MSG The village of Shawmut, Massachusetts, becomes the city of Boston, 1630 %
 REM 16 Sep MSG Malaya, Sabah, Sarawak and Singapore unite to become Malaysia, 1963 %
 REM 17 Sep MSG Battle of Antietam, 1862 %
+REM 18 Sep MSG Shenyang Incident, Japan invades China, 1931 %
 REM 18 Sep MSG Victory of Uprona in Burundi %
 REM 19 Sep MSG New Zealand women get the right to vote, 1893 %
 REM 20 Sep MSG Equal Rights Party nominates Belva Lockwood for US President, 1884 %

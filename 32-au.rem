@@ -1,5 +1,5 @@
-# Australia
-# (Merged with AU_Holidays.rem)
+MSG %_Australian Holidays:%
+
 
 # Jan 26 if it's a weekday, or the next Monday
 REM  Mon Jan 26 SCANFROM [_back(7)] SATISFY 1
@@ -8,6 +8,10 @@ REM Sun [_last(3)] MSG Daylight Savings Time ends in ACT, NSW, SA, TAS and VIC. 
 OMIT 25 Apr MSG ANZAC Day (Aus)%
 REM Mon Jun [Week_2] MSG Queen's Birthday Holiday (Australia, except WA)  (Aus) %
 REM Sun [_last(10)] MSG Daylight Savings Time starts in ACT, NSW, SA and VIC.  (Aus) %
+
+REM Sun Sep [Week_1] MSG Father's Day (Aus) %
+REM Sat [_last(9)] MSG AFL Grand Final (Aus) %
+
 
 # ACT, NSW, common
 REM Mar 18 MSG Canberra Day (ACT)  (Aus) %

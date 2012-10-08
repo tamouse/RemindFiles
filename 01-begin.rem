@@ -1,3 +1,5 @@
-MSG [hebday(today())] [hebmon(today())] [hebyear(today())] of the Jewish Calendar %
+
+
 REM RUN $DDATE
 SET $SubsIndent = 5
+REM 29 Feb MSG Leap Day %

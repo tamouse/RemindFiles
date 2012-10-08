@@ -1,3 +1,4 @@
+MSG %_United Kingdom Holidays:%
 OMIT 01 Jan MSG New Year's Day (Bank Holiday) (UK) %
 REM Mon 1 May MSG May Day (Bank Holiday) (UK) % (UK) 
 REM Mon 1 Jun -7 MSG Spring Bank Holiday (Whitsun) (UK) %
@@ -25,7 +26,9 @@ REM 17 Mar MSG St. Patrick's Day (UK) %
 REM 21 Apr MSG The Queen's Birthday (her actual birthday) (UK) %
 REM 23 Apr MSG St. George's Day (UK) %
 REM 08 May MSG VE Day (UK) %
+REM Sat May [Week_2] MSG Trooping the Colour (UK) %
 REM Sun 15 Jun MSG Father's Day (UK) %
+REM Oct 27 MSF National Tell a Story Day - in Scotland and the U.K. %
 REM 31 Oct MSG Halloween (UK) %
 REM 05 Nov MSG Bonfire Night (UK) %
 REM 11 Nov MSG Rememberance Day (UK) %

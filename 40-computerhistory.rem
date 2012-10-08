@@ -1,3 +1,5 @@
+MSG %_Computer History:%
+
 REM 01 Jan MSG AT&T officially divests its local Bell companies, 1984 %
 REM 01 Jan MSG The Epoch (Time 0 for UNIX systems, Midnight GMT, 1970) %
 REM 03 Jan MSG Apple Computer founded, 1977 %
@@ -52,6 +54,7 @@ REM 22 Aug MSG CDC 6600 introduced, 1963 %
 REM 23 Aug MSG DEC founded, 1957 %
 REM 15 Sep MSG ACM founded, 1947 %
 REM 20 Sep MSG Harlan Herrick runs first FORTRAN program, 1954 %
+REM Sep MSG Eternal September, 1993 %
 REM 02 Oct MSG First robotics-based CAM, 1939 %
 REM 06 Oct MSG First GPSS manual published, 1961 %
 REM 08 Oct MSG First VisiCalc prototype, 1978 %

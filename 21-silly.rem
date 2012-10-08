@@ -1,0 +1,1506 @@
+# Silly Holidays from http://holidayinsights.com/moreholidays/index.htm
+#
+# For week long holidays:
+# REM month SATISFY [All_Week_1()] MSG First week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_2()] MSG Second week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_3()] MSG Third week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_4()] MSG Fourth week of %m is %_ \
+#    events
+# REM month SATISFY [All_Week_5()] MSG Fifth week of %m is %_ \
+#    events
+
+
+
+MSG
+
+
+REM 13 SATISFY [wkdaynum(TRIGDATE()) == 5] MSG Happy Triskaidekaphilia Day!
+
+# January
+
+#Month:
+
+REM Jan MSG The month of January is: %_ \
+    National Bath Safety Month %_ \
+    National Blood Donor Month %_ \
+    National Braille Literacy Month %_ \
+    National Hobby Month %_ \
+    Hot Tea Month %_ \
+    National Oatmeal Month %_ \
+    National Soup Month %_ \
+    National Thank You Month %_ \
+
+
+#Week Celebrations:
+REM January SATISFY [All_Week_2()] MSG Second week of %m is %_ \
+    Nude Recreation Week %_ \
+    Letter Writing Week
+
+REM Jan 02 MSG %j : %_ \
+ Run It Up The Flagpole and See If Anyone Salutes Day %
+REM Jan 03 MSG %j : %_ \
+ Fruitcake Toss Day %_ \
+ Festival of Sleep Day %_ \
+ Humiliation Day %
+REM Jan 04 MSG %j : %_ \
+ Trivia Day %
+REM Jan 05 MSG %j : %_ \
+ Bird Day %
+REM Jan 06 MSG %j : %_ \
+ Cuddle Up Day %_ \
+ Bean Day %
+REM Jan 07 MSG %j : %_ \
+ Old Rock Day %
+REM Jan 08 MSG %j : %_ \
+ Male Watcher's Day %_ \
+ Bubble Bath Day %_ \
+ No Pants Subway Ride (Improv Everywhere) %
+REM Jan 09 MSG %j : %_ \
+ Play God Day %
+REM Jan 10 MSG %j : %_ \
+ Peculiar People Day %
+REM Jan 11 MSG %j : %_ \
+ Step in a Puddle and Splash Your Friends Day %
+REM Jan 12 MSG %j : %_ \
+ National Pharmacist Day %_ \
+ Feast of Fabulous Men Day %
+REM Jan 13 MSG %j : %_ \
+ International Skeptics Day %_ \
+ Make Your Dreams Come True Day %
+REM Jan 14 MSG %j : %_ \
+ Dress Up Your Pet Day %
+REM Jan 15 MSG %j : %_ \
+ National Hat Day %
+REM Jan 16 MSG %j : %_ \
+ Nothing Day %
+REM Jan 17 MSG %j : %_ \
+ Ditch New Years Resolutions Day %
+REM Jan 18 MSG %j : %_ \
+ Winnie The Pooh Day %_ \
+ Thesaurus Day %
+REM Jan 19 MSG %j : %_ \
+ National Popcorn Day %
+REM Jan 20 MSG %j : %_ \
+ Penguin Awareness Day %_ \
+ National Buttercrunch Day %
+REM Jan 21 MSG %j : %_ \
+ National Hugging Day %_ \
+ Squirrel Appreciation Day %
+REM Jan 22 MSG %j : %_ \
+ National Blonde Brownie Day %
+REM Jan 23 MSG %j : %_ \
+ National Handwriting Day %_ \
+ National Pie Day %
+REM Jan 23 MSG %j : %_ \
+ Measure Your Feet Day %
+REM Jan 24 MSG %j : %_ \
+ Opposite Day %_ \
+ Compliment Day %_ \
+ Beer Can Appreciation Day %
+REM Jan 25 MSG %j : %_ \
+ Robert Burns Day/Burns Night %
+REM Jan 26 MSG %j : %_ \
+ Spouse's Day %
+REM Jan 27 MSG %j : %_ \
+ Punch the Clock Day %_ \
+ No Brainer Day %_ \
+ Chocolate Cake Day %
+REM Jan 28 MSG %j : %_ \
+ Fun at Work Day %_ \
+ National Kazoo Day %
+REM Jan 29 MSG %j : %_ \
+ National Puzzle Day %_ \
+ National Corn Chip Day %
+REM Jan 30 MSG %j : %_ \
+ National Inane Answering Message Day %
+REM Jan 31 MSG %j : %_ \
+ Inspire Your Heart With Art Day %_ \
+ Backward Day %_ \
+ National Gorilla Suit Day %
+
+# February
+# Month:
+REM Feb MSG The month of %m is: %_ \
+    An Affair to Remember Month %_ \
+    Black History Month %_ \
+    Canned Food Month %_ \
+    Creative Romance Month %_ \
+    Great American Pie Month %_ \
+    National Birdfeeding Month %_ \
+    National Cherry Month %_ \
+    National Grapefruit Month %_ \
+    National Weddings Month  %_ \
+    Parent Leadership Month %_ \
+
+#Weekly Celebrations:
+
+REM February SATISFY [All_Week_3()] MSG Third week of %m is %_ \
+    International Flirting Week
+
+REM Sun Feb [Week_2] MSG %j : %_  World Marriage Day %
+REM Feb 1 MSG %j : %_ \
+ National Freedom Day %
+REM Feb 2 MSG %j : %_ \
+ Ground Hog Day %_ \
+ Candlemas %
+REM Feb 3 MSG %j : %_ \
+ The Day the Music Died - Buddy Holly, Richie Valens and the Big Bopper died in a plane crash in 1959. %
+REM Feb 4 MSG %j : %_ \
+ Create a Vacuum Day %_ \
+ Thank a Mailman Day %
+REM Feb 5 MSG %j : %_ \
+ National Weatherman's Day %
+REM Feb 6 MSG %j : %_ \
+ Lame Duck Day %
+REM Feb 7 MSG %j : %_ \
+ Wave All you Fingers at Your Neighbor Day %_ \
+ Send a Card to a Friend Day - obviously created by a card company %_ \
+ Winter Olympics - Not until 2014 %
+REM Feb 8 MSG %j : %_ \
+ Boy Scout Day - celebrates the birthday of scouting %_ \
+ Kite Flying Day - in the middle of winter!?! %
+REM Feb 9 MSG %j : %_ \
+ Toothache Day %
+REM Feb 10 MSG %j : %_ \
+ Umbrella Day %
+REM Feb 11 MSG %j : %_ \
+ Don't Cry over Spilled Milk Day %_ \
+ Make a Friend Day %_ \
+ White T-Shirt Day %
+REM Feb 12 MSG %j : %_ \
+ Plum Pudding Day %
+REM Feb 13 MSG %j : %_ \
+ Clean out Your Computer Day - second Monday of Month %_ \
+ Get a Different Name Day %
+REM Feb 14 MSG %j : %_ \
+ Ferris Wheel Day %_ \
+ Valentine's Day %_ \
+REM Feb 15 MSG %j : %_ \
+ Candlemas - on the Julian Calendar %_ \
+ National Gum Drop Day %_ \
+ Singles Awareness Day %
+REM Feb 16 MSG %j : %_ \
+ Do a Grouch a Favor Day %
+REM Feb 17 MSG %j : %_ \
+ Random Acts of Kindness Day %
+REM Feb 18 MSG %j : %_ \
+ National Battery Day %
+REM Feb 19 MSG %j : %_ \
+ National Chocolate Mint Day %
+REM Feb 20 MSG %j : %_ \
+ Cherry Pie Day %_ \
+ Hoodie Hoo Day %_ \
+ Love Your Pet Day %
+REM Feb 21 MSG %j : %_ \
+ Card Reading Day %_ \
+ International Mother Language Day %
+REM Feb 22 MSG %j : %_ \
+ Be Humble Day %_ \
+ Walking the Dog Day %_ \
+ International World Thinking Day %
+REM Feb 23 MSG %j : %_ \
+ International Dog Biscuit Appreciation Day %_ \
+ Tennis Day %
+REM Feb 24 MSG %j : %_ \
+ National Tortilla Chip Day %
+REM Feb 25 MSG %j : %_ \
+ Pistol Patent Day %
+REM Feb 26 MSG %j : %_ \
+ Carnival Day %_ \
+ National Pistachio Day - it's a nutty day! %_ \
+ Tell a Fairy Tale Day %
+REM Feb 27 MSG %j : %_ \
+ Polar Bear Day %_ \
+ No Brainer Day - this day is for me! %
+REM Feb 28 MSG %j : %_ \
+ Floral Design Day %_ \
+ Public Sleeping Day %_ \
+ National Tooth Fairy Day - and/or August 22 %
+
+# March
+
+REM Mar MSG The month of %m is: %_ \
+    Music in Our Schools Month %_ \
+    National Craft Month %_ \
+    National Frozen Food Month %_ \
+    National Irish American Heritage Month- designated by Congress in 1995. %_ \
+    National Nutrition Month %_ \
+    National Peanut Month %_ \
+    National Women's History Month %_ \
+    Poetry Month %_ \
+    Red Cross Month %_ \
+    Social Workers Month
+
+# Weeks
+
+REM March SATISFY [All_Week_2()] MSG Second week of %m is %_ \
+    National Bubble Week %_ \
+    Crochet Week 
+
+# Daily events:
+
+REM Mar 1 MSG %j : %_ \
+ National Pig Day %_ \
+ Peanut Butter Lovers' Day %
+REM Fri Mar [Week_1] MSG %j : %_ \
+ Employee Appreciation Day %_ \
+ National Salesperson Day %
+REM Wed Mar [Week_1] MSG %j : %_ World Maths Day %
+REM Mar 2 MSG %j : %_ \
+ Old Stuff Day %_ \
+ National Reading Day %
+REM Mar 3 MSG %j : %_ \
+ I Want You to be Happy Day %_ \
+ If Pets Had Thumbs Day %_ \
+ National Anthem Day %_ \
+ Peach Blossom Day %
+REM Mar 4 MSG %j : %_ \
+ Holy Experiment Day %_ \
+ Hug a GI Day %_ \
+ National Grammar Day %
+REM Mar 6 MSG %j : %_ \
+ National Frozen Food Day %
+REM Mar 7 MSG %j : %_ \
+ National Crown Roast of Pork Day %
+REM Mar 8 MSG %j : %_ \
+ Be Nasty Day %_ \
+ International (Working) Women's Day %_ \
+ Popcorn Lover's Day second Thursday %
+REM Mar 9 MSG %j : %_ \
+ Panic Day %
+REM Mar 10 MSG %j : %_ \
+ Middle Name Pride Day %
+REM Mar 11 MSG %j : %_ \
+ Johnny Appleseed Day %_ \
+ Worship Your Tools Day %
+REM Mar 12 MSG %j : %_ \
+ Girl Scouts Day %_ \
+ Plant a Flower Day %
+REM Mar 13 MSG %j : %_ \
+ Ear Muff Day %_ \
+ Jewel Day %
+REM Mar 14 MSG %j : %_ \
+ Learn about Butterflies Day %_ \
+ National Potato Chip Day %_ \
+ National Pi Day- Why today? Because today is 3.14, the value of Pi. %_ \
+ Save a Spider Day %
+REM Mar 14 2015 AT 09:26 MSG 9 digits of pi at 3/14/15 9:26:53 %
+REM Mar 14 2015 AT 09:26 RUN $NOTIFY 9 digits of pi at 3/14/15 9:26:53 %
+REM Mar 15 MSG %j : %_ \
+ Everything You Think is Wrong Day %_ \
+ Ides of March %_ \
+ Incredible Kid Day %_ \
+ Dumbstruck Day %
+REM Mar 16 MSG %j : %_ \
+ Everything You Do is Right Day %_ \
+ Freedom of Information Day %
+REM Mar 17 MSG %j : %_ \
+ National Quilting Day - third Saturday of month %_ \
+ Submarine Day - the hero sandwich or the boat?? %_ \
+ Saint Patrick's Day %
+REM Mar 18 MSG %j : %_ \
+ Goddess of Fertility Day %_ \
+ Supreme Sacrifice Day %_ \
+ Sun-Earth Day %
+REM Mar 19 MSG %j : %_ \
+ Poultry Day %
+REM Mar 20 MSG %j : %_ \
+ International Earth Day %_ \
+ Extraterrestrial Abductions Day %_ \
+ Proposal Day %
+REM Mar 21 MSG %j : %_ \
+ Fragrance Day %
+REM Mar 22 MSG %j : %_ \
+ National Goof Off Day %
+REM Mar 23 MSG %j : %_ \
+ National Chip and Dip Day %_ \
+ Near Miss Day %
+REM Mar 24 MSG %j : %_ \
+ National Chocolate Covered Raisin Day %
+REM Mar 25 MSG %j : %_ \
+ Pecan Day %_ \
+ Waffle Day %
+REM Mar 26 MSG %j : %_ \
+ Make Up Your Own Holiday Day %
+REM Mar 27 MSG %j : %_ \
+ National "Joe" Day %
+REM Mar 28 MSG %j : %_ \
+ Something on a Stick Day %
+REM Mar 29 MSG %j : %_ \
+ National Mom and Pop Business Owners Day %_ \
+ Smoke and Mirrors Day %
+REM Mar 30 MSG %j : %_ \
+ National Doctor's Day %_ \
+ I am in Control Day %_ \
+ Take a Walk in the Park Day %
+REM Mar 31 MSG %j : %_ \
+ Bunsen Burner Day %_ \
+ National Clam on the Half Shell Day %
+
+# April, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM April MSG The month of %m is: %_ \
+    Confederate History Month (Southern US) %_ \
+    Financial Literacy Month %_ \
+    International Guitar Month %_ \
+    Keep America Beautiful Month %_ \
+    Lawn and Garden Month %_ \
+    Poetry Month %_ \
+    National Arab Heritage Month (US) %_ \
+    National Child Abuse Prevention Month (US) %_ \
+    National Jazz Appreciation Month (US) %_ \
+    National Humor Month %_ \
+    National Pecan Month %_ \
+    National Welding Month %_ \
+    Records and Information Management Month %_ \
+    Sexual Assault Awareness Month %_ \
+
+# April Weekly Celebrations:
+
+REM April SATISFY [All_Week_1()] MSG The First Week of %m is: %_ \
+    Library Week %_ \
+    Read a Road Map Week.
+REM April SATISFY [All_Week_2()] MSG The Second Week of %m is %_ \
+    Garden Week
+REM April SATISFY [All_Week_3()] MSG The Third Week of %m is %_ \
+    Organize Your Files Week %_ \
+    Medical Labs Week 
+REM April SATISFY [All_Week_4()] MSG The Fourth Week of %m is %_ \
+    Administrative Assistants Week %_ \
+    National Karaoke Week
+
+# Each Day:
+
+REM Apr 1  MSG %j : %_ \
+ April Fool's Day %_ \
+ International Fun at Work Day %_ \
+ International Tatting Day %
+REM Apr 2  MSG %j : %_ \
+ Children's Book Day %_ \
+ National Peanut Butter and Jelly Day %_ \
+ Reconciliation Day %
+REM Apr 3  MSG %j : %_ \
+ Don't Go to Work Unless it's Fun Day - we know your decision %_ \
+ Tweed Day %
+REM Apr 4  MSG %j : %_ \
+ Hug a Newsman Day %_ \
+ Walk Around Things Day %_ \
+ School Librarian Day %_ \
+ Tell a Lie Day %
+REM Apr 5  MSG %j : %_ \
+ Go for Broke Day   %
+REM Fri Apr [Week_1] MSG %j : %_ \
+ National Walk to Work Day %
+REM Apr 6  MSG %j : %_ \
+ Plan Your Epitaph Day %_ \
+ Sorry Charlie Day %
+REM Apr 7  MSG %j : %_ \
+ Caramel Popcorn Day %_ \
+ No Housework Day %_ \
+ World Health Day %
+REM Apr 8  MSG %j : %_ \
+ All is Ours Day %_ \
+ Draw a Picture of a Bird Day %
+REM [TRIGGER(easter+1)]  MSG %j : %_ \
+ Dyngus Day %
+REM Apr 9  MSG %j : %_ \
+ Name Yourself Day %_ \
+ Winston Churchill Day %
+REM Apr 10  MSG %j : %_ \
+ Golfer's Day  %_ \
+ National Siblings Day %
+REM Apr 11  MSG %j : %_ \
+ Eight Track Tape Day %_ \
+ Barbershop Quartet Day %_ \
+ National Submarine Day %
+REM Apr 12  MSG %j : %_ \
+ Big Wind Day - this day blows me away! %_ \
+ Russian Cosmonaut Day %
+REM Apr 13  MSG %j : %_ \
+ Scrabble Day %
+REM Apr 14  MSG %j : %_ \
+ Ex Spouse Day %_ \
+ International Moment of Laughter Day %_ \
+ Look up at the Sky Day %_ \
+ National Pecan Day %_ \
+ Reach as High as You Can Day %
+REM Apr 15  MSG %j : %_ \
+ Rubber Eraser Day %_ \
+ Titanic Remembrance Day %
+REM Apr 16  MSG %j : %_ \
+ National Eggs Benedict Day %_ \
+ National Librarian Day %_ \
+ National Stress Awareness Day %
+REM Mon Apr [Week_3]  MSG %j : %_ \
+ Patriot's Day %
+REM Apr 17  MSG %j : %_ \
+ Blah, Blah, Blah Day %_ \
+ National Cheeseball Day      %_ \
+ Pet Owners Independence Day %
+REM Apr 18  MSG %j : %_ \
+ International Juggling Day %_ \
+ Newspaper Columnists Day %
+REM Apr 19  MSG %j : %_ \
+ National Garlic Day %
+REM Thu Apr [Week_3]  MSG %j : %_ \
+ National High Five Day %
+REM Apr 20  MSG %j : %_ \
+ Look Alike Day %_ \
+ Volunteer Recognition Day %_ \
+REM Apr 21  MSG %j : %_ \
+ Kindergarten Day %
+REM Apr 22  MSG %j : %_ \
+ Girl Scout Leader Day %_ \
+ Earth Day %_ \
+ National Jelly Bean Day %
+REM Apr 23  MSG %j : %_ \
+ Lover's Day %_ \
+ National Zucchini Bread Day %_ \
+ Take a Chance Day %_ \
+ World Laboratory Day %
+REM Apr 24  MSG %j : %_ \
+ Pigs in a Blanket Day %
+REM Apr 25  MSG %j : %_ \
+ East meets West Day %_ \
+ Executive Admin's Day (Secretary's Day) %_ \
+ World Penguin Day   %
+REM Apr 26  MSG %j : %_ \
+ Hug an Australian Day %_ \
+ National Pretzel Day %_ \
+ Richter Scale Day %
+REM Apr 27  MSG %j : %_ \
+ Babe Ruth Day %_ \
+ National Prime Rib Day %_ \
+ Tell a Story Day %
+REM Apr 28  MSG %j : %_ \
+ Great Poetry Reading Day %_ \
+ Kiss Your Mate Day %
+REM Apr 29  MSG %j : %_ \
+ Greenery Day %_ \
+ National Shrimp Scampi Day %
+REM Apr 30  MSG %j : %_ \
+ Hairstyle Appreciation Day %_ \
+ National Honesty Day  %
+REM Thu Apr [Week_4] MSG %j : %_ \
+ Take Your Daughter to Work 4th Thursday %
+REM Sat Apr [Week_3] MSG %j : %_ Record Store Day %
+
+# May, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM May MSG The month of %m is %_ \
+    South Asian Heritage Month %_ \
+    Asian Pacific American Heritage Month %_ \
+    Jewish American Heritage Month %_ \
+    Date Your Mate Month %_ \
+    Foster Care Month %_ \
+    National Barbecue Month %_ \
+    National Bike Month %_ \
+    National Hamburger Month %_ \
+    National Military Appreciation Month %_ \
+    National Moving Month %_ \
+    National Photograph Month %_ \
+    National Recommitment Month %_ \
+    National Salad Month %_ \
+    National Smile Month, UK %_ \
+    Older Americans Month %_ \
+
+
+# Weekly Celebrations:
+
+REM May SATISFY [All_Week_1()] MSG First week of %m is %_ \
+    Nurse's Week
+REM May SATISFY [All_Week_2()] MSG Second week of %m is %_ \
+    National Bike Week %_ \
+    Wildflower Week
+REM May SATISFY [All_Week_3()] MSG Third week of %m is %_ \
+    Bike To Work Week %_ \
+    National Police Week
+REM May SATISFY [All_Week_5()] MSG Last week of %m is %_ \
+    Library and Information Week (ALIA) %_ \
+    International Headband Week
+
+
+# Each Day:
+
+#floaters
+
+REM Tue May [Week_1] MSG %j : %_ \
+ National Teachers Day %
+REM Wed May [Week_1] MSG %j : %_ \
+ School Nurses Day %
+REM Fri May [Week_1] MSG %j : %_ \
+ International Tuba Day %_ \
+ Space Day %_ \
+ Military Spouses Day  %
+REM Sat May [Week_1] MSG %j : %_ \
+ Birth Mother's Day %
+
+REM Wed May [Week_2] MSG %j : %_ \
+ National Receptionist Day %
+REM Sat May [Week_2] MSG %j : %_ \
+ International Migratory Bird Day the second Saturday in May %
+
+REM Fri May [Week_3] MSG %j : %_ \
+ National Bike to Work Day %
+
+REM Sat [_last(May)] MSG %"International Jazz Day" %
+
+
+REM May 1 MSG %j : %_ \
+ May Day %_ \
+ Loyalty Day %_ \
+ Mother Goose Day %_ \
+ Save the Rhino Day %
+REM May 2 MSG %j : %_ \
+ Baby Day %_ \
+ Brothers and Sisters Day %
+REM May 3 MSG %j : %_ \
+ Lumpy Rug Day %_ \
+ World Press Freedom Day %
+REM May 4 MSG %j : %_ \
+ Bird Day %_ \
+ National Candied Orange Peel Day %_ \
+ Renewal Day %
+REM May 5 MSG %j : %_ \
+ National Hoagie Day %_ \
+ Oyster Day %
+REM May 6 MSG %j : %_ \
+ Beverage Day %_ \
+ National Tourist Appreciation Day %_ \
+ National Nurses Day %_ \
+ No Diet Day %
+REM May 7 MSG %j : %_ \
+ Astronomy Day  - date varies %_ \
+ National Tourism Day %
+REM May 8 MSG %j : %_ \
+ Iris  Day %_ \
+ No Socks Day %_ \
+ World Red Cross Day / World Red Crescent Day %
+REM May 9 MSG %j : %_ \
+ Lost Sock Memorial Day   %_ \
+ National Train Day - date varies %
+REM May 10 MSG %j : %_ \
+ Clean up Your Room Day %
+REM May 11 MSG %j : %_ \
+ Eat What You Want Day %_ \
+ Twilight Zone Day %
+REM May 12 MSG %j : %_ \
+ Fatigue Syndrome Day %_ \
+ International Nurses Day %_ \
+ Limerick Day %
+REM May 13 MSG %j : %_ \
+ Frog Jumping Day %_ \
+ Leprechaun Day %
+REM May 14 MSG %j : %_ \
+ Dance Like a Chicken Day %
+REM May 15 MSG %j : %_ \
+ National Chocolate Chip Day %_ \
+ National Sea Monkey Day %_ \
+ Police Officer's Memorial Day %
+REM May 16 MSG %j : %_ \
+ Love a Tree Day %_ \
+ National Sea Monkey Day %_ \
+ Wear Purple for Peace Day %
+REM May 17 MSG %j : %_ \
+ Pack Rat Day %
+REM May 18 MSG %j : %_ \
+ International Museum Day %_ \
+ No Dirty Dishes Day %_ \
+ Visit Your Relatives Day %
+REM May 19 MSG %j : %_ \
+ Boy's Club Day %
+REM May 20 MSG %j : %_ \
+ Be a Millionaire Day  %_ \
+ Pick Strawberries Day %
+REM May 21 MSG %j : %_ \
+ National Memo Day %_ \
+ National Waiters and Waitresses Day %
+REM May 22 MSG %j : %_ \
+ Buy a Musical Instrument Day %
+REM May 23 MSG %j : %_ \
+ Lucky Penny Day %
+REM May 24 MSG %j : %_ \
+ National Escargot Day %
+REM May 25 MSG %j : %_ \
+ National Missing Children's Day %_ \
+ Tap Dance Day %
+REM May 26 MSG %j : %_ \
+ Sally Ride Day %
+REM May 27 MSG %j : %_ \
+ Sun Screen Day %
+REM May 28 MSG %j : %_ \
+ Amnesty International Day %
+REM May 29 MSG %j : %_ \
+ Learn About Composting Day %
+REM May 30 MSG %j : %_ \
+ Water a Flower Day %
+REM May 31 MSG %j : %_ \
+ National Macaroon Day %_ \
+ Save Your Hearing Day %_ \
+ World No Tobacco Day %
+
+# June, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM Jun MSG The month of %m is: %_ \
+    Aquarium Month %_ \
+    Black Music Month %_ \
+    Candy Month %_ \
+    Carribean-American Heritage Month %_ \
+    Dairy Month %_ \
+    Fight the Filthy Fly Month %_ \
+    Fireworks Safety Month %_ \
+    Gay Pride Month %_ \
+    National Accordion Awareness Month %_ \
+    National Adopt a Cat Month %_ \
+    National Fresh Fruit and Vegetables Month %_ \
+    Rose Month %_ \
+    Turkey Lovers Month
+
+# Weeks:
+
+REM Jun SATISFY [All_Week_1()] MSG First week of %m is: %_ \
+    Fishing Week
+REM Jun SATISFY [All_Week_2()] MSG Second week of %m is: %_ \
+    Email Week
+
+REM Fri Jun [Week_1] MSG %j : %_ \
+ National Doughnut Day always the first Friday in June %
+REM Sat Jun [Week_3] MSG %j : %_ \
+ National Hollerin' Contest Day - third Saturday in June %
+REM Sat Jun 17 SCANFROM [_back(1)] SATISFY 1
+    	       OMIT [_trig()] MSG %j : %_ \
+ World Juggler's Day - Saturday closest to June 17th %
+
+# Daily:
+
+REM Jun 1 MSG %j : %_ \
+ Dare Day %
+REM Jun 1 MSG %j : %_ \
+ Flip a Coin Day %
+REM Jun 2 MSG %j : %_ \
+ National Bubba Day %
+REM Jun 2 MSG %j : %_ \
+ National Rocky Road Day %
+REM Jun 3 MSG %j : %_ \
+ Repeat Day (I said "Repeat Day") %
+REM Jun 4 MSG %j : %_ \
+ Applesauce Cake Day %
+REM Jun 4 MSG %j : %_ \
+ Hug Your Cat Day %
+REM Jun 4 MSG %j : %_ \
+ Old Maid's Day %
+REM Jun 5 MSG %j : %_ \
+ World Environment Day %
+REM Jun 6 MSG %j : %_ \
+ National Gardening Exercise Day- Get out and exercise with your plants. %
+REM Jun 6 MSG %j : %_ \
+ National Yo-Yo Day %
+REM Jun 7 MSG %j : %_ \
+ National Chocolate Ice Cream Day %
+REM Jun 8 MSG %j : %_ \
+ Best Friends Day %
+REM Jun 8 MSG %j : %_ \
+ Name Your Poison Day %
+REM Jun 9 MSG %j : %_ \
+ Donald Duck Day %
+REM Jun 10 MSG %j : %_ \
+ Iced Tea Day %
+REM Jun 11 MSG %j : %_ \
+ Hug Holiday %
+REM Jun 12 MSG %j : %_ \
+ Red Rose Day %
+REM Jun 13 MSG %j : %_ \
+ Sewing Machine Day %
+REM Jun 14 MSG %j : %_ \
+ Flag Day %
+REM Jun 15 MSG %j : %_ \
+ Smile Power Day %
+REM Jun 16 MSG %j : %_ \
+ Fresh Veggies Day %
+REM Jun 16 MSG %j : %_ \
+ Nursing Assistants Day - First day of National Nursing Assistants Week %_ \
+ Bloomsday (https://en.wikipedia.org/wiki/Bloomsday) %
+REM Jun 17 MSG %j : %_ \
+ Eat Your Vegetables Day %
+REM Jun 18 MSG %j : %_ \
+ Go Fishing Day %_ \
+ International Panic Day %_ \
+ National Splurge Day - Oh yeah!! %
+REM Jun 19 MSG %j : %_ \
+ World Sauntering Day %
+REM Jun 20 MSG %j : %_ \
+ Ice Cream Soda Day %
+REM Jun 21 MSG %j : %_ \
+ Go Skate(boarding) Day %
+REM Jun 22 MSG %j : %_ \
+ National Chocolate Eclair Day %
+REM Jun 23 MSG %j : %_ \
+ National Columnists Day %_ \
+ National Pink Day %_ \
+ Take Your Dog to Work Day %
+REM Jun 24 MSG %j : %_ \
+ Swim a Lap Day %
+REM Jun 25 MSG %j : %_ \
+ Log Cabin Day %_ \
+ National Catfish Day %
+REM Jun 26 MSG %j : %_ \
+ Beautician's Day %_ \
+ Forgiveness Day %
+REM Jun 27 MSG %j : %_ \
+ Sun Glasses Day %
+REM Jun 28 MSG %j : %_ \
+ Insurance Awareness Day %_\
+ Paul Bunyan Day %
+REM Jun 29 MSG %j : %_ \
+ Camera Day %_ \
+ Hug Holiday %_ \
+ Waffle Iron Day %
+REM Jun 30 MSG %j : %_ \
+ Meteor Day  %
+
+
+# July, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM July MSG The month of %m is: %_ \
+    National Blueberry Month %_ \
+    National Anti-Boredom Month %_ \
+    Unlucky Month for weddings %_ \
+    National Cell Phone Courtesy Month %_ \
+    National Hot Dog Month %_ \
+    National Ice Cream Month
+
+# Week Event:
+
+REM July SATISFY [All_Week_2()] MSG Second week of %m is %_ \
+    Nude Recreation Week 
+
+REM July SATISFY [All_Week_3()] MSG Second Week of %m is %_ \
+    Captive Nations Week 
+
+
+# Floating
+
+REM Sun Jul [Week_1] MSG %j : %_ \
+ Build A Scarecrow Day - first Sunday in month %
+REM Sun Jul [Week_3] MSG %j : %_ \
+ National Ice Cream Day %
+REM Sun Jul [Week_4] MSG %j : %_ \
+ Parent's Day %
+
+# Days
+
+REM Jul 1 MSG %j : %_ \
+ Creative Ice Cream Flavors Day %_ \
+ International Joke Day %
+REM Jul 2 MSG %j : %_ \
+ I Forgot Day %_ \
+ World UFO Day %
+REM Jul 3 MSG %j : %_ \
+ Compliment Your Mirror Day %_ \
+ Disobedience Day %_ \
+ Stay out of the Sun Day %
+REM Jul 4 MSG %j : %_ \
+ National Country Music Day %_ \
+ Sidewalk Egg Frying Day- Hmmmm, I wonder why!?! %
+REM Jul 5 MSG %j : %_ \
+ Work-a-holics Day %
+REM Jul 6 MSG %j : %_ \
+ National Fried Chicken Day %
+REM Jul 7 MSG %j : %_ \
+ Chocolate Day %_ \
+ National Strawberry Sundae Day %
+REM Jul 8 MSG %j : %_ \
+ Video Games Day %
+REM Jul 9 MSG %j : %_ \
+ National Sugar Cookie Day %
+REM Jul 10 MSG %j : %_ \
+ Teddy Bear Picnic Day %
+REM Jul 11 MSG %j : %_ \
+ Cheer up the Lonely Day %_ \
+ World Population Day %
+REM Jul 12 MSG %j : %_ \
+ Heterochromia (Different Colored Eyes) Day %_ \
+ Pecan Pie Day %
+REM Jul 13 MSG %j : %_ \
+ Barbershop Music Appreciation Day %_ \
+ Embrace Your Geekness Day %_ \
+ Fool's Paradise Day %
+REM Jul 14 MSG %j : %_ \
+ Pandemonium Day %_ \
+ National Nude Day %
+REM Jul 15 MSG %j : %_ \
+ Tapioca Pudding Day %
+REM Jul 15 MSG %j : %_ \
+ Cow Appreciation Day- Go out and give a cow a hug %
+REM Jul 17 MSG %j : %_ \
+ Peach Ice Cream Day %_ \
+ Yellow Pig Day %
+REM Jul 18 MSG %j : %_ \
+ National Caviar Day %
+REM Jul 19 MSG %j : %_ \
+ National Raspberry Cake Day %
+REM Jul 20 MSG %j : %_ \
+ Moon Day %_ \
+ Ugly Truck Day %
+REM Jul 21 MSG %j : %_ \
+ National Junk Food Day %
+REM Jul 22 MSG %j : %_ \
+ Hammock Day %_ \
+ Ratcatcher's Day %_ \
+REM Jul 23 MSG %j : %_ \
+ National Hot Dog Day %_ \
+ Vanilla Ice Cream Day %
+REM Jul 24 MSG %j : %_ \
+ Amelia Earhart Day %_ \
+ Cousins Day %
+REM Jul 25 MSG %j : %_ \
+ Culinarians Day %_ \
+ Threading the Needle Day %
+REM Jul 26 MSG %j : %_ \
+ All or Nothing Day %_ \
+ Aunt and Uncle Day %
+REM Jul 27 MSG %j : %_ \
+ Take Your Pants for a Walk Day %
+REM Jul 28 MSG %j : %_ \
+ National Milk Chocolate Day %
+REM Jul 29 MSG %j : %_ \
+ National Lasagna Day %
+REM Jul 30 MSG %j : %_ \
+ National Cheesecake Day %_ \
+ Father-in-Law Day %
+REM Jul 31 MSG %j : %_ \
+ Mutt's Day  %
+
+# August, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM August MSG The month of %m is: %_ \
+    Admit You're Happy Month %_ \
+    American Adventures Month %_ \
+    Audio Appreciation Month %_ \
+    Black Business Month %_ \
+    Edinburg Festival %_ \
+    Family Fun Month %_ \
+    Get Ready for Kindergarten Month %_ \
+    National Back to School Month (US) %_ \
+    National Catfish Month %_ \
+    National Goat Cheese Month %_ \
+    National Golf Month %_ \
+    National Picnic Month %_ \
+    National Water Quality Month %_ \
+    Panini Month %_ \
+    Peach Month %_ \
+    Philippine Languages Month %_ \
+    Romance Awareness Month %_ \
+    What Will Be Your Legacy Month %_ \
+    Win With Civility Month %_ \
+    (Only month without a US holiday)
+
+# Weekly Events:
+
+REM August SATISFY [All_Week_1()] MSG The first week of %m is: %_ \
+    National Eisteddfod of Wales %_ \
+    Medieval Week of Wisby in Gottland, Sweden %_ \
+    National Simplify your Life Week %_ \
+    World Breastfeeding Month %_ \
+    Sturgis Motorcycle Rally %_ \
+
+REM August SATISFY [All_Week_2()] MSG The second week of %m is: %_ \
+    National Smile Week
+
+REM August SATISFY [All_Week_3()] MSG The third week of %m is: %_ \
+    Friendship Week
+
+REM August SATISFY [All_Week_4()] MSG The fourth week of %m is: %_ \
+    Be Kind to Humankind Week
+
+# Daily:
+
+REM Sun Aug [Week_1] MSG First %w in %m : %_ \
+ Friendship Day %_ \
+ International Forgiveness Day %_ \
+ Sisters Day %
+
+REM Sat Aug [Week_1] MSG First Saturday in %m : %_ \
+ National Mustard Day first Saturday %
+
+REM Aug 1 MSG %j : %_ \
+ National Raspberry Cream Pie Day %
+REM Aug 2 MSG %j : %_ \
+ National Ice Cream Sandwich Day %
+REM Aug 3 MSG %j : %_ \
+ National Watermelon Day %_ \
+ National Grab Some Nuts Day %
+REM Aug 5 MSG %j : %_ \
+ Work Like a Dog Day %
+REM Aug 6 MSG %j : %_ \
+ Wiggle Your Toes Day %
+REM Aug 7 MSG %j : %_ \
+ National Lighthouse Day %
+REM Aug 8 MSG %j : %_ \
+ Sneak Some Zucchini onto Your Neighbor's Porch Day %
+REM Aug 9 MSG %j : %_ \
+ Book Lover's Day %
+REM Aug 10 MSG %j : %_ \
+ Lazy Day %_ \
+ National S'mores Day %
+REM Aug 11 MSG %j : %_ \
+ Presidential Joke Day %_ \
+ Son and Daughter Day %
+REM Aug 12 MSG %j : %_ \
+ Middle Child's Day %
+REM Aug 13 MSG %j : %_ \
+ Left Hander's Day %
+REM Aug 14 MSG %j : %_ \
+ National Creamsicle Day %_ \
+ V-J Day %
+REM Aug 15 MSG %j : %_ \
+ Relaxation Day %
+REM Aug 16 MSG %j : %_ \
+ National Tell a Joke Day %
+REM Aug 17 MSG %j : %_ \
+ National Thriftshop Day %
+REM Aug 18 MSG %j : %_ \
+ Bad Poetry Day %
+REM Aug 19 MSG %j : %_ \
+ Aviation Day %
+REM Aug 20 MSG %j : %_ \
+ National Radio Day %
+REM Aug 21 MSG %j : %_ \
+ Senior Citizen's Day %
+REM Aug 22 MSG %j : %_ \
+ Be an Angel Day %_ \
+ National Tooth Fairy Day %
+REM Aug 23 MSG %j : %_ \
+ Ride the Wind Day %
+REM Aug 24 MSG %j : %_ \
+ Vesuvius Day %
+REM Aug 25 MSG %j : %_ \
+ Kiss and Make Up Day %
+REM Aug 26 MSG %j : %_ \
+ National Dog Day %_ \
+ Women's Equality Day %
+REM Aug 27 MSG %j : %_ \
+ Global Forgiveness Day %_ \
+ Just Because Day %
+REM Aug 28 MSG %j : %_ \
+ Race Your Mouse Day %
+REM Aug 29 MSG %j : %_ \
+ More Herbs, Less Salt Day %
+REM Aug 30 MSG %j : %_ \
+ Frankenstein Day %_ \
+ Toasted Marshmallow Day %
+REM Aug 31 MSG %j : %_ \
+ National Trail Mix Day  %
+
+# September, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM September MSG The month of %m is: %_ \
+    Better Breakfast Month %_ \
+    Chicken Month %_ \
+    Classical Music Month %_ \
+    Fall Hat Month %_ \
+    Hispanic Heritage Month %_ \
+    Honey Month %_ \
+    International Square Dancing Month %_ \
+    Little League Month %_ \
+    National Blueberry Popsicle Month %_ \
+    National Courtesy Month %_ \
+    National Piano Month %_ \
+    National Preparedness Month %_ \
+    Self Improvement Month %_ \
+
+REM Sun Sep [Week_2] MSG Second Sunday in %m : %_ \
+ Grandparent's Day %_\
+ National Pet Memorial Day%
+
+REM Sun Sep [Week_3] MSG Third Sunday in %m : %_\
+ National Women's Friendship Day%
+
+REM Fri Sep [Week_3] MSG Third Friday in %m : %_\
+ POW/MIA Recognition Day %
+
+REM Sat Sep [Week_4] MSG Fourth Saturday in %m : %_ \
+ International Rabbit Day %
+
+REM Fri Sep [Week_4] MSG Fourth Friday in %m : %_\
+ Native American Day %
+
+# Each Day:
+
+REM Sep 1 MSG %j : %_ \
+ Emma M. Nutt Day, the first woman telephone operator %
+REM Sep 2 MSG %j : %_ \
+ VJ Day - Surrender ceremony aboard the USS Missouri formally ends WWII %_\
+ National Beheading Day %
+REM Sep 3 MSG %j : %_ \
+ Skyscraper Day %
+REM Sep 4 MSG %j : %_ \
+ Newspaper Carrier Day %
+REM Sep 5 MSG %j : %_ \
+ Be Late for Something Day %_ \
+ Cheese Pizza Day %
+REM Sep 6 MSG %j : %_ \
+ Fight Procrastination Day %_ \
+ Read a Book Day %
+REM Sep 7 MSG %j : %_ \
+ Neither Rain nor Snow Day %
+REM Sep 8 MSG %j : %_ \
+ International Literacy Day %_ \
+ National Date Nut Bread Day %_ \
+ Pardon Day %
+REM Sep 9 MSG %j : %_ \
+ Teddy Bear Day %
+REM Sep 10 MSG %j : %_ \
+ Sewing Machine Day %_ \
+ Swap Ideas Day %
+REM Sep 11 MSG %j : %_ \
+ 911 Remembrance %_ \
+ Make Your Bed Day %_ \
+ No News is Good News Day %
+REM Sep 12 MSG %j : %_ \
+ Chocolate Milk Shake Day %_ \
+ National Video Games Day %
+REM Sep 13 MSG %j : %_ \
+ Defy Superstition Day %_ \
+ Fortune Cookie Day %_ \
+ National Peanut Day %_ \
+ Positive Thinking Day %_ \
+ Uncle Sam Day - his image was first used in 1813 %
+REM Sep 14 MSG %j : %_ \
+ National Cream-Filled Donut Day %
+REM Sep 15 MSG %j : %_ \
+ Make a Hat Day %_ \
+ Felt Hat Day - On this day, men traditionally put away their felt hats. %
+REM Sep 16 MSG %j : %_ \
+ Collect Rocks Day %_ \
+ Step Family Day %_ \
+ Mayflower Day %_ \
+ Mexican Independence Day %_ \
+ National Play Doh Day %_ \
+ Working Parents Day %
+REM Sep 17 MSG %j : %_ \
+ National Apple Dumpling Day %_ \
+ Citizenship Day %_ \
+ Constitution Day %
+REM Sep 18 MSG %j : %_ \
+ National Cheeseburger Day %
+REM Sep 19 MSG %j : %_ \
+ Yarrrrr!! It be International Talk Like A Pirate Day, ye swabs!! %_ \
+  National Butterscotch Pudding Day %
+REM Sep 20 MSG %j : %_ \
+ National Punch Day %
+REM Sep 21 MSG %j : %_ \
+ International Peace Day %_ \
+ Miniature Golf Day %_ \
+ World Gratitude Day %
+REM Sep 22 MSG %j : %_ \
+ Business Women's Day %_ \
+ Elephant Appreciation Day %
+REM Sep 23 MSG %j : %_ \
+ Checkers Day %_ \
+ Dog in Politics Day %
+REM Sep 24 MSG %j : %_ \
+ National Cherries Jubilee Day %
+REM Sep 25 MSG %j : %_ \
+ National Comic Book Day %
+REM Sep 26 MSG %j : %_ \
+ Johnny Appleseed Day %
+REM Sep 27 MSG %j : %_ \
+ Crush a Can Day %
+REM Sep 28 MSG %j : %_ \
+ Ask a Stupid Question Day %_ \
+ National Good Neighbor Day %
+REM Sep 29 MSG %j : %_ \
+ Confucius Day %
+REM Sep 30 MSG %j : %_ \
+ National Mud Pack Day  %
+
+# October, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM October MSG The month of %m is: %_ \
+    Adopt a Shelter Dog Month %_ \
+    Apple Jack Month %_ \
+    Arts & Humanities Month %_ \
+    Awareness Month %_ \
+    Clergy Appreciation Month %_ \
+    Computer Learning Month %_ \
+    Cookie Month %_ \
+    Domestic Violence Awareness Month %_ \
+    Dwarfism Awareness Month %_ \
+    Eat Country Ham Month %_ \
+    Fair Trade Month %_ \
+    Filipino American History Month %_ \
+    International Drum Month %_ \
+    LGBT History Month %_ \
+    National Cyber Security Awareness Month %_ \
+    National Pizza Month %_ \
+    National Vegetarian Month %_ \
+    National Popcorn Popping Month %_ \
+    National Pork Month (US) %_ \
+    National Squirrel Awareness Month %_ \
+    Sarcastic Month %_ \
+    Seafood Month
+
+
+# Weekly Celebrations:
+
+REM October SATISFY [All_Week_1()] MSG First week of %m is %_ \
+     Get Organized Week %_ \
+     Customer Service Week
+
+REM October SATISFY [All_Week_2()] MSG Second week of %m is %_ \
+     Fire Prevention Week %_ \
+     Pet Peeve Week 
+
+REM October SATISFY [All_Week_3()] MSG Third week of %m is %_ \
+     Pastoral Care Week
+
+REM Sat Oct [Week_1] MSG First %w of %m : %_ \
+ International Frugal Fun Day - first Saturday of the month %
+REM Fri Oct [Week_2] MSG Second %w of %m : %_ \
+ World Egg Day %
+REM Sat Oct [Week_3] MSG Third %w in %m : %_ \
+ Sweetest Day  %
+REM Sun Oct [Week_4] MSG Fourth %w in $m : %_ \
+ Mother-In-Law Day %
+REM Sat Oct [Week_4] MSG Fourth %w in %m : %_ \
+ Make a Difference Day %
+REM Fri [_last(October)] MSG Last %w in %m : %_ \
+ Frankenstein Friday %
+
+
+# Each Day:
+
+REM Oct 1 MSG %j : %_ \
+ World Vegetarian Day %
+REM Oct 2 MSG %j : %_ \
+ National Custodial Worker Day %_ \
+ Name Your Car Day %
+REM Oct 3 MSG %j : %_ \
+ Techies Day %_ \
+ Virus Appreciation Day %
+REM Oct 4 MSG %j : %_ \
+ National Golf Day %_ \
+ National Frappe Day %
+REM Oct 5 MSG %j : %_ \
+ Do Something Nice Day %_ \
+ World Teacher's Day %
+REM Oct 6 MSG %j : %_ \
+ Come and Take it Day %_ \
+ Mad Hatter Day %_ \
+ Physician Assistant Day %
+REM Oct 7 MSG %j : %_ \
+ Bald and Free Day %_ \
+ Oktoberfest in Germany ends, date varies %_ \
+ World Smile Day %
+REM Oct 8 MSG %k : %_ \
+ American Touch Tag Day %
+REM Oct 9 MSG %j : %_ \
+ Curious Events Day %_ \
+ Fire Prevention Day %_ \
+ Leif Erikson Day %_ \
+ Moldy Cheese Day %_ \
+ National Children Appreciation Day %
+REM Oct 10 MSG %j : %_ \
+ Emergency Nurses Day- date varies %_ \
+ National Angel Food Cake Day %
+REM Oct 11 MSG %j : %_ \
+ It's My Party Day %_ \
+ Take Your Teddy Bear to Work Day %
+REM Oct 12 MSG %j : %_ \
+ Freethought Day %_ \
+ Cookbook Launch Day %_ \
+ Old Farmer's Day %_ \
+ Moment of Frustration Day %
+REM Oct 13 MSG %j : %_ \
+ International Skeptics Day %
+REM Oct 14 MSG %j : %_ \
+ Be Bald and Free Day %_ \
+ National Dessert Day - take an extra helping, or two %
+REM Oct 15 MSG %j : %_ \
+ Pregnancy and Infant Loss Rememberance Day %_ \
+ White Cane Safety Day %
+REM Oct 16 MSG %j : %_ \
+ Bosses Day %_ \
+ Dictionary Day %_ \
+ World Food Day %
+REM Oct 17 MSG %j : %_ \
+ Wear Something Gaudy Day %
+REM Oct 18 MSG %j : %_ \
+ No Beard Day   %
+REM Oct 19 MSG %j : %_ \
+ Evaluate Your Life Day %
+REM Oct 20 MSG %j : %_ \
+ Brandied Fruit Day     %_ \
+ International Newspaper Carrier Day -date varies each year %
+REM Oct 21 MSG %j : %_ \
+ Babbling Day %_ \
+ Count Your Buttons Day %_ \
+ Apple Day %_ \
+ National Pumpkin Cheesecake Day %
+REM Oct 22 MSG %j : %_ \
+ National Nut Day %
+REM Oct 23 MSG %j : %_ \
+ National Mole Day %_ \
+ Tv Talk Show Host Day %
+REM Oct 24 MSG %j : %_ \
+ National Bologna Day %
+REM Oct 25 MSG %j : %_ \
+ Punk for a Day Day %_ \
+ World Pasta Day %
+REM Oct 26 MSG %j : %_ \
+ National Mincemeat Day %
+REM Oct 27 MSG %j : %_ \
+ Navy Day %
+REM Oct 28 MSG %j : %_ \
+ Plush Animal Lover's Day     %
+REM Oct 29 MSG %j : %_ \
+ Hermit Day %
+REM Oct 30 MSG %j : %_ \
+ National Candy Corn Day %_ \
+ Mischief Night %
+REM Oct 31 MSG %j : %_ \
+ Carve a Pumpkin Day %_ \
+ Halloween %_ \
+ Increase Your Psychic Powers Day  %
+
+
+# November, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM November MSG The month of %m is: %_ \
+    Aviation History Month %_ \
+    International Drum Month %_ \
+    National Adoption Awareness Month %_ \
+    National Model Railroad Month %_ \
+    National Novel Writing Month %_ \
+    National Sleep Comfort Month %_ \
+    Native American Heritage Month %_ \
+    Peanut Butter Lovers Month %_ \
+    Real Jewelry Month
+
+# Week Celebrations:
+
+REM Nov SATISFY [All_Week_1()] MSG The first week of %m is: %_ \
+    Chemistry Week
+REM Nov SATISFY [All_Week_3()] MSG The third week of %m is: %_ \
+    Game and Puzzle Week %_ \
+    Geography Awareness Week
+
+# Daily Celebrations:
+
+REM Sat Nov [Week_1] MSG First %w of %m : %_ \
+ Book Lovers Day %
+
+REM Tue Nov [Week_2] MSG Second %w of %m : %_ \
+ Young Readers Day %
+
+REM Wed Nov [Week_3] MSG Third  %w of %m : %_ \
+ GIS Day %
+
+REM Thu Nov [Week_3] MSG Third  %w of %m : %_ \
+ International Philosophy Day %_ \
+ Beaujolai Nouveau released %
+
+REM Sat Nov [Week_3] MSG Third  %w of %m : %_ \
+ National Adoption Day %
+
+REM Fri Nov [Week_4] MSG Fourth  %w of %m : %_ \
+ Black Friday %_ \
+ Buy Nothing Day %
+
+
+REM Nov 1 MSG %j : %_ \
+ All Saint's Day %
+REM Nov 2 MSG %j : %_ \
+ All Soul's Day %_ \
+ Look for Circles Day %_ \
+ Deviled Egg Day %
+REM Nov 3 MSG %j : %_ \
+ Housewife's Day %_ \
+ Sandwich Day %
+REM Nov 4 MSG %j : %_ \
+ King Tut Day %
+REM Nov 5 MSG %j : %_ \
+ Gunpowder Day %_ \
+ Guy Fawkes Day %
+REM Nov 6 MSG %j : %_ \
+ Marooned without a Compass Day %_ \
+ Saxophone Day %
+REM Nov 7 MSG %j : %_ \
+ Bittersweet Chocolate with Almonds Day %
+REM Nov 8 MSG %j : %_ \
+ Cook Something Bold Day %_ \
+ Dunce Day %
+REM Nov 9 MSG %j : %_ \
+ Chaos Never Dies Day %
+REM Nov 10 MSG %j : %_ \
+ Forget-Me-Not Day %
+REM Nov 12 MSG %j : %_ \
+ Chicken Soup for the Soul Day %
+REM Nov 13 MSG %j : %_ \
+ National Indian Pudding Day %_ \
+ Sadie Hawkins Day %_ \
+ World Kindness Day %
+REM Nov 14 MSG %j : %_ \
+ Operating Room Nurse Day %
+REM Nov 15 MSG %j : %_ \
+ Clean Your Refrigerator Day %_ \
+ America Recycles Day %_ \
+ National Philanthropy Day %
+REM Nov 16 MSG %j : %_ \
+ Button Day %_ \
+ Have a Party With Your Bear Day %
+REM Nov 17 MSG %j : %_ \
+ Electronic Greeting Card Day %_ \
+ Homemade Bread Day %_ \
+ Take A Hike Day %_ \
+ World Peace Day %
+REM Nov 18 MSG %j : %_ \
+ Occult Day %
+REM Nov 19 MSG %j : %_ \
+ Have a Bad Day Day %
+REM Nov 20 MSG %j : %_ \
+ Absurdity Day %_ \
+ Beautiful Day %_ \
+ Universal Children's Day %
+REM Nov 21 MSG %j : %_ \
+ False Confession Day %_ \
+ World Hello Day %
+REM Nov 22 MSG %j : %_ \
+ Go For a Ride Day %
+REM Nov 23 MSG %j : %_ \
+ Eat a Cranberry Day %_ \
+ National Cashew Day %_ \
+ You're Welcome Day %
+REM Nov 25 MSG %j : %_ \
+ National Parfait Day   %
+REM Nov 26 MSG %j : %_ \
+ Shopping Reminder Day %
+REM Nov 27 MSG %j : %_ \
+ Pins and Needles Day %
+REM Nov 28 MSG %j : %_ \
+ Make Your Own Head Day %_ \
+ Red Planet Day %
+REM Nov 29 MSG %j : %_ \
+ Electronic Greetings Day %_ \
+ Square Dance Day %
+REM Nov 30 MSG %j : %_ \
+ Stay At Home Because You Are Well Day  %
+
+
+# December, 2012 Bizarre and Unique Holidays
+
+# Month:
+
+REM December MSG The month of %m is: %_ \
+    Bingo Month %_ \
+    Safe Toys and Gifts Month %_ \
+    Write a Friend Month
+
+# Each day
+REM Sun Dec [Week_2] MSG Second %w of %m : %_ \
+ International Children's Day %
+
+REM Dec 1 MSG %j : %_ \
+ Eat a Red Apple Day %
+REM Dec 2 MSG %j : %_ \
+ National Fritters Day %
+REM Dec 3 MSG %j : %_ \
+ National Roof over Your Head Day %
+REM Dec 4 MSG %j : %_ \
+ Santa's List Day %_ \
+ Wear Brown Shoes Day %
+REM Dec 5 MSG %j : %_ \
+ Bathtub Party Day %_ \
+ Repeal Day %
+REM Dec 6 MSG %j : %_ \
+ St. Nicholas Day %_ \
+ Mitten Tree Day %_ \
+ Put on your own Shoes Day %
+REM Dec 7 MSG %j : %_ \
+ International Civil Aviation Day %_ \
+ Letter Writing Day %_ \
+ National Cotton Candy Day %_ \
+ Pearl Harbor Day %
+REM Dec 8 MSG %j : %_ \
+ National Brownie Day %_ \
+ Take it in the Ear Day %
+REM Dec 9 MSG %j : %_ \
+ Christmas Card Day %_ \
+ National Pastry Day %
+REM Dec 10 MSG %j : %_ \
+ Human Rights Day %
+REM Dec 11 MSG %j : %_ \
+ National Noodle Ring Day %
+REM Dec 12 MSG %j : %_ \
+ National Ding-a-Ling Day %_ \
+ Poinsettia Day      %
+REM Dec 13 MSG %j : %_ \
+ Ice Cream Day %_ \
+ Violin Day %
+REM Dec 14 MSG %j : %_ \
+ National Bouillabaisse Day %_ \
+REM Dec 15 MSG %j : %_ \
+ Bill of Rights Day %_ \
+ National Lemon Cupcake Day %
+REM Dec 16 MSG %j : %_ \
+ National Chocolate Covered Anything Day %
+REM Dec 17 MSG %j : %_ \
+ National Maple Syrup Day %
+REM Dec 18 MSG %j : %_ \
+ Bake Cookies Day %_ \
+ National Roast Suckling Pig Day %
+REM Dec 19 MSG %j : %_ \
+ Look for an Evergreen Day %_ \
+ Oatmeal Muffin Day %
+REM Dec 20 MSG %j : %_ \
+ Go Caroling Day %
+REM Dec 21 2012 MSG %j : %_ \
+ Mayan Calendar Ends %_ \
+ Forefather's Day %_ \
+ Humbug Day %_ \
+ National Flashlight Day %_ \
+ Look on the Bright Side Day %
+REM Dec 22 MSG %j : %_ \
+ National Date Nut Bread Day %
+REM Dec 23 MSG %j : %_ \
+ Festivus %_ \
+ Roots Day %
+REM Dec 24 MSG %j : %_ \
+ National Chocolate Day %_ \
+ National Egg Nog Day %
+REM Dec 25 MSG %j : %_ \
+ National Pumpkin Pie Day %
+REM Dec 27 MSG %j : %_ \
+ Make Cut Out Snowflakes Day %_ \
+ National Fruitcake Day %
+REM Dec 28 MSG %j : %_ \
+ Card Playing Day %
+REM Dec 29 MSG %j : %_ \
+ Pepper Pot Day %
+REM Dec 30 MSG %j : %_ \
+  National Bicarbonate of Soda Day %
+REM Dec 31 MSG %j : %_ \
+ Make Up Your Mind Day %_ \
+ Unlucky Day  %
+
+
