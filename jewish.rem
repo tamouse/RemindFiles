@@ -161,4 +161,3 @@ ENDIF
 REM Friday   CAL Candle lighting at [sunset(trigdate())-18]
 REM Saturday CAL Havdalah at [sunset(trigdate())+42]
 
-MSG

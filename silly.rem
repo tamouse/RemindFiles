@@ -12,10 +12,7 @@
 # REM month SATISFY [All_Week_5()] MSG Fifth week of %m is %_ \
 #    events
 
-
-
 MSG
-
 
 REM 13 SATISFY [wkdaynum(TRIGDATE()) == 5] MSG Happy Triskaidekaphilia Day!
 
@@ -181,7 +178,8 @@ REM Feb 14 MSG %j : %_ \
 REM Feb 15 MSG %j : %_ \
  Candlemas - on the Julian Calendar %_ \
  National Gum Drop Day %_ \
- Singles Awareness Day %
+ Singles Awareness Day %_ \
+ Feast of Saint Mark Down's (Valentine's candy on sale) %
 REM Feb 16 MSG %j : %_ \
  Do a Grouch a Favor Day %
 REM Feb 17 MSG %j : %_ \
@@ -407,7 +405,8 @@ REM Apr 8  MSG %j : %_ \
  All is Ours Day %_ \
  Draw a Picture of a Bird Day %
 REM [TRIGGER(easter+1)]  MSG %j : %_ \
- Dyngus Day %
+ Dyngus Day %_ \
+ Feast of Saint Mard Down's (Easter candy goes on sale) %
 REM Apr 9  MSG %j : %_ \
  Name Yourself Day %_ \
  Winston Churchill Day %
@@ -1178,7 +1177,7 @@ REM Fri Oct [Week_2] MSG Second %w of %m : %_ \
  World Egg Day %
 REM Sat Oct [Week_3] MSG Third %w in %m : %_ \
  Sweetest Day  %
-REM Sun Oct [Week_4] MSG Fourth %w in $m : %_ \
+REM Sun Oct [Week_4] MSG Fourth %w in %m : %_ \
  Mother-In-Law Day %
 REM Sat Oct [Week_4] MSG Fourth %w in %m : %_ \
  Make a Difference Day %
@@ -1329,7 +1328,8 @@ REM Fri Nov [Week_4] MSG Fourth  %w of %m : %_ \
 
 
 REM Nov 1 MSG %j : %_ \
- All Saint's Day %
+ All Saint's Day %_ \
+ Feast of St. Mark Down's (Day after Halloween Candy goes on sale) %
 REM Nov 2 MSG %j : %_ \
  All Soul's Day %_ \
  Look for Circles Day %_ \

@@ -307,7 +307,7 @@ REM 13 Sep MSG Chiang Kai-Shek becomes president of China, 1943 %
 REM 14 Sep MSG Benjamin Franklin is sent to France as an American minister, 1778 %
 REM 14 Sep MSG Salem, Massachusetts, is founded, 1629 %
 REM 14 Sep MSG The US Selective Service Act establishes the first peacetime draft, 1940 %
-REM 14 Sep MSG Francis Scott Key pens the "Star Spangled Banner", 1814 %
+# REM 14 Sep MSG Francis Scott Key pens the "Star Spangled Banner", 1814 %
 REM 15 Sep MSG Soviet Premier Nikita Khrushchev begins his 13 day tour of the US, 1959 %
 REM 15 Sep MSG The US Foreign Affairs Dept. becomes the US State Department, 1789 %
 REM 16 Sep MSG The village of Shawmut, Massachusetts, becomes the city of Boston, 1630 %
@@ -366,6 +366,7 @@ REM 13 Oct MSG US Navy born, 1775, authorized by the Second Continental Congress
 REM 14 Oct MSG Battle of Hastings won by William the Conqueror and the Normans, 1066 %
 REM 14 Oct MSG Chuck Yeager breaks sound barrier, 1947 %
 REM 15 Oct MSG First draft card burned, 1965 %
+REM 15 Oct MSG Cassini Mission to Mars launched, 1997 %
 REM 18 Oct MSG Boston Shoemakers form first US labor org., 1648 %
 REM 18 Oct MSG Soviets announce their probe took photos of the Moon's far side, 1959 %
 REM 19 Oct MSG Mao Tse-tung establishes the People's Republic of China, 1949 %
@@ -412,7 +413,7 @@ REM 10 Nov MSG Henry Stanley asks David Livingston, "Dr. Livingston, I presume?"
 REM 11 Nov MSG Washington becomes the 42nd state, 1889 %
 REM 12 Nov MSG Dr. Sun Yat-sen's Birthday in Taiwan %
 REM 12 Nov MSG USA first exports oil to Europe, 1861 %
-REM 14 Nov MSG Quarter Pounder price raised from $0.53 to $0.55 in violation of Nixon price controls (but okayed by Price Commission after formal request from McDonald's), 1971 %
+REM 14 Nov MSF Quarter Pounder price raised from $0.53 to $0.55 in violation of Nixon price controls (but okayed by Price Commission after formal request from McDonald's), 1971 %
 REM 15 Nov MSG Niagara Falls power plant startup, 1896 %
 REM 16 Nov MSG Opening of the Suez Canal, 1869 %
 REM 17 Nov MSG 46,000 meteoroids fall over AZ in 20 minutes, 1966 %
