@@ -1,7 +1,5 @@
 MSG %_Canadian Holidays: %
 
-
-REM Jan 1 MSG New Year's Day %
 REM Mon Feb [Week_3] MSG Family Day %
 REM [TRIGGER(easter-2)] MSG Good Friday %
 REM [TRIGGER(easter+1)] MSG Easter Monday %

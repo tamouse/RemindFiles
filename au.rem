@@ -1,5 +1,5 @@
+# Depends on defs.rem
 MSG %_Australian Holidays:%
-
 
 # Jan 26 if it's a weekday, or the next Monday
 REM  Mon Jan 26 SCANFROM [_back(7)] SATISFY 1
