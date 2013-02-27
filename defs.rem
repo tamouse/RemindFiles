@@ -110,14 +110,14 @@ SET easter EASTERDATE(YEAR(TODAY()))
 [trigger(moondate(2))] SPECIAL MOON 2
 [trigger(moondate(3))] SPECIAL MOON 3
 
-REM PS Border Border 5 sub moveto \
-	/SmallFont findfont 4 scalefont setfont \
-	(Sunrise: [sunrise(trigdate())] Sunset: [sunset(trigdate())]) show
+#REM PS Border Border 5 sub moveto \
+#	/SmallFont findfont 4 scalefont setfont \
+#	(Sunrise: [sunrise(trigdate())] Sunset: [sunset(trigdate())]) show
 
 FSET _DayOfYear(x) x-(date(year(x),1,1) - 1)
-REM PS BoxWidth 3 mul 4 div Border 5 sub moveto \
-	/SmallFont findfont 4 scalefont setfont \
-	([_DayOfYear(today())]([365+isleap(today())-_DayOfYear(today())])) show
+#REM PS BoxWidth 3 mul 4 div Border 5 sub moveto \
+#	/SmallFont findfont 4 scalefont setfont \
+#	([_DayOfYear(today())]([365+isleap(today())-_DayOfYear(today())])) show
 
 SET Esc   CHAR(27)
 
@@ -138,4 +138,3 @@ SET BrBlu Esc + "[34;1m"
 SET BrMag Esc + "[35;1m"
 SET BrCyn Esc + "[36;1m"
 SET BrWht Esc + "[37;1m"
-

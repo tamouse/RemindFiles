@@ -1,14 +1,18 @@
 # Sunrise/Moonphases
 
+# Set these somewhere before calling this file
+# SET $Location = "the Twin Cities"
+# SET $LongDeg = -93
+# SET $LatDeg = 45
+
 MSG %_Ephemera:%
 ; prettify the sunrise/sunset/moon data
-SET $LongDeg = -93
-SET $LatDeg = 45
+
 fset _srtd() coerce("STRING", _no_lz(_am_pm(sunrise(today()))))
 fset _sstd() coerce("STRING", _no_lz(_am_pm(sunset(today()))))
 fset _srtm() coerce("STRING", _no_lz(_am_pm(sunrise(today()+1))))
 fset _sstm() coerce("STRING", _no_lz(_am_pm(sunset(today()+1))))
-MSG Sun is up in the Twin Cities today from [_srtd()] to [_sstd()].%"%"%
+MSG Sun is up in [$Location] today from [_srtd()] to [_sstd()].%"%"%
 FSET _mnph() iif(moonphase() < 2,"New",\
      moonphase() < 89,"Waxing Crescent",\
      moonphase() < 91,"First Quarter",\
