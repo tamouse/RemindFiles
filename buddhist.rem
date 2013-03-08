@@ -1,5 +1,31 @@
 MSG %_Buddhist Holidays:%
 
+# 2013
+REM Feb 10 2013 MSG Chinese New Year%
+REM Feb 11 2013 MSG Losar (Tibetan New Year)%
+REM Feb  8 2013 MSG Parinirvana (Nirvana Day)%
+REM Feb 15 2013 MSG Parinirvana (Nirvana Day) (alt)%
+REM Feb 14 2013 THROUGH Feb 25 2013 MSG Moniam Chenmo (Great Prayer Festival)%
+REM Feb 25 2013 MSG Magha Puji (Sangha Day, Theravada)%
+REM Feb 25 2013 MSG Chunga Choepa (Butter Lamp Festival)%
+REM Mar 30 2013 MSG Magha Puji (Sangha Day, Theravada)%
+REM Apr  8 2013 MSG Hanamatsuri (Buddha's Birthday, Japan)%
+REM Apr 13 2013 THROUGH Apr 16 2013 MSG Water Festivals (Bun Pi Mai, Sonkran)%
+REM May 17 2013 MSG Buddha's Birthday (South Korea)%
+REM May 24 2013 MSG Vesak (Buddha's Birth, Enlightenment, and Death, Theravada)%
+REM May 25 2013 MSG Saga Dawa (Birth, Enlightenment, Death of Buddha, Tibetan)%
+REM Jul  6 2013 MSG Birthday of Dalai Lama%
+REM Jul 12 2013 MSG Chokhor Duchen: Buddha's first sermon and teaching of the Four Noble Truths (Tibet)%
+REM Jul 13 2013 THROUGH Jul 15 2013 MSG Obon (Hungry Ghost Festivals, Japan, regional)%
+REM Jul 22 2013 MSG Asalha Puja, Beginning of Vassa (Theravada)%
+REM Aug  7 2013 THROUGH Sep  4 2013 MSG Zhongyuan (Hungry Ghost Festival, China)%
+REM Aug 13 2013 THROUGH Aug 15 2013 MSG Obon (Hungry Ghost Festivals, Japan, regional)%
+REM Oct 19 2013 MSG Pavarana and End of Vassa (Theravada)%
+REM Nov 17 2013 MSG Anapanasati Day (Theravada)%
+REM Nov 24 2013 MSG Lhabab Duchen (Tibetan)%
+REM Dec  8 2013 MSG Rohatsu (Enlightenment Day, Japan)%
+
+
 # Chinese New Year (not strictly a Buddhist Holiday, but a time for celebration and renewal)
 
 REM February 19 1996  MSG Chinese New Year. Year of the:  鼠 Shǔ Rat  子 Zǐ 
@@ -50,10 +76,3 @@ REM February 18 2007  MSG Chinese New Year. Year of the:  豬 Zhū Pig  亥 Hài
 REM February 5 2019  MSG Chinese New Year. Year of the:  豬 Zhū Pig  亥 Hài 
 REM January 23 2031 MSG Chinese New Year. Year of the:  豬 Zhū Pig  亥 Hài 
 
-REM March 7 MSF Sangha Day - Magha%_Commemorates the spontaneous gathering of 1250 arahants, to whom the Buddha gave the exhortation on the basis of the discipline (Ovada Patimokkha). %
-
-REM June 4 MSF Buddha Day - Vesakha Puja%_Commemorates the birth, enlightenment and passing away of the Buddha. %
-
-REM August 2 MSF Dhamma Day - Asalha Puja%_Commemorates the Buddha’s first discourse, given to the five samanas in the Deer Park at Sarnath, near Varanasi. The traditional Rainy-Season Retreat (Vassa) begins on the next day. %
-
-REM October 30 MSF Pavaran Day%_marks the end of the three-month Vassa-retreat. In the following month, lay people may offer the Kathina-robe as part of a general alms-giving ceremony %
