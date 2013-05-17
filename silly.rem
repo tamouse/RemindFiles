@@ -404,9 +404,9 @@ REM Apr 7  MSG %j : %_ \
 REM Apr 8  MSG %j : %_ \
  All is Ours Day %_ \
  Draw a Picture of a Bird Day %
-REM [TRIGGER(easter+1)]  MSG %j : %_ \
+REM [TRIGGER(easter+1)]  MSG Day after Easter : %_ \
  Dyngus Day %_ \
- Feast of Saint Mard Down's (Easter candy goes on sale) %
+ Feast of Saint Mark Down's (Easter candy goes on sale) %
 REM Apr 9  MSG %j : %_ \
  Name Yourself Day %_ \
  Winston Churchill Day %
